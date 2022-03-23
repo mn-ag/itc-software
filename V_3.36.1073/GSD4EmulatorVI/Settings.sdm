@@ -1,5 +1,0 @@
-[GSD4Emulator]
-Enabled=2                  // 0=Disabled, 1=Enabled, 2=Auto
-
-[Sound]
-Enabled=1                  // 0=Disable sound in the GSD4 Emulator, 1=Enable

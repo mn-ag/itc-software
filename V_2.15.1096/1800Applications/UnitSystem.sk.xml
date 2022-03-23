@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?><UnitSystemTranslation xmlns="urn:schemas-johndeere-com:UnitSystemTranslation" xmlns:bt="urn:schemas-johndeere-com:BasicTypes" xmlns:unit="urn:schemas-johndeere-com:UnitSystem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:schemas-johndeere-com:UnitSystemTranslation UnitSystemTranslation.xsd" locale="sk">
+<SchemaVersion major="1" minor="0" />
+<ContentVersion major="1" minor="0" />
+<UnitTypeTranslation domainID="utDistance">
+<Name>vzdialenosť</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utTime">
+<Name>čas</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utTemperature">
+<Name>teplota</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMass">
+<Name>hmotnosť</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPercent">
+<Name>percentá</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utUnitless">
+<Name>Bez jednotky</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utArea">
+<Name>plocha</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolume">
+<Name>objem</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSpeed">
+<Name>rýchlosť</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerArea">
+<Name>hmotnosť na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerArea">
+<Name>objem na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utAngle">
+<Name>uhlový vektor</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerVolume">
+<Name>hmotnosť na objem</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerTime">
+<Name>objem na čas</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utContainer">
+<Name>kontajner</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBag">
+<Name>vak</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utTimeSpan">
+<Name>interval</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBarrel">
+<Name>barel</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSack">
+<Name>vrece</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utContainerPerArea">
+<Name>kontajner na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBagPerArea">
+<Name>vak na pl</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBarrelPerArea">
+<Name>sud na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSackPerArea">
+<Name>vrece na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBale">
+<Name>balík</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBalesPerArea">
+<Name>balíky na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBalesPerMass">
+<Name>balíky na hmotnosť</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBalesPerTime">
+<Name>balíky na čas</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerBale">
+<Name>hmotnosť na balík</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBalesPerVolume">
+<Name>balíky na objem</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrency">
+<Name>mena</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerContainer">
+<Name>mena na kontajner</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerBag">
+<Name>mena na vak</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerContainer">
+<Name>hmotnosť na kontajner</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerBag">
+<Name>hmot. na vak</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerBarrel">
+<Name>hmotnosť na sud</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerSack">
+<Name>hmot. na vr.</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerBale">
+<Name>mena na balík</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerArea">
+<Name>mena na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerVolume">
+<Name>mena na objem</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerTime">
+<Name>mena na čas</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeeds">
+<Name>semená</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utDataPoints">
+<Name>body</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerArea">
+<Name>semená na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerMass">
+<Name>semená na hmotnosť</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerTime">
+<Name>semená na čas</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerVolume">
+<Name>semená na objem</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerContainer">
+<Name>semená na kontajner</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerBag">
+<Name>semená na vak</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerBarrel">
+<Name>semená na sud</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerSack">
+<Name>sem. na vrece</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerSeeds">
+<Name>hmotnosť na semená</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utDataPointsPerTime">
+<Name>dátové body na čas</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utRows">
+<Name description="Miera riadkov pre riadkové plodiny.">riadky</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utAreaPerTime">
+<Name>plocha na čas</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerTime">
+<Name>hmotnosť na čas</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerMass">
+<Name>objem na hmotnosť</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPressure">
+<Name>tlak</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utForce">
+<Name>sila</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utAngularVelocity">
+<Name>uhlová rýchlosť</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utDistancePerPercent">
+<Name>vzdialenosť na percento</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utDistancePerDegree">
+<Name>vzdialenosť na stupeň</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utFrequency">
+<Name>frekvencia</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCount">
+<Name>počet</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerMass">
+<Name>hmota na hmotu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerVolume">
+<Name>objem na objem</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVoltage">
+<Name>napätie</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utElectricCurrent">
+<Name>Elektrický prúd</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utField">
+<Name>pole</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerContainer">
+<Name>na kontajner</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerBag">
+<Name>na vak </Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerSack">
+<Name>na vrece</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerVolume">
+<Name>na objem</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerMass">
+<Name>na hmotnosť</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerArea">
+<Name>na plochu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerField">
+<Name>na pole</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerTime">
+<Name>na hodinu</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerBale">
+<Name>na balík</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCountPerArea">
+<Name>počet v oblasti</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerDistance">
+<Name>--translate--</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utViscosity">
+<Name>viscosity</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utTorque">
+<Name>torque</Name>
+</UnitTypeTranslation>
+<UnitOfMeasureTranslation domainID="m">
+<Name label="m" plural="metre">meter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ft">
+<Name label="ft" plural="stopy">stopa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="in">
+<Name label="in" plural="palce">palec</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mi">
+<Name label="mi" plural="míle">míľa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Nmi">
+<Name label="Nmi" plural="námorné míle">námořní míle</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="yd">
+<Name label="yd" plural="yard">yard</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Em">
+<Name label="Em" plural="exametre">exameter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Pm">
+<Name label="Pm" plural="petametre">petameter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Tm">
+<Name label="Tm" plural="terametre">terameter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Gm">
+<Name label="Gm" plural="gigametre">gigameter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Mm">
+<Name label="Mm" plural="megametere">megameter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="km">
+<Name label="km" plural="kilometre">kilometer</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hm">
+<Name label="hm" plural="hektometre">hektometer</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dam">
+<Name label="dam" plural="dekametre">dekameter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dm">
+<Name label="dm" plural="decimetre">decimeter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cm">
+<Name label="cm" plural="centimetere">centimeter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mm">
+<Name label="mm" plural="milimetre">milimeter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="um">
+<Name label="um" plural="mikrometre">mikrometer</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="nm">
+<Name label="nm" plural="nanometre">nanometer</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="pm">
+<Name label="pm" plural="pikometre">pikometer</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="fm">
+<Name label="fm" plural="femtometre">femtometer</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="am">
+<Name label="am" plural="attometre">attometer</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hdm">
+<Name label="100m" plural="Hundred Meter">Hundred Meter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="us">
+<Name label="us" plural="mikrosekundy">mikrosekunda</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ms">
+<Name label="ms" plural="milisekundy">milisekunda</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="sec">
+<Name label="sec" plural="sekundy">sekunda</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="min">
+<Name label="min" plural="minúty">minúta</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hr">
+<Name label="h" plural="hodiny">hodina</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="day">
+<Name label="deň" plural="dni">deň</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="wk">
+<Name label="týždeň" plural="týždne">týždeň</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="C">
+<Name label="°C" plural="celsius">celsius</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="F">
+<Name label="°F" plural="fahrenheit">fahrenheit</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="K">
+<Name label="K" plural="kelvin">kelvin</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="g">
+<Name label="g" plural="gramy">gram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="lb">
+<Name label="lb" plural="libry">libra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ton">
+<Name label="ton" plural="tony (USA)">tona (USA)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="sg">
+<Name label="sg" plural="slugy">slug</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ozm">
+<Name label="oz" plural="hmotnostné unce">hmotnostná unca</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="troyoz">
+<Name label="troy oz" plural="trójske unce">trójska unca</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="t">
+<Name label="t" plural="tony">tona</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Eg">
+<Name label="Eg" plural="exagramy">exagram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Pg">
+<Name label="Pg" plural="petagramy">petagram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Tg">
+<Name label="Tg" plural="teragramy">teragram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Gg">
+<Name label="Gg" plural="gigagramy">gigagram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Mg">
+<Name label="Mg" plural="megagramy">megagram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="kg">
+<Name label="kg" plural="kilogramy">kilogram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hg">
+<Name label="hg" plural="hektogramy">hektogram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dag">
+<Name label="dkg" plural="dekagramy">dekagram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dg">
+<Name label="dg" plural="decigramy">decigram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cg">
+<Name label="cg" plural="centigramu">centigram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mg">
+<Name label="mg" plural="miligramy">miligram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ug">
+<Name label="ug" plural="mikrogramy">mikrogram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ng">
+<Name label="ng" plural="nanogramy">nanogram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="pg">
+<Name label="pg" plural="pikogramy">pikogram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="fg">
+<Name label="fg" plural="femtogramy">femtogram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ag">
+<Name label="ag" plural="attogramy">attogram</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="stone">
+<Name label="kameň" plural="kamene">kameň</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cwt">
+<Name label="cent" plural="cent">cent</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ratio">
+<Name label="pomer" plural="pomer">pomer</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="prcnt">
+<Name label="%" plural="percentá">percentá</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="prcntHndth">
+<Name label="%/100" plural="stotina percenta">stotina percenta</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ppm">
+<Name label="ppm" plural="ppm">Častíc na milión</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="unitless">
+<Name label="unitless" plural="bez jednotky">bez jednotky</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ha">
+<Name label="ha" plural="hektáre">hektár</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ac">
+<Name label="ac" plural="akre">aker</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="thsndSqFt">
+<Name label="1000 sq.ft" plural="tisíc štvorcových stôp">tisíc štvorcových stôp</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="l">
+<Name label="l" plural="litre">liter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="floz">
+<Name label="floz" plural="objemové unce">objemová unca</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="gal">
+<Name label="gal" plural="galóny">galón</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="thsndgal">
+<Name label="gal X 1000" plural="tisíc galónov">tisíc galónov</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="qtdry">
+<Name label="dry qt" plural="suché kvarty">suchý kvart</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ptdry">
+<Name label="dry pt" plural="suché pinty (USA)">suchá pinta (USA)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="qt">
+<Name label="qt" plural="kvarty">kvart</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="pt">
+<Name label="pt" plural="pinty (USA)">pinta (USA)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="uk_pt">
+<Name label="uk_pt" plural="pinty (UK)">pinta (UK)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="El">
+<Name label="El" plural="exalitere">exaliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Pl">
+<Name label="Pl" plural="petalitre">petaliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Tl">
+<Name label="Tl" plural="teralitre">teraliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Gl">
+<Name label="Gl" plural="gigalitere">gigaliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Ml">
+<Name label="Ml" plural="megalitre">megaliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="kl">
+<Name label="kl" plural="kilolitre">kiloliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hl">
+<Name label="hl" plural="hektolitre">hektoliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dal">
+<Name label="dal" plural="dekalitre">dekaliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dl">
+<Name label="dl" plural="decilitre">deciliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cl">
+<Name label="cl" plural="centilitre">centiliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ml">
+<Name label="ml" plural="mililitre">mililiter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ul">
+<Name label="ul" plural="mikrolitre">mikroliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="nl">
+<Name label="nl" plural="nanolitre">nanoliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="pl">
+<Name label="pl" plural="pikolitre">pikoliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="fl">
+<Name label="fl" plural="femtolitre">femtoliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="al">
+<Name label="al" plural="attolitre">attoliter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="bu">
+<Name label="bu" plural="bušely">bušel</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="igal">
+<Name label="igal" plural="britských galónov">britský galón</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="knot">
+<Name label="kt" plural="uzly">uzol</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="arcdeg">
+<Name label="°" plural="oblúkové stupne">oblúkový stupeň</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="arcmin">
+<Name label="arcmin" plural="oblúkové minúty">oblúková minúta</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="arcsec">
+<Name label="arcsec" plural="oblúkové sekundy">oblúková sekunda</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="rad">
+<Name label="rad" plural="radiány">radiány</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="thDeg">
+<Name label="desaťtisíciny stupňa" plural="desaťtisíciny stupňa">desaťtisíciny stupňa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="container">
+<Name label="kontajner" plural="kontajnery">kontajner</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="bag">
+<Name label="vak" plural="vaky">vak</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="month">
+<Name label="month" plural="mesiace">mesiac</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="year">
+<Name label="year" plural="roky">rok</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="barrel">
+<Name label="barel" plural="barely">barel</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="sack">
+<Name label="vrece" plural="vrecia">vrece</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="bale">
+<Name label="balíky" plural="balíky">balík</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cur">
+<Name label="mena" plural="mena">mena</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="seeds">
+<Name label="semená" plural="semená">semeno</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="thndSeeds">
+<Name label="1000 semien" plural="1000 semien">tisíc semien</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="points">
+<Name label="body" plural="body">bod</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="row">
+<Name label="riadky" plural="riadky">riadok</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Pa">
+<Name label="Pa" plural="Pa">Pascal</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="kPa">
+<Name label="kPa" plural="kPa">kiloPaskal</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="PSI">
+<Name label="PSI" plural="PSI">PSI</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="bar">
+<Name label="bar" plural="bar">bar</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mPa">
+<Name label="mPa" plural="mPa">MilliPascal</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="N">
+<Name label="N" plural="N">Newton</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mN">
+<Name label="mN" plural="mN">milliNewton</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="lbf">
+<Name label="lbf" plural="silová libra">silová libra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="RPM">
+<Name label="n/min" plural="n/min">otáčky za minútu</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hndrthRPM">
+<Name label="n/min*100" plural="n/min*100">stotiny otáčok za minútu</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hz">
+<Name label="Hz" plural="hertz">hertz</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="count">
+<Name label="počet" plural="počet">počet</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="V">
+<Name label="V" plural="V">volt</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mV">
+<Name label="mV" plural="mV">millivolt</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="amp">
+<Name label="A" plural="A">Ampér</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mA">
+<Name label="mA" plural="mA">milliampér</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="field">
+<Name label="pole" plural="polia">pole</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="P">
+<Name label="poise" plural="poise">poise</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cP">
+<Name label="centipoise" plural="centipoise">centipoise</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Nm">
+<Name label="newton metre" plural="newton metre">newton metre</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureSystemTranslation domainID="umsEnglish">
+<Name label="us">Britské</Name>
+</UnitOfMeasureSystemTranslation>
+<UnitOfMeasureSystemTranslation domainID="umsMetric">
+<Name label="metric">Metrické</Name>
+</UnitOfMeasureSystemTranslation>
+<UnitOfMeasureSystemTranslation domainID="umsImperial">
+<Name label="us">Brit.</Name>
+</UnitOfMeasureSystemTranslation>
+<UnitOfMeasureSystemTranslation domainID="umsMixed">
+<Name label="mixed">Zmiešané</Name>
+</UnitOfMeasureSystemTranslation>
+</UnitSystemTranslation>

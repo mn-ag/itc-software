@@ -1,0 +1,29 @@
+[WindView]
+Enabled=0
+WindViewBufSize=0
+WindViewStopOnHealthWarn=0
+WindViewTaskEvents=0
+WindViewSemaphoreEvents=0
+WindViewMessageQueueEvents=0
+WindViewWatchdogEvents=0
+WindViewMemoryEvents=0
+[FileSystemService]
+FileSystemServiceError=0
+[GS3BHardware]
+MaxNumberOfIntervalsEB=25000  // BoundaryRecording - External Boundary polygon layer size
+MaxNumberOfPointsEB=25000     // BoundaryRecording - External Boundary polygon layer size
+MaxNumberOfIntervalsHB=10000  // BoundaryRecording - Headland Boundary polygon layer size
+MaxNumberOfPointsHB=10000     // BoundaryRecording - Headland Boundary polygon layer size
+MaxNumberOfIntervalsPL=10000  // OnScreenMapping - Sectional path layer size
+MaxNumberOfPointsPL=50000     // OnScreenMapping - Sectional path layer size
+MaxCellSizePL=50              // OnScreenMapping - Sectional cell size
+MaxNumberOfCellsPL=1000       // OnScreenMapping - sectional cells
+MaxNumberOfIntervalsLL=250000 // CurvedTrack - Line layer size
+MaxNumberOfPointsLL=250000    // CurvedTrack - Line layer size
+MaxNumberOfIntervalsFL=7500   // Flags - Path layer size
+MaxNumberOfIntervalsFL=7500   // Flags - Path layer size 	
+MaxCellSizeCL=50              // OnScreenMapping - Sectional cell size
+MaxNumberOfCellsCL=4096       // OnScreenMapping - sectional cells
+MaxNumberOfIntervalsCL=26000  // OnScreenMappingUI - Coverage layer size
+MaxNumberOfPointsCL=200000    // OnScreenMappingUI - Coverage layer size
+

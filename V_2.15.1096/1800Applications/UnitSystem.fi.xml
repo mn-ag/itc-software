@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?><UnitSystemTranslation xmlns="urn:schemas-johndeere-com:UnitSystemTranslation" xmlns:bt="urn:schemas-johndeere-com:BasicTypes" xmlns:unit="urn:schemas-johndeere-com:UnitSystem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:schemas-johndeere-com:UnitSystemTranslation UnitSystemTranslation.xsd" locale="fi">
+<SchemaVersion major="1" minor="0" />
+<ContentVersion major="1" minor="0" />
+<UnitTypeTranslation domainID="utDistance">
+<Name>etäisyys</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utTime">
+<Name>aika</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utTemperature">
+<Name>lämpötila</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMass">
+<Name>massa</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPercent">
+<Name>prosentti</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utUnitless">
+<Name>Ei yksikköä</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utArea">
+<Name>pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolume">
+<Name>tilavuus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSpeed">
+<Name>nopeus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerArea">
+<Name>massa/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerArea">
+<Name>tilavuus/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utAngle">
+<Name>kulmavektori</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerVolume">
+<Name>massa/tilavuus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerTime">
+<Name>tilavuus/aika</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utContainer">
+<Name>säiliö</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBag">
+<Name>pussi</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utTimeSpan">
+<Name>ajanjakso</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBarrel">
+<Name>tynnyri</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSack">
+<Name>säkki</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utContainerPerArea">
+<Name>säiliö/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBagPerArea">
+<Name>pussia/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBarrelPerArea">
+<Name>tynnyriä/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSackPerArea">
+<Name>säkkiä/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBale">
+<Name>paali</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBalesPerArea">
+<Name>paalia/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBalesPerMass">
+<Name>paalia/massa</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBalesPerTime">
+<Name>paalia/aika</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerBale">
+<Name>massa/paali</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utBalesPerVolume">
+<Name>paalia/tilavuus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrency">
+<Name>valuutta</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerContainer">
+<Name>valuutta/säiliö</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerBag">
+<Name>valuutta/pussi</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerContainer">
+<Name>massa/säiliö</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerBag">
+<Name>massa/pussi</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerBarrel">
+<Name>massa/tynnyri</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerSack">
+<Name>massa/säkki</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerBale">
+<Name>valuutta/paali</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerArea">
+<Name>valuutta/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerVolume">
+<Name>valuutta/tilavuus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCurrencyPerTime">
+<Name>valuutta/aika</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeeds">
+<Name>siementä</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utDataPoints">
+<Name>pistettä</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerArea">
+<Name>siementä/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerMass">
+<Name>siementä/massa</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerTime">
+<Name>siementä/aika</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerVolume">
+<Name>siementä/tilavuus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerContainer">
+<Name>siementä/säiliö</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerBag">
+<Name>siementä/pussi</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerBarrel">
+<Name>siementä/tynnyri</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utSeedsPerSack">
+<Name>siementä/säkki</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerSeeds">
+<Name>massa/siementä</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utDataPointsPerTime">
+<Name>tietopistettä/aika</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utRows">
+<Name description="Rivien mitta riviviljelykasveille.">riviä</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utAreaPerTime">
+<Name>alue/aika</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerTime">
+<Name>massa/aika</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerMass">
+<Name>tilavuus/massa</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPressure">
+<Name>paine</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utForce">
+<Name>voima</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utAngularVelocity">
+<Name>kulmanopeus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utDistancePerPercent">
+<Name>etäisyys/prosenttia</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utDistancePerDegree">
+<Name>etäisyys astetta kohden</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utFrequency">
+<Name>taajuus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCount">
+<Name>määrä</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utMassPerMass">
+<Name>massojen suhde</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerVolume">
+<Name>tilavuuksien suhde</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVoltage">
+<Name>jännite</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utElectricCurrent">
+<Name>Sähkövirta</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utField">
+<Name>pelto</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerContainer">
+<Name>per säiliö</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerBag">
+<Name>per pussi</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerSack">
+<Name>per säkki </Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerVolume">
+<Name>per tilavuus</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerMass">
+<Name>per massa</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerArea">
+<Name>per ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerField">
+<Name>per pelto</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerTime">
+<Name>per tunti</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utPerBale">
+<Name>per paali</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utCountPerArea">
+<Name>määrä/pinta-ala</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utVolumePerDistance">
+<Name>--translate--</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utViscosity">
+<Name>viscosity</Name>
+</UnitTypeTranslation>
+<UnitTypeTranslation domainID="utTorque">
+<Name>torque</Name>
+</UnitTypeTranslation>
+<UnitOfMeasureTranslation domainID="m">
+<Name label="m" plural="metriä">metri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ft">
+<Name label="ft" plural="jalkaa">jalka</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="in">
+<Name label="in" plural="tuumaa">tuuma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mi">
+<Name label="mi" plural="mailia">maili</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Nmi">
+<Name label="Nmi" plural="meripeninkulmaa">meripeninkulma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="yd">
+<Name label="yd" plural="jaardi">jaardi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Em">
+<Name label="Em" plural="eksametriä">eksametri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Pm">
+<Name label="Pm" plural="petametriä">petametri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Tm">
+<Name label="Tm" plural="terametriä">terametri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Gm">
+<Name label="Gm" plural="gigametriä">gigametri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Mm">
+<Name label="Mm" plural="megametriä">megametri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="km">
+<Name label="km" plural="kilometriä">kilometri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hm">
+<Name label="hm" plural="hehtometriä">hehtometri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dam">
+<Name label="dam" plural="dekametriä">dekametri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dm">
+<Name label="dm" plural="desimetriä">desimetri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cm">
+<Name label="cm" plural="senttimetriä">senttimetri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mm">
+<Name label="mm" plural="millimetriä">millimetri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="um">
+<Name label="um" plural="mikrometriä">mikrometri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="nm">
+<Name label="nm" plural="nanometriä">nanometri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="pm">
+<Name label="pm" plural="pikometriä">pikometri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="fm">
+<Name label="fm" plural="femtometriä">femtometri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="am">
+<Name label="am" plural="attometriä">attometri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hdm">
+<Name label="100m" plural="Hundred Meter">Hundred Meter</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="us">
+<Name label="us" plural="mikrosekuntia">mikrosekunti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ms">
+<Name label="ms" plural="millisekuntia">millisekunti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="sec">
+<Name label="sec" plural="sekuntia">sekunti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="min">
+<Name label="min" plural="minuuttia">minuutti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hr">
+<Name label="h" plural="tuntia">tunti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="day">
+<Name label="päivä" plural="päivää">päivä</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="wk">
+<Name label="viikko" plural="viikkoa">viikko</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="C">
+<Name label="°C" plural="celsiusaste">celsiusaste</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="F">
+<Name label="°F" plural="fahrenheit">fahrenheit</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="K">
+<Name label="K" plural="kelvinaste">kelvinaste</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="g">
+<Name label="g" plural="grammaa">gramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="lb">
+<Name label="lb" plural="paunaa">pauna</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ton">
+<Name label="ton" plural="tonnia (USA)">tonna (USA)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="sg">
+<Name label="sg" plural="slug">slug</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ozm">
+<Name label="oz" plural="unssia">unssi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="troyoz">
+<Name label="troy oz" plural="troy-unssia">troy-unssi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="t">
+<Name label="t" plural="tonnia">tonni</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Eg">
+<Name label="Eg" plural="eksagrammaa">eksagramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Pg">
+<Name label="Pg" plural="petagrammaa">petagrama</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Tg">
+<Name label="Tg" plural="teragrammaa">teragramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Gg">
+<Name label="Gg" plural="gigagrammaa">gigagramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Mg">
+<Name label="Mg" plural="megagrammaa">megagramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="kg">
+<Name label="kg" plural="kilogrammaa">kilogramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hg">
+<Name label="hg" plural="hehtogrammaa">hehtogramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dag">
+<Name label="dkg" plural="dekagrammaa">dekagramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dg">
+<Name label="dg" plural="desigrammaa">desigramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cg">
+<Name label="cg" plural="sentigrammaa">sentigramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mg">
+<Name label="mg" plural="milligrammaa">milligramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ug">
+<Name label="ug" plural="mikrogrammaa">mikrogramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ng">
+<Name label="ng" plural="nanogrammaa">nanogramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="pg">
+<Name label="pg" plural="pikogrammaa">pikogramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="fg">
+<Name label="fg" plural="femtogrammaa">femtogramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ag">
+<Name label="ag" plural="attogrammaa">attogramma</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="stone">
+<Name label="stone" plural="stones">stone</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cwt">
+<Name label="sentneri" plural="sentneri">sentneri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ratio">
+<Name label="suhteet" plural="suhteet">suhteet</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="prcnt">
+<Name label="%" plural="prosentti">prosentti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="prcntHndth">
+<Name label="%/100" plural="prosentin sadasosa">prosentin sadasosa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ppm">
+<Name label="ppm" plural="ppm">Miljoonasosaa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="unitless">
+<Name label="unitless" plural="ei yksikköä">ei yksikköä</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ha">
+<Name label="ha" plural="hehtaaria">hehtaari</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ac">
+<Name label="ac" plural="eekkeriä">eekkeri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="thsndSqFt">
+<Name label="1000 sq.ft" plural="tuhat neliöjalkaa">tuhat neliöjalkaa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="l">
+<Name label="l" plural="litraa">litra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="floz">
+<Name label="floz" plural="nesteunssia">nesteunssi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="gal">
+<Name label="gal" plural="gallonaa">gallona</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="thsndgal">
+<Name label="gal X 1 000" plural="tuhatta gallonaa">tuhatta gallonaa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="qtdry">
+<Name label="dry qt" plural="neljännesgallonaa (tilavuus)">neljännesgallona (tilavuus)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ptdry">
+<Name label="dry pt" plural="pint (tilavuus USA)">pint (tilavuus USA)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="qt">
+<Name label="qt" plural="neljännesgallonaa">neljännesgallona</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="pt">
+<Name label="pt" plural="pint (USA)">pint (USA)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="uk_pt">
+<Name label="uk_pt" plural="pint (UK)">pint (UK)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="El">
+<Name label="El" plural="eksalitraa">eksalitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Pl">
+<Name label="Pl" plural="petalitraa">petalitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Tl">
+<Name label="Tl" plural="teralitraa">teralitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Gl">
+<Name label="Gl" plural="gigalitraa">gigalitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Ml">
+<Name label="Ml" plural="megalitraa">megalitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="kl">
+<Name label="kl" plural="kilolitraa">kilolitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hl">
+<Name label="hl" plural="hehtolitraa">hehtolitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dal">
+<Name label="dal" plural="dekalitraa">dekalitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="dl">
+<Name label="dl" plural="desilitraa">decilitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cl">
+<Name label="cl" plural="sentiliteraa">sentilitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ml">
+<Name label="ml" plural="millilitraa">millilitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="ul">
+<Name label="ul" plural="mikrolitraa">mikrolitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="nl">
+<Name label="nl" plural="nanolitraa">nanolitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="pl">
+<Name label="pl" plural="pikolitraa">pikolitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="fl">
+<Name label="fl" plural="femtolitraa">femtolitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="al">
+<Name label="al" plural="attolitraa">attolitra</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="bu">
+<Name label="bu" plural="bushelia">busheli</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="igal">
+<Name label="gal. (britt.)" plural="gal. (britt.)">gallona (britt.)</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="knot">
+<Name label="kt" plural="solmua">solmu</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="arcdeg">
+<Name label="°" plural="kaariastetta">kaariaste</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="arcmin">
+<Name label="arcmin" plural="kaariminuuttia">kaariminuutti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="arcsec">
+<Name label="arcsec" plural="kaarisekuntia">kaarisekunti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="rad">
+<Name label="rad" plural="radiaania">radiaania</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="thDeg">
+<Name label="aste*10000" plural="aste*10000">Asteen kymmenestuhannesosaa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="container">
+<Name label="säiliö" plural="säiliötä">säiliö</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="bag">
+<Name label="pussi" plural="pussia">pussi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="month">
+<Name label="month" plural="kuukautta">kuukausi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="year">
+<Name label="year" plural="vuotta">vuosi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="barrel">
+<Name label="tynnyri" plural="tynnyriä">tynnyri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="sack">
+<Name label="säkki" plural="säkkiä">säkki</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="bale">
+<Name label="paalia" plural="paalia">paali</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cur">
+<Name label="valuutta" plural="valuutta">valuutta</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="seeds">
+<Name label="siementä" plural="siementä">siemen</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="thndSeeds">
+<Name label="tuhatta siementä" plural="tuhatta siementä">tuhat siementä</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="points">
+<Name label="pistettä" plural="pistettä">piste</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="row">
+<Name label="riviä" plural="riviä">rivi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Pa">
+<Name label="Pa" plural="Pa">pascalia</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="kPa">
+<Name label="kPa" plural="kPa">kiloPascal</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="PSI">
+<Name label="psi" plural="psi">psi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="bar">
+<Name label="bar" plural="bar">bar</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mPa">
+<Name label="mPa" plural="mPa">MilliPascal</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="N">
+<Name label="N" plural="N">newtonia</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mN">
+<Name label="mN" plural="mN">milliNewtonia</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="lbf">
+<Name label="lbf" plural="voima paunoina">voima paunoina</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="RPM">
+<Name label="n/min" plural="n/min">Kierrosta minuutissa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hndrthRPM">
+<Name label="n/min*100" plural="n/min*100">Sataa kierosta minuutissa</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="hz">
+<Name label="Hz" plural="hertsi">hertsi</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="count">
+<Name label="määrä" plural="määrät">määrä</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="V">
+<Name label="V" plural="V">voltti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mV">
+<Name label="mV" plural="mV">millivoltti</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="amp">
+<Name label="A" plural="A">Ampeeri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="mA">
+<Name label="mA" plural="mA">Milliampeeri</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="field">
+<Name label="pelto" plural="peltoa">pelto</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="P">
+<Name label="poise" plural="poise">poise</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="cP">
+<Name label="centipoise" plural="centipoise">centipoise</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureTranslation domainID="Nm">
+<Name label="newton metre" plural="newton metre">newton metre</Name>
+</UnitOfMeasureTranslation>
+<UnitOfMeasureSystemTranslation domainID="umsEnglish">
+<Name label="us">englanti</Name>
+</UnitOfMeasureSystemTranslation>
+<UnitOfMeasureSystemTranslation domainID="umsMetric">
+<Name label="metric">Metrinen</Name>
+</UnitOfMeasureSystemTranslation>
+<UnitOfMeasureSystemTranslation domainID="umsImperial">
+<Name label="us">brittiläinen</Name>
+</UnitOfMeasureSystemTranslation>
+<UnitOfMeasureSystemTranslation domainID="umsMixed">
+<Name label="mixed">Sekajärjestelmä</Name>
+</UnitOfMeasureSystemTranslation>
+</UnitSystemTranslation>
