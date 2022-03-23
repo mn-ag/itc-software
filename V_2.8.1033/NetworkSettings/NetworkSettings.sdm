@@ -1,0 +1,187 @@
+///////////////////////////////////////////////////////////////////////////////
+// Keys for enabling various busses for each application
+///////////////////////////////////////////////////////////////////////////////
+
+[VTBusConfig]
+ImpNetEnabled=1            // VT present on Implement network
+VehNetEnabled=1            // VT present on Vehicle network
+
+[PlatformVIBusConfig]
+ImpNetEnabled=1            // PlatformVI present on Implement network
+VehNetEnabled=1            // PlatformVI present on Vehicle network
+CCDNetEnabled=1            // PlatformVI diag tools show CCD bus as option
+
+///////////////////////////////////////////////////////////////////////////////
+// NAME settings for address claims. These override the defaults in
+// NetworkSettings.c
+//
+// NOTE: IdentityNumber is retrieved from GetBoardIdentityNumber() at runtime
+///////////////////////////////////////////////////////////////////////////////
+
+//
+// NetworkSettingsNameId = NID_VT_VEHICLE (VT presence on vehicle bus)
+//
+[VT]
+SelfConfigurable=1         // Negotiated CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=29                // 
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=0
+CanAddress=38
+
+//
+// NetworkSettingsNameId = NID_VT_AUX_COMBINE (VT presence on auxiliary/combine bus)
+//
+[VTAuxCombine]
+SelfConfigurable=1         // Negotiated CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=29                // 
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1
+CanAddress=38
+
+//
+// NetworkSettingsNameId = NID_PLATFORM_VI_VEHICLE (Platform VI presence on vehicle bus)
+//
+[PlatformVI]               // Use same settings as [VT] so they share the same CAN address.
+SelfConfigurable=1         // Negotiated CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=29                // 
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=0
+CanAddress=38
+
+//
+// NetworkSettingsNameId = NID_PLATFORM_VI_AUX_COMBINE (Platform VI presence on auxiliary/combine bus)
+//
+[PlatformVIAuxCombine]     // Use same settings as [VTAuxCombine] so they share the same CAN address.
+SelfConfigurable=1         // Negotiated CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=29                // 
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1
+CanAddress=38
+
+//
+// NetworkSettingsNameId = NID_GSD4
+//
+[GSD4Emulator]
+SelfConfigurable=0         // Fixed CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=128               // Non-VT Display
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1                  // Use Implement Bus
+CanAddress=128
+
+//
+// NetworkSettingsNameId = NID_BASIC_PERF_MON
+//
+[BasicPerfMon]	            // Trip Recorder Settings
+SelfConfigurable=1         // Fixed CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=20                // Trip Recorder
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1                  // Use Implement Bus
+CanAddress=24	            // Trip Recorder Preferred Address
+
+//
+// NetworkSettingsNameId = NID_REPROGRAMMING_KEYCARD
+//
+[ReprogrammingKeycard]
+SelfConfigurable=0         // Fixed CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=24                // 
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1                  // Use Implement Bus
+CanAddress=252
+
+//
+// NetworkSettingsNameId = NID_REPROGRAMMING_DOWNLOAD
+//
+[ReprogrammingDownload]
+SelfConfigurable=0         // Fixed CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=62                // 
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1                  // Use Implement Bus
+CanAddress=43
+
+//
+// NetworkSettingsNameId = NID_DISPLAY_SERVICES_VI
+//
+[DisplayServices]
+SelfConfigurable=0         // Negotiated CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=130               // 
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1                  // Use Implement Bus
+CanAddress=210
+
+//
+// NetworkSettingsNameId = NID_GUIDANCE
+//
+[Guidance]
+SelfConfigurable=1         // Negotiated CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=32                // 
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1                  // Use Implement Bus
+CanAddress=42
+
+//
+// NetworkSettingsNameId = NID_FIELD_DOC
+//
+[FieldDoc]                 // Use same settings as [DisplayServices] so they share the same CAN address.
+SelfConfigurable=0         // Fixed CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=130               // Task Controller
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1                  // Use Implement Bus
+CanAddress=210
+
+//
+// NetworkSettingsNameId = NID_ISO_FILE_SERVER
+//
+[ISOFileServer]            // ISO File server Component
+SelfConfigurable=1         // Negotiated CAN address
+IndustryGroup=2            // Ag & Forest 
+VehicleSystem=0            // Non-specific System
+VehicleSystemInstance=0
+Function=61                // File server
+EcuInstance=0
+ManufacturerCode=33        // Deere
+CanNode=1                  // Use Implement Bus
+CanAddress=248

@@ -1,0 +1,2 @@
+#Boot10
+pwd://V_2.8.1033/vxWorks
