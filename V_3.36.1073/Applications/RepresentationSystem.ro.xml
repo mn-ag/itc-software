@@ -1,0 +1,2599 @@
+﻿<?xml version="1.0" encoding="utf-8"?><RepresentationSystemTranslation xmlns="urn:schemas-johndeere-com:RepresentationSystemTranslation" xmlns:bt="urn:schemas-johndeere-com:BasicTypes" xmlns:rep="urn:schemas-johndeere-com:Representation" xmlns:unit="urn:schemas-johndeere-com:UnitSystem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:schemas-johndeere-com:RepresentationSystemTranslation RepresentationSystemTranslation.xsd" locale="ro">
+<SchemaVersion major="1" minor="0" />
+<ContentVersion major="1" minor="0" />
+<VariableRepresentationTranslation domainTag="1" domainID="vrABRowSpacing">
+<Name description="ABRowSpacing">ABRowSpacing</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="2" domainID="vrABShiftTrack">
+<Name description="ABShiftTrack">ABShiftTrack</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="3" domainID="vrABLineHeading">
+<Name description="Grad cap-compas">Grad cap-compas</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="4" domainID="vrCommodityPricePerBale">
+<Name description="CommodityPricePerBale">Preţ marfă per balot</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="5" domainID="vrCommodityPricePerVolume">
+<Name description="PreţMarfăPerVolum">PreţMarfăPerVolum</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="6" domainID="vrHarvestMoisture">
+<Name description="Umezeală recoltă">Umezeală recoltă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="7" domainID="vrCropWeightBale">
+<Name description="CropWeightBale">Balot masă cultură</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="8" domainID="vrCropWeightVolume">
+<Name description="VolumMasăCultură">VolumMasăCultură</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="9" domainID="vrFSAArea">
+<Name description="FSAArea">FSAArea</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="10" domainID="vrReportedFieldArea">
+<Name description="Aria câmpului. Această valoare este furnizată de către proprietarul sau producătorul câmpului.">Arie câmp raportată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="11" domainID="vrSpatialFieldArea">
+<Name description="Arie calculată pe baza perimetrului unui câmp.">Arie permietru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="12" domainID="vrYieldTotalMass">
+<Name description="Masă producţie">Masă producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="13" domainID="vrYieldTotalVolume">
+<Name description="Volum producţie">Volum producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="14" domainID="vrHeadlandOffset">
+<Name description="SpaţiuÎntoarcereUtilaj">SpaţiuÎntoarcereUtilaj</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="15" domainID="vrLatency">
+<Name description="Latenţă">Latenţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="16" domainID="vrLoadArea">
+<Name description="LoadArea">Suprafaţă încărcare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="17" domainID="vrMassPer1000Seeds">
+<Name description="MassPer1000Seeds">masă per o mie de seminţe</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="18" domainID="vrMassPerContainer">
+<Name description="MassPerContainer">masă per container</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="19" domainID="vrMaturity">
+<Name description="Maturitate">Maturitate</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="20" domainID="vrEquipmentWidth">
+<Name description="Lăţime echipament. Se utilizează în principal pentru instrumente. Specifică lăţimea fizică a instrumentului.">lăţime echipament</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="21" domainID="vrTrackSpacing">
+<Name description="Ecartament">Ecartamentul este definit ca distanţa dintre urmele lăsate de instrument şi este utilizat doar de către sistemul de ghidare. Acesta reprezintă lăţimea fizică a instrumentului minus orice suprapunere existentă.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="22" domainID="vrPathOverlap">
+<Name description="Suprapunerea utilizată în cadrul operaţiunilor de ghidare. Suprapunerea plus lăţimea de lucru este egală cu lăţimea instrumentului.">suprapunere cale de ghidare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="23" domainID="vrInlineOffset">
+<Name description="SectionInlineOffset">decalaj cale secţiune în linie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="24" domainID="vrLateralOffset">
+<Name description="ImplementLateralOffset">decalaj lateral instrument</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="25" domainID="vrVerticalOffset">
+<Name description="SectionVerticalOffset">decalaj vertical secţiune</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="26" domainID="vrSectionWidth">
+<Name description="SectionWidth">lăţime secţiune</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="27" domainID="vrSeedGerminationPercent">
+<Name description="SeedGerminationPercent">procentaj germinare seminţe</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="28" domainID="vrSeedLoadQuantity">
+<Name description="SeedLoadQuantity">cantitate de încărcare a seminţelor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="29" domainID="vrSeedsPerContainer">
+<Name description="SeedsPerContainer">seminţe per container</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="30" domainID="vrSeedsPerMass">
+<Name description="Unitate de măsură asociată cu CropVariety SeedLot, utilizată pentru conversia din seminţe în livre sau din livre în seminţe sau alte unităţi de măsură a masei în funcţie de necesităţi.">SeedsPerMass</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="31" domainID="vrSolutionRateLiquid">
+<Name description="SolutionRateLiquid">lichid debit soluţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="32" domainID="vrSolutionRateMass">
+<Name description="SolutionRateMass">masă debit soluţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="33" domainID="vrSwathWidth">
+<Name description="SwathWidth">lăţime şir</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="34" domainID="vrYieldBale">
+<Name description="Balot producţie">Balot producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="35" domainID="vrYieldBalePerArea">
+<Name description="Baloturi producţie per suprafaţă">Baloturi producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="36" domainID="vrYieldWetMass">
+<Name description="Masă umedă producţie">Masă umedă producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="37" domainID="vrYieldWetMassPerArea">
+<Name description="Masă producţie per suprafaţă">masă producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="38" domainID="vrYieldWetVolume">
+<Name description="Volum producţie">volum producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="39" domainID="vrYieldWetVolumePerArea">
+<Name description="Volum umed producţie per suprafaţă">Volum umed producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="40" domainID="vrYieldMass">
+<Name description="Masă uscată producţie">Masă uscată producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="41" domainID="vrYieldMassPerArea">
+<Name description="Masă uscată producţie per suprafaţă">Masă uscată producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="42" domainID="vrYieldVolume">
+<Name description="Volum uscat producţie">Volum uscat producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="43" domainID="vrYieldVolumePerArea">
+<Name description="Volum producţie per suprafaţă">volum producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="44" domainID="vrAppRateMassMetered">
+<Name description="AppRateMassMetered">masă cuantificată a ratei de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="45" domainID="vrAppRateMassMeasured">
+<Name description="AppRateMassMeasured">masă măsurată a ratei de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="46" domainID="vrAppRateMassControl">
+<Name description="AppRateMassMapped">masă cartografiată a ratei de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="47" domainID="vrAppRateMassTarget">
+<Name description="AppRateMassTarget">masă-ţintă a ratei de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="48" domainID="vrAppRateVolumeMetered">
+<Name description="AppRateVolumeMetered">volum cuantificat al ratei de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="49" domainID="vrAppRateVolumeMeasured">
+<Name description="AppRateVolumeMeasured">volum măsurat al ratei de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="50" domainID="vrAppRateVolumeControl">
+<Name description="AppRateVolumeMapped">volum cartografiat al ratei de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="51" domainID="vrAppRateVolumeTarget">
+<Name description="AppRateVolumeTarget">volum-ţintă al ratei de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="52" domainID="vrAppHeightTarget">
+<Name description="AppHeightTarget">înălţime-ţintă de aplicare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="53" domainID="vrTillageDepthTarget">
+<Name description="TillageDepthTarget">adâncime-ţintă a arăturii</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="54" domainID="vrSeedRateMassMetered">
+<Name description="SeedRateMassMetered">masă cuantificată a ratei de însămânţare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="55" domainID="vrSeedRateMassMeasured">
+<Name description="SeedRateMassMeasured">masă măsurată a ratei de însămânţare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="56" domainID="vrSeedRateMassControl">
+<Name description="SeedRateMassMapped">masă cartografiată a ratei de însămânţare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="57" domainID="vrSeedRateMassTarget">
+<Name description="Masă-ţintă a ratei de însămânţare">Rata de însămânţare trimisă către un controler şi exprimată ca masă.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="58" domainID="vrSeedRateSeedsMetered">
+<Name description="Seminţe cuantificate rată de însămânţare">masă-ţintă a ratei de însămânţare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="59" domainID="vrSeedRateSeedsMeasured">
+<Name description="Seminţe măsurate rată de însămânţare">Rata măsurată de însămânţare primită de la controler.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="60" domainID="vrSeedRateSeedsControl">
+<Name description="Control seminţe rată de însămânţare">Rata de însămânţare, exprimată ca număr de seminţe din cadrul unei prescripţii, care este trimisă către controler.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="61" domainID="vrSeedRateSeedsTarget">
+<Name description="Ţintă seminţe rată de însămânţare">Rata de însămânţare, exprimată ca număr de seminţe, care este trimisă către controler.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="62" domainID="vrSeedDepthTarget">
+<Name description="SeedDepthTarget">adâncime-ţintă însămânţare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="63" domainID="vrRelativeHumidity">
+<Name description="Umiditate relativă înregistrată în exterior.">Umiditate relativă.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="64" domainID="vrAirTemperature">
+<Name description="Temperatură relativă înregistrată în exterior.">Temperatură aer</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="65" domainID="vrWindSpeed">
+<Name description="Viteză vânt înregistrată">Viteză vânt</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="66" domainID="vrSoilTemperature">
+<Name description="Temperatură sol înregistrată.">Temperatură sol</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="67" domainID="vrTotalAreaCovered">
+<Name description="Suprafaţă totală acoperită.">Suprafaţă totală acoperită.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="68" domainID="vrTotalQuantityAppliedMass">
+<Name description="Masă aplicată cantitate totală.">Masă aplicată cantitate totală</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="69" domainID="vrTotalQuantityAppliedVolume">
+<Name description="Volum aplicat cantitate totală.">Volum aplicat cantitate totală</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="70" domainID="vrTotalSeedQuantityAppliedSeed">
+<Name description="Număr de seminţe aplicat cantitate totală de seminţe.">Număr de seminţe aplicat cantitate totală de seminţe</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="71" domainID="vrTotalSeedQuantityAppliedMass">
+<Name description="Masă aplicată cantitate totală de seminţe.">Masă aplicată cantitate totală de seminţe</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="72" domainID="vrTotalOperationTime">
+<Name description="Timp total de funcţionare.">Timp total de funcţionare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="73" domainID="vrHeading">
+<Name description="Cap-compasul indică orietarea echipamentului">Cap-compas echipament. 0 grade înseamnă Nord, 90 de grade înseamnă Est.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="74" domainID="vrElevation">
+<Name description="Altitudine">Nivel altitudine deasupra nivelului mării.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="75" domainID="vrStandardPayableMoisture">
+<Name description="Umezeală exploatabilă standard">StandardPayableMoisture</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="76" domainID="vrLatitude">
+<Name description="Latitudine">Latitudine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="77" domainID="vrLongitude">
+<Name description="Longitudine">Longitudine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="78" domainID="vrDistanceTraveled">
+<Name description="Distanţă parcursă">Distanţă parcursă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="80" domainID="vrNonLogTime">
+<Name description="Timp fără înregistrare">Timp fără înregistrare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="81" domainID="vrVehicleSpeed">
+<Name description="VehicleSpeed">Viteză vehicul</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="82" domainID="vrDeltaTime">
+<Name description="Timp delta">Timp delta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="84" domainID="vrEquipmentLogFrequency">
+<Name description="Frecvenţa cu care un anumit controler de pe magistrala CAN va transmite date.">Frecvenţă înregistrare echipament</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="85" domainID="vrCommodityPricePerArea">
+<Name description="Preţ marfă per suprafaţă">Preţ marfă per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="86" domainID="vrCommodityPricePerYield">
+<Name description="Preţ marfă per producţie">Preţ marfă per producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="87" domainID="vrCommodityPricePerContainer">
+<Name description="Preţ marfă per container">Preţ marfă per container</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="88" domainID="vrRowWidth">
+<Name description="Distanţa dintre rânduri pentru cultură">Distanţă rânduri</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="89" domainID="vrGuidanceSmallShift">
+<Name description="Deplasare mică">Deplasare mică</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="90" domainID="vrGuidanceLargeShift">
+<Name description="Deplasare mare">Deplasare mare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="91" domainID="vrPathAccuracyIndicator">
+<Name description="Indicator precizie cale">Indicator precizie cale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="92" domainID="vrTrackToneBeginningDistance">
+<Name description="Distanţă începere tonuri urmărire">Distanţă începere tonuri urmărire</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="93" domainID="vrLeadCompensation">
+<Name description="Compensare avans">Compensare avans</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="94" domainID="vrAccuracyBarStepSize">
+<Name description="Dimensiune pas bară precizie">Dimensiune pas bară precizie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="95" domainID="vrTurnDistance">
+<Name description="Distanţă întoarcere">Distanţă întoarcere</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="96" domainID="vrTrackSpacingRows">
+<Name description="Ecartament în rânduri">Ecartamentul este definit ca distanţa dintre urmele lăsate de instrument şi este utilizat doar de către sistemul de ghidare. Acesta reprezintă lăţimea fizică în rânduri de cultură a instrumentului minus orice suprapunere existentă.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="97" domainID="vrEquipmentWidthRows">
+<Name description="Lăţime echipament. Se utilizează în principal pentru instrumente. Specifică lăţimea fizică a instrumentului în rânduri de cultură.">lăţime echipament în rânduri</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="98" domainID="vrPathOverlapRows">
+<Name description="Suprapunerea utilizată în cadrul operaţiunilor de ghidare. Suprapunerea plus lăţimea de lucru este egală cu lăţimea instrumentului în rânduri.">suprapunerea căii de ghidare în rânduri</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="99" domainID="vrFuelRatePerHour">
+<Name description="Rată de consum combustibil">Rată de consum combustibil</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="100" domainID="vrFuelTotal">
+<Name description="Combustibil total utilizat">Combustibil total utilizat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="101" domainID="vrTotalYieldVolume">
+<Name description="Volum uscat producţie">Volum uscat producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="102" domainID="vrTotalYieldMass">
+<Name description="Masă uscată producţie">Masă uscată producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="103" domainID="vrTotalYieldWetMass">
+<Name description="Masă umedă producţie">Masă umedă producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="104" domainID="vrTotalYieldWetVolume">
+<Name description="Volum producţie">volum producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="105" domainID="vrTotalYieldBale">
+<Name description="Balot producţie">Balot producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="106" domainID="vrHarvestMinimumMoisture">
+<Name description="Umezeală minimă recoltă">Umezeală minimă recoltă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="107" domainID="vrHarvestMaximumMoisture">
+<Name description="Umezeală maximă recoltă">Umezeală maximă recoltă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="108" domainID="vrYieldMassMinimum">
+<Name description="Masă uscată producţie">Masă uscată producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="109" domainID="vrYieldMassMaximum">
+<Name description="Masă uscată producţie">Masă uscată producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="110" domainID="vrYieldMassPerAreaMinimum">
+<Name description="Masă uscată producţie per suprafaţă">Masă uscată producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="111" domainID="vrYieldMassPerAreaMaximum">
+<Name description="Masă uscată producţie per suprafaţă">Masă uscată producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="112" domainID="vrYieldVolumeMinimum">
+<Name description="Volum uscat producţie">Volum uscat producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="113" domainID="vrYieldVolumeMaximum">
+<Name description="Volum uscat producţie">Volum uscat producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="114" domainID="vrYieldVolumePerAreaMinimum">
+<Name description="Volum producţie per suprafaţă">volum producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="115" domainID="vrYieldVolumePerAreaMaximum">
+<Name description="Volum producţie per suprafaţă">volum producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="116" domainID="vrYieldBaleMinimum">
+<Name description="Balot producţie">Balot producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="117" domainID="vrYieldBaleMaximum">
+<Name description="Balot producţie">Balot producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="118" domainID="vrYieldBalePerAreaMinimum">
+<Name description="Baloturi producţie per suprafaţă">Baloturi producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="119" domainID="vrYieldWetMassMinimum">
+<Name description="Masă umedă producţie">Masă umedă producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="120" domainID="vrYieldWetMassMaximum">
+<Name description="Masă umedă producţie">Masă umedă producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="121" domainID="vrYieldWetMassPerAreaMinumum">
+<Name description="Masă producţie per suprafaţă">masă producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="122" domainID="vrYieldWetMassPerAreaMaximum">
+<Name description="Masă producţie per suprafaţă">masă producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="123" domainID="vrYieldWetVolumeMinimum">
+<Name description="Volum producţie">volum producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="124" domainID="vrYieldWetVolumeMaximum">
+<Name description="Volum producţie">volum producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="125" domainID="vrYieldWetVolumePerAreaMinimum">
+<Name description="Volum umed producţie per suprafaţă">Volum umed producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="126" domainID="vrYieldWetVolumePerAreaMaximum">
+<Name description="Volum umed producţie per suprafaţă">Volum umed producţie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="127" domainID="vrEastShiftComponent">
+<Name description="Componentă deplasare spre Est">Componentă deplasare spre Est</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="128" domainID="vrNorthShiftComponent">
+<Name description="Componentă deplasare spre Nord">Componentă deplasare spre Nord</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="129" domainID="vrTurnout">
+<Name description="Procent spaţiu de întoarcere utilizat pentru recoltă bumbac">Spaţiu de întoarcere</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="130" domainID="vrTaskArea">
+<Name description="Suprafaţa acoperită de o sarcină sau regiune a sarcinii">Regiune sarcină</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="131" domainID="vrBoundaryOffset">
+<Name description="Decalaj perimetru">Decalaj perimetru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="132" domainID="vrSpatialFieldPerimeter">
+<Name description="Perimetru câmp">Perimetru câmp</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="133" domainID="vrAreaProductivity">
+<Name description="Productivitate suprafaţă">Productivitate suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="134" domainID="vrMassProductivity">
+<Name description="Productivitate masă">Productivitate masă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="135" domainID="vrVolumeProductivity">
+<Name description="Productivitate volum">VolumeProductivity</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="136" domainID="vrBaleProductivity">
+<Name description="Productivitate balot">BaleProductivity</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="137" domainID="vrSeedsProductivity">
+<Name description="Productivitate seminţe">SeedsProductivity</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="138" domainID="vrRadiusOffset">
+<Name description="Decalaj rază">Decalaj rază</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="139" domainID="vrRadialHeading">
+<Name description="Cap-compas radial">Cap-compas radial</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="140" domainID="vrRadiusShift">
+<Name description="Deplasare rază">Deplasare rază</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="141" domainID="vrRecordingTimeRemaining">
+<Name description="Timp de înregistrare rămas">Timp de înregistrare rămas</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="142" domainID="vrReceiverOffset">
+<Name description="ReceiverLateralOffset">decalaj receptor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="143" domainID="vrManagementZoneClipping">
+<Name description="Distanţă tăiere utilizată pentru importul de zone de management">Distanţă tăiere zonă de management</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="144" domainID="vrTrackRowWidth">
+<Name description="Lăţime rând utilizată pentru ecartament">Ecartament rând</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="145" domainID="vrInoculantDosing">
+<Name description="Dozare inoculant">Dozare inoculant</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="146" domainID="vrLengthOfCut">
+<Name description="Lungime secţionare">Lungime secţionare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="147" domainID="vrHeadland">
+<Name description="Text spaţiu întoarcere">Spaţiu întoarcere</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="148" domainID="vrGenericZoneValue">
+<Name alternateLabel="NA" description="Valoare generică zonă">Valoare generică zonă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="149" domainID="vrHarvestMoistureTotal">
+<Name description="Total umezeală acumulată">Total umezeală acumulată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="150" domainID="vrHarvestMoistureCount">
+<Name description="Contorizare de măsurare a umezelii">Contorizare de măsurare a umezelii</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="151" domainID="vrCutWidthIncrement">
+<Name description="Distanţa cu care secţionarea va fi mărită sau micşorată.">Incrementare lăţime secţionare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="152" domainID="vrCutWidthIncrementRows">
+<Name description="Numărul de rânduri cu care va fi mărită sau micşorată lăţimea secţionării.">Incrementare lăţime secţionare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="153" domainID="vrBoundaryIntersectionDistance">
+<Name description="Decalaj distanţă la intersecţia perimetrului">Decalaj distanţă la intersecţia perimetrului</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="155" domainID="vrSequenceActivationDistance">
+<Name description="Decalaj distanţă de la începutul secvenţei">Decalaj distanţă de la începutul secvenţei</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="156" domainID="vrSequenceActivationTime">
+<Name description="Decalaj timp de la începutul secvenţei">Decalaj timp de la începutul secvenţei</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="157" domainID="vrSequenceOffsetDistance">
+<Name description="Distanţă decalaj secvenţă de la un perimetru asociat">Distanţă decalaj secvenţă de la un perimetru asociat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="158" domainID="vrFunctionOffsetDistance">
+<Name description="Distanţă decalaj funcţie de la un perimetru">Distanţă decalaj funcţie de la un perimetru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="159" domainID="vrFunctionValueSpeed">
+<Name description="Valoare viteză asociată unei funcţii în cadrul unei secvenţe">Valoare viteză asociată unei funcţii în cadrul unei secvenţe</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="276" domainID="vrFunctionValueEngineSpeed">
+<Name description="Valoare turaţie motor asociată unei funcţii în cadrul unei secvenţe">Valoare turaţie motor asociată unei funcţii în cadrul unei secvenţe</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="160" domainID="vrMachineTurnRadius">
+<Name description="Rază bracaj maşină">Rază bracaj maşină</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="161" domainID="vrImplementTurnRadius">
+<Name description="Rază bracaj instrument">Rază bracaj instrument</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="162" domainID="vrInteriorHeadlandOffset">
+<Name description="InteriorHeadlandOffset">Decalaj spaţiu întoarcere intern</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="163" domainID="vrPhysicalImplementWidth">
+<Name description="Lăţime fizică instrument">Lăţime fizică instrument</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="164" domainID="vrImplementLength">
+<Name description="Lungime instrument">Lungime instrument</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="165" domainID="vrImplementFrontOffset">
+<Name description="Decalaj frontal instrument">Decalaj frontal instrument</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="166" domainID="vrGPSToNonSteeringAxleOffset">
+<Name description="Decalaj GPS la puntea rigidă">Decalaj GPS la puntea rigidă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="167" domainID="vrNonSteeringAxleToConnectionOffset">
+<Name description="Decalaj punte rigidă la conexiune">Decalaj punte rigidă la conexiune</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="168" domainID="vrLateralControlPointToConnectionOffset">
+<Name description="Decalaj lateral punct de control instrument la conexiune">Decalaj lateral punct de control instrument la conexiune</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="169" domainID="vrInlineControlPointToConnectionOffset">
+<Name description="Decalaj în linie punct de control instrument la conexiune">Decalaj în linie punct de control instrument la conexiune</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="170" domainID="vrInRowSteerLimitation">
+<Name description="Limitare direcţie pe rând">Limitare direcţie pe rând</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="171" domainID="vrSlopeCompensation">
+<Name description="Compensare pantă">Compensare pantă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="172" domainID="vrInlineConnectionPointToReceiverOffset">
+<Name description="Decalaj în linie punct de conectare la receptor">Decalaj în linie punct de conectare la receptor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="173" domainID="vrLateralConnectionPointToReceiverOffset">
+<Name description="Decalaj lateral punct de conectare la receptor">Decalaj lateral punct de conectare la receptor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="174" domainID="vrImplementReceiverHeight">
+<Name description="Înălţime receptor instrument">Înălţime receptor instrument</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="175" domainID="vrStarfireHeight">
+<Name description="Înălţime receptor Starfire">Înălţime receptor Starfire</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="176" domainID="vrStarfireForeAft">
+<Name description="Decalaj bidirecţional Starfire">Decalaj bidirecţional Starfire</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="177" domainID="vrBoundaryDistance">
+<Name description="Distanţă intersecţie perimetru">Distanţă intersecţie perimetru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="178" domainID="vrFeelerHoldOffTime">
+<Name description="Timp de dezactivare a antenei">Timp de dezactivare a antenei</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="179" domainID="vrRowSensorOffset">
+<Name description="Decalaj senzor rând">Decalaj senzor rând</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="180" domainID="vrMapDistance">
+<Name description="Distanţă cartografiere">Distanţă cartografiere</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="181" domainID="vrYieldTotalMassForage">
+<Name description="Masă producţie totală de nutreţ">Masă producţie totală de nutreţ</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="182" domainID="vrYieldWetMassFrgPerArea">
+<Name description="Masă producţie nutreţ per suprafaţă">Masă producţie nutreţ per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="183" domainID="vrYieldMassFrgPerArea">
+<Name description="Masă uscată producţie de nutreţ per suprafaţă">Masă uscată producţie de nutreţ per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="184" domainID="vrModuleDiameter">
+<Name description="Diametru modul">Diametru modul</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="185" domainID="vrModuleWeight">
+<Name description="Greutate modul măsurată de manipulator">Greutate modul măsurată de manipulator</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="186" domainID="vrYieldMassForage">
+<Name description="Masă producţie nutreţ">Masă producţie nutreţ</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="187" domainID="vrSurveyTimeInterval">
+<Name description="Interval timp supraveghere">Interval timp supraveghere</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="188" domainID="vrSurveyDistanceInterval">
+<Name description="Interval distanţă supraveghere">Interval distanţă supraveghere</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="189" domainID="vrSurveyFrequencyInterval">
+<Name description="Interval frecvenţă supraveghere">Interval frecvenţă supraveghere</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="190" domainID="vrVDOP">
+<Name description="Precizie verticală GPS">Precizie verticală GPS</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="191" domainID="vrPitchAngle">
+<Name description="Unghi de înclinare a echipamentului">Unghi de înclinare a echipamentului</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="192" domainID="vrRollAngle">
+<Name description="Unghi rolă echipament">Unghi rolă echipament</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="193" domainID="vrEndTurnOffset">
+<Name description="Decalaj distanţă pentru iniţierea întoarcerii la capăt de rând">Decalaj distanţă pentru iniţierea întoarcerii la capăt de rând</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="194" domainID="vrLeveeDrop">
+<Name description="Modificare altitudine între rambleurile câmpului">Modificare altitudine între rambleurile câmpului</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="195" domainID="vrYieldWetMassForage">
+<Name description="Masă umedă producţie nutreţ">Masă umedă producţie nutreţ</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="196" domainID="vrYieldTotalWetMassForage">
+<Name description="Masă producţie totală de nutreţ">Masă umedă producţie totală de nutreţ</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="197" domainID="vrYieldMassMinForage">
+<Name description="Masă minimă producţie de nutreţ">Masă minimă producţie de nutreţ</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="198" domainID="vrYieldMassMaxForage">
+<Name description="Masă maximă producţie de nutreţ">Masă maximă producţie de nutreţ</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="199" domainID="vrYieldMassPerAreaMinForage">
+<Name description="Masă minimă producţie nutreţ per suprafaţă">Masă minimă producţie nutreţ per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="200" domainID="vrYieldMassPerAreaMaxForage">
+<Name description="Masă maximă producţie nutreţ per suprafaţă">Masă maximă producţie nutreţ per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="201" domainID="vrYieldWetMassMinForage">
+<Name description="Masă umedă minimă producţie de nutreţ">Masă umedă minimă producţie de nutreţ</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="202" domainID="vrYieldWetMassMaxForage">
+<Name description="Masă umedă maximă producţie de nutreţ">Masă umedă maximă producţie de nutreţ</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="203" domainID="vrYieldWetMassPerAreaMinForage">
+<Name description="Masă umedă minimă producţie nutreţ per suprafaţă">Masă umedă minimă producţie nutreţ per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="204" domainID="vrYieldWetMassPerAreaMaxForage">
+<Name description="Masă umedă maximă producţie nutreţ per suprafaţă">Masă umedă maximă producţie nutreţ per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="205" domainID="vrInoculantDosingTotal">
+<Name description="Total dozare inoculant">Total dozare inoculant</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="206" domainID="vrForageMassProductivity">
+<Name description="Productivitate masă">Productivitate masă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="207" domainID="vrGear">
+<Name description="Mecanism">Mecanism</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="208" domainID="vrVerticalAccuracyIndicator">
+<Name description="Indicator precizie verticală">Indicator precizie verticală</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="209" domainID="vrInlineRearConnectionPointToConnectionPointOffset">
+<Name description="Distanţă în linie de la punctul de conectare posterior la punctul de conectare anterior al următorului instrument.">Distanţă în linie de la punctul de conectare posterior la punctul de conectare anterior al următorului instrument.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="210" domainID="vrLateralRearConnectionPointToConnectionPointOffset">
+<Name description="Distanţă laterală de la punctul de conectare posterior la punctul de conectare anterior al următorului instrument.">Distanţă laterală de la punctul de conectare posterior la punctul de conectare anterior al următorului instrument.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="211" domainID="vrMachineVerticalReceiverOffset">
+<Name description="Distanţa verticală de la receptorul GPS la sol pe maşină">Distanţa verticală de la receptorul GPS la sol pe maşină</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="212" domainID="vrImplementVerticalReceiverToCuttingEdgeOffset">
+<Name description="Distanţa verticală de la receptorul GPS la muchia de secţionare pe instrument">Distanţa verticală de la receptorul GPS la muchia de secţionare pe instrument</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="213" domainID="vrImplementVerticalCuttingEdgeToGroundOffset">
+<Name description="Distanţa verticală de la muchia de secţionare la sol pe instrument">Distanţa verticală de la muchia de secţionare la sol pe instrument</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="214" domainID="vrVerticalProfileGridSize">
+<Name description="Mărime grilă profil vert.">Mărime grilă profil vert.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="215" domainID="vrHorizontalProfileGridSize">
+<Name description="Mărime grilă profil oriz.">Mărime grilă profil oriz.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="216" domainID="vrLinearFitDrainSlope">
+<Name description="Pantă dren.potr.lin.">Pantă dren.potr.lin.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="217" domainID="vrMaxBestFitDrainCutDepth">
+<Name description="Ad.max.tăiere pt.dren.cu potr.max.">Ad.max.tăiere pt.dren.cu potr.max.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="218" domainID="vrMinBestFitDrainCutDepth">
+<Name description="Ad.min.tăiere pt.dren. cu potr.max.">Ad.min.tăiere pt.dren. cu potr.max.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="219" domainID="vrRoverDistance">
+<Name description="Dist.de la unit.mob.la st.de bază">Dist.de la unit.mob.la st.de bază</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="220" domainID="vrPositiveLeveeElevationOffset">
+<Name description="Decalaj pozitiv elev.faţă de elev.ţintă a rambleului">Decalaj pozitiv elev.faţă de elev.ţintă a rambleului</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="221" domainID="vrNegativeLeveeElevationOffset">
+<Name description="Decalaj negativ elev.faţă de elev.ţintă a rambleului">Decalaj negativ elev.faţă de elev.ţintă a rambleului</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="222" domainID="vrLeveeDial">
+<Name description="Val.cadr.de rambleu">Val.cadr.de rambleu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="223" domainID="vrGPSAccuracy">
+<Name description="Precizie GPS">Precizie GPS</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="224" domainID="vrGPSVerticalAccuracy">
+<Name description="Precizie GPS vert.">Precizie GPS vert.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="225" domainID="vrFlagArea">
+<Name description="Zona marcată a terenului.">Zonă marc</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="226" domainID="vrNormalizedMapPercent">
+<Name description="% hartă normalizată">% hartă normalizată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="227" domainID="vrRowFinderDisableTime">
+<Name description="Timp dezact.căut.rând.">Timp dezact.căut.rând.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="228" domainID="vrSeedsPerBag">
+<Name description="Sem./Pungă">seminţe/pungă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="229" domainID="vrSeedsPerSack">
+<Name description="Seminţe/Sac">seminţe/sac</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="230" domainID="vrCommodityPricePerBag">
+<Name description="Preţ marfă per pungă">Preţ marfă per pungă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="231" domainID="vrMassPerBag">
+<Name description="Masă/Pungă">masă/pungă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="232" domainID="vrMassPerSack">
+<Name description="Masă/Sac">masă/sac</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="233" domainID="vrSeedLoadQuantityContainer">
+<Name description="SeedLoadQuantity">cantitate de încărcare a seminţelor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="234" domainID="vrSeedLoadQuantitySack">
+<Name description="SeedLoadQuantity">cantitate de încărcare a seminţelor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="235" domainID="vrCutVolume">
+<Name description="Vol.tăiere dren.">Vol.tăiere dren.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="236" domainID="vrMaxBestFitDrainSlope">
+<Name description="Pantă max.pt.dren.cu potr.max.">Pantă max.pt.dren.cu potr.max.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="237" domainID="vrMinBestFitDrainSlope">
+<Name description="Pantă min.pt.dren.cu potr.max.">Pantă min.pt.dren.cu potr.max.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="238" domainID="vrLinearFitDrainOffset">
+<Name description="Decalaj drenaj cu potrivire liniară">Decalaj drenaj cu potrivire liniară</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="239" domainID="vrFlagLength">
+<Name description="Lung.marcaj">Lung.marcaj</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="240" domainID="vrVerticalAccuracyBarStepSize">
+<Name description="Dimensiune pas bară precizie verticală">Dimensiune pas bară precizie verticală</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="241" domainID="vrRowGuidanceSensorOffset">
+<Name description="Decalaj senzor ghidare rând">Decalaj senzor ghidare rând</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="242" domainID="vrTankFillSessionArea">
+<Name description="Informaţii arie">Informaţii arie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="243" domainID="vrTankVolume">
+<Name description="Volum rezervor">Volum rezervor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="244" domainID="vrCargoWeightMass">
+<Name description="Masă greutate transport">Masă greutate transport</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="245" domainID="vrCargoWeightVolume">
+<Name description="Volum greutate transport">Volum greutate transport</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="246" domainID="vrTankVolumePercentage">
+<Name description="Nivel rezervor în %">Nivel rezervor în %</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="247" domainID="vrEngineHours">
+<Name description="Ore motor">Ore motor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="248" domainID="vrFuelAmount">
+<Name description="Cant. carb.">Cant. carb.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="249" domainID="vrBufferZone">
+<Name description="Zona de protecţie descrie distanţele până la obiecte precum cursurile de apă, trotuarele sau clădirile.">Zona de protecţie descrie distanţele până la obiecte precum cursurile de apă, trotuarele sau clădirile.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="250" domainID="vrWaitingTime">
+<Name description="Indică timpul minim de aşteptare între ultimele operaţiuni de stropire şi începerea recoltării pt. anumite produse.">Indică timpul minim de aşteptare între ultimele operaţiuni de stropire şi începerea recoltării pt. anumite produse.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="251" domainID="vrProductContent">
+<Name description="Produsele pot conţine mai multe ingrediente (substanţe diferite) precum Mg, Mn, Cu, Zn, Br, Cao etc.">Produsele pot conţine mai multe ingrediente (substanţe diferite) precum Mg, Mn, Cu, Zn, Br, Cao etc.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="252" domainID="vrActiveIngredientMass">
+<Name description="Activitatea biologică a unui pesticid este de natură chimică sau biologică şi este determinată de ingredientul/substanţa activ(ă).">Activitatea biologică a unui pesticid este de natură chimică sau biologică şi este determinată de ingredientul/substanţa activ(ă).</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="253" domainID="vrActiveIngredientVolume">
+<Name description="Activitatea biologică a unui pesticid este de natură chimică sau biologică şi este determinată de ingredientul/substanţa activ(ă).">Activitatea biologică a unui pesticid este de natură chimică sau biologică şi este determinată de ingredientul/substanţa activ(ă).</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="254" domainID="vrProductLimitIndicationCount">
+<Name description="Indicaţia descrie aria de aplicare - motivul utilizării acestui produs. De exemplu, limitele unei anumite plante trebuie depăşite pt.utilizarea unui anumit produs.">Indicaţia descrie aria de aplicare în timpul utilizării acestui produs. De exemplu, limitele unei anumite plante trebuie depăşite pt.utilizarea unui anumit produs.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="255" domainID="vrProductLimitIndicationPercent">
+<Name description="Indicaţia descrie aria de aplicare - motivul utilizării acestui produs. De exemplu, limitele unei anumite plante trebuie depăşite pt.utilizarea unui anumit produs.">Indicaţia descrie aria de aplicare - motivul utilizării acestui produs. De exemplu, limitele unei anumite plante trebuie depăşite pt.utilizarea unui anumit produs.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="256" domainID="vrThousandCropWeight">
+<Name description="Defineşte greutatea a 1000 de boabe.">Defineşte greutatea a 1000 de boabe.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="257" domainID="vrPrimingInfoVolPerMass">
+<Name description="Informaţiile de pregătire se referă la pre-tratarea seminţelor.">Informaţiile de pregătire se referă la pre-tratarea seminţelor.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="258" domainID="vrPrimingInfoMassPerMass">
+<Name description="Informaţiile de pregătire se referă la pre-tratarea seminţelor.">Informaţiile de pregătire se referă la pre-tratarea seminţelor.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="259" domainID="vrActiveIngredientVolPerVol">
+<Name description="Activitatea biologică a unui pesticid este de natură chimică sau biologică şi este determinată de ingredientul/substanţa activ(ă).">Activitatea biologică a unui pesticid este de natură chimică sau biologică şi este determinată de ingredientul/substanţa activ(ă).</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="260" domainID="vrGerminationRate">
+<Name description="Rata de germinare defineşte capacitatea unei seminţe de a germina.">Rata de germinare defineşte capacitatea unei seminţe de a germina.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="261" domainID="vrProvidedAmountVolume">
+<Name description="Defineşte volumul de produs furnizat pt. un rezervor cu calculator de umplere.">Defineşte volumul de produs furnizat pt. un rezervor cu calculator de umplere.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="262" domainID="vrProvidedAmountMass">
+<Name description="Defineşte masa de produs furnizată pt. un rezervor cu calculator de umplere.">Defineşte masa de produs furnizată pt. un rezervor cu calculator de umplere.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="263" domainID="vrTimeUntilEmpty">
+<Name description="Timp până la golire rez. carb.">Timp până la golire rez. carb.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="266" domainID="vrBatteryVoltage">
+<Name description="Tensiune baterie">Tensiune baterie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="267" domainID="vrEngineCoolantTemperature">
+<Name description="Temp.lichid răcire motor">Temp.lichid răcire motor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="268" domainID="vrEngineOilPressure">
+<Name description="Presiune ulei motor">Presiune ulei motor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="269" domainID="vrHydraulicOilTemperature">
+<Name description="Temperatură ulei hidraulic">Temperatură ulei hidraulic</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="271" domainID="vrEngineSpeed">
+<Name description="Turaţie motor">Turaţie motor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="272" domainID="vrAirBrakePressure">
+<Name description="Presiune frână pneum.">Presiune frână pneum.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="273" domainID="vrAmbientAirTemperature">
+<Name description="Temperatură aer ambiant">Temperatură aer ambiant</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="277" domainID="vrLFLateralNudgeExtent">
+<Name description="Decalaj lateral veh.tracţ.-veh.tractat">Decalaj lateral veh.tracţ.-veh.tractat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="278" domainID="vrLFInlineNudgeExtent">
+<Name description="Decalaj în linie veh tracţ.-veh.tractat">Decalaj în linie veh tracţ.-veh.tractat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="279" domainID="vrTransportDistance">
+<Name description="Distanţă transport">Distanţă transport</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="280" domainID="vrTotalInlineDistance">
+<Name description="Dist.TotalăInLinie">Dist.totală în linie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="281" domainID="vrTotalLateralDistance">
+<Name description="Dist.TotalăLaterală">Dist.totală laterală</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="282" domainID="vrIngredientDensity">
+<Name description="Densitate ingredient">Densitate ingredient</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="283" domainID="vrProvidedAmountTotalMass">
+<Name description="Defineşte masa de produs furnizată pt. un rezervor cu calculator de umplere.">Defineşte masa de produs furnizată pt. un rezervor cu calculator de umplere.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="284" domainID="vrProvidedAmountTotalVolume">
+<Name description="Defineşte volumul de produs furnizat pt. un rezervor cu calculator de umplere.">Defineşte volumul de produs furnizat pt. un rezervor cu calculator de umplere.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="285" domainID="vrActiveIngredientMassPerMass">
+<Name description="Activitatea biologică a unui pesticid este de natură chimică sau biologică şi este determinată de ingredientul/substanţa activ(ă).">Activitatea biologică a unui pesticid este de natură chimică sau biologică şi este determinată de ingredientul/substanţa activ(ă).</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="286" domainID="vrSeedSpacing">
+<Name description="Spaţiere sem.">Spaţiere sem.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="287" domainID="vrDownForceMargin">
+<Name description="Marjă deportanţă">Marjă deportanţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="288" domainID="vrTransmissionOilTemperature">
+<Name description="Temperatura uleiului de transmisie">Temperatura uleiului de transmisie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="289" domainID="vrPricePerContainer">
+<Name description="Preţ seminţe per container">Preţ seminţe per container</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="290" domainID="vrPricePerBushel">
+<Name description="Preţ vânzare per buşel">Preţ vânzare per buşel</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="291" domainID="vrPricePerBag">
+<Name description="Preţ seminţe per pungă">Preţ seminţe per pungă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="292" domainID="vrPricePerSack">
+<Name description="Preţ seminţe per sac">Preţ seminţe per sac</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="293" domainID="vrPriceSolutionLiquid">
+<Name description="PreţPerRatăSoluţieLichidă">Preţ per soluţie când clasificarea este Lichid</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="294" domainID="vrPriceSolutionDry">
+<Name description="PreţPerRatăSoluţieUscată">Preţ per soluţie când clasificarea este Uscat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="295" domainID="vrPriceSolutionGas">
+<Name description="PreţPerRatăSoluţieGazoasă">Preţ per soluţie când clasificarea este Gazos</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="296" domainID="vrPricePerTime">
+<Name description="Preţ per timp">Preţ per timp</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="297" domainID="vrPricePerArea">
+<Name description="Preţ per arie">Preţ per arie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="298" domainID="vrPricePerField">
+<Name description="Preţ per câmp">Preţ per câmp</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="299" domainID="vrPricePerBale">
+<Name description="Preţ per balot">Preţ per balot</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="300" domainID="vrPricePerMassCrop">
+<Name description="Preţ per masă cultură">Preţ per masă cultură</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="301" domainID="vrPricePerMassCotton">
+<Name description="Preţ per masă bumbac">Preţ per masă bumbac</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="302" domainID="vrMeasuredWeight">
+<Name description="Masă măsurată de un sistem de cântărire">Masă măsurată de un sistem de cântărire</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="303" domainID="vrBaleSize">
+<Name description="Dimensiune efectivă baloţi">Dimensiunea efectivă a baloţilor ca lungime pentru presă de baloţi pătraţi sau diametru pentru presă de baloţi rotunzi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="304" domainID="vrBaleTotal">
+<Name description="Total baloţi">Număr total de baloţi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="305" domainID="vrLookAheadTime">
+<Name description="Timp anticipare">Durată de timp de anticipare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="306" domainID="vrTankNumber">
+<Name description="Nr.rezervoare">Nr.rezervoare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="307" domainID="vrImplementInGroundTurnRadius">
+<Name description="Raza de bracare în pământ a instrumentului">Raza de bracare în pământ a instrumentului</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="308" domainID="vrDeltaT">
+<Name description="Delta T">Delta T</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="309" domainID="vrCountPerArea">
+<Name description="Contorizare per zonă">contorizare per zonă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="310" domainID="vrConstituentCrudeProtein">
+<Name description="Cantitate medie proteine brute">Cantitate medie proteine brute</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="311" domainID="vrConstituentStarch">
+<Name description="Cantitate medie amidon">Cantitate medie amidon</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="312" domainID="vrConstituentAcidDetergentFiber">
+<Name description="Cantitate medie ADF">Cantitate medie ADF</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="313" domainID="vrConstituentNeutralDetergentFiber">
+<Name description="Cantitate medie NDF">Cantitate medie NDF</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="314" domainID="vrConstituentSugar">
+<Name description="Cantitate medie zaharuri">Cantitate medie zaharuri</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="315" domainID="vrConstituentAsh">
+<Name description="Cantitate medie cenuşă">Cantitate medie cenuşă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="316" domainID="vrConstituentCrudeFat">
+<Name description="Cantitate medie grăsimi brute">Cantitate medie grăsimi brute</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="317" domainID="vrConstituentCrudeFiber">
+<Name description="Cantitate medie fibre brute">Cantitate medie fibre brute</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="318" domainID="vrConstituentLignin">
+<Name description="Cantitate medie lignină">Cantitate medie lignină</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="319" domainID="vrConstituentLactic">
+<Name description="Cantitate medie acid lactic">Cantitate medie acid lactic</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="320" domainID="vrConstituentAcetic">
+<Name description="Cantitate medie acid acetic">Cantitate medie acid acetic</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="321" domainID="vrConstituentButyric">
+<Name description="Cantitate medie acid butiric">Cantitate medie acid butiric</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="322" domainID="vrConstituentAmmonia">
+<Name description="Cantitate medie amoniac">Cantitate medie amoniac</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="323" domainID="vrConstituentNonStructuralCarbohydrate">
+<Name description="Cantitate medie hidrocarbonat nestructural">Cantitate medie hidrocarbonat nestructural</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="324" domainID="vrConstituentProteinSolubility">
+<Name description="Cantitate medie solubilitate proteine">Cantitate medie solubilitate proteine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="325" domainID="vrConstituentAdjustedCrudeProtein">
+<Name description="Cantitate medie proteine brute ajustate">Cantitate medie proteine brute ajustate</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="326" domainID="vrConstituentRumenUndegradableProtein">
+<Name description="Cantitate medie proteine nedegradabile în burduf">Cantitate medie proteine nedegradabile în burduf</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="327" domainID="vrConstituentNonProteinNitrogen">
+<Name description="Cantitate medie NPN">Cantitate medie NPN</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="328" domainID="vrConstituentTotalNitrogenKjeldahl">
+<Name description="Cantitate medie total azot (Kjeldahl)">Cantitate medie total azot (Kjeldahl)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="329" domainID="vrConstituentNitrogenNitrate">
+<Name description="Cantitate medie azot (nitrat)">Cantitate medie azot (nitrat)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="330" domainID="vrConstituentNitrogenAmmonium">
+<Name description="Cantitate medie azot (amoniu)">Cantitate medie azot (amoniu)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="331" domainID="vrConstituentDigestibleFat">
+<Name description="Cantitate medie grăsimi digerabile">Cantitate medie grăsimi digerabile</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="332" domainID="vrConstituentNeutralDetergentFiberDigestibility">
+<Name description="Cantitate medie digerabilitate NDF">Cantitate medie digerabilitate NDF</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="333" domainID="vrConstituentCellulose">
+<Name description="Cantitate medie celuloză">Cantitate medie celuloză</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="334" domainID="vrConstituentHemicellulose">
+<Name description="Cantitate medie hemiceluloză">Cantitate medie hemiceluloză</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="335" domainID="vrConstituentTotalDigestibleNutrients">
+<Name description="Cantitate medie total nutrienţi digerabili">Cantitate medie total nutrienţi digerabili</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="336" domainID="vrConstituentNetEnergyForLactation">
+<Name description="Cantitate medie energie netă pentru lactaţie">Cantitate medie energie netă pentru lactaţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="337" domainID="vrConstituentNetEnergyForMaintenance">
+<Name description="Cantitate medie energie netă pentru întreţinere">Cantitate medie energie netă pentru întreţinere</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="338" domainID="vrConstituentNetEnergyForGain">
+<Name description="Cantitate medie energie netă pentru îngrăşare">Cantitate medie energie netă pentru îngrăşare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="339" domainID="vrConstituentDigestibleEnergy">
+<Name description="Cantitate medie energie digerabilă">Cantitate medie energie digerabilă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="340" domainID="vrConstituentMetabolizableEnergy">
+<Name description="Cantitate medie energie metabolizabilă">Cantitate medie energie metabolizabilă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="341" domainID="vrConstituentOil">
+<Name description="Cantitate medie ulei">Cantitate medie ulei</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="342" domainID="vrConstituentSuspendedNitrogen">
+<Name description="Cantitate medie azot în suspensie">Cantitate medie azot în suspensie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="343" domainID="vrConstituentTotalPhosphorus">
+<Name description="Cantitate medie total fosfor">Cantitate medie total fosfor</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="344" domainID="vrConstituentSuspendedPhosphorus">
+<Name description="Cantitate medie fosfor în suspensie">Cantitate medie fosfor în suspensie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="345" domainID="vrConstituentPotassium">
+<Name description="Cantitate medie potasiu">Cantitate medie potasiu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="346" domainID="vrConstituentSodium">
+<Name description="Cantitate medie sodiu">Cantitate medie sodiu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="347" domainID="vrConstituentMagnesium">
+<Name description="Cantitate medie magneziu">Cantitate medie magneziu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="348" domainID="vrConstituentCalcium">
+<Name description="Cantitate medie calciu">Cantitate medie calciu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="349" domainID="vrConstituentSulphur">
+<Name description="Cantitate medie sulf">Cantitate medie sulf</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="350" domainID="vrConstituentMoistureReferenceA">
+<Name description="Cantitate medie referinţă umiditate A">Cantitate medie referinţă umiditate A</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="351" domainID="vrConstituentMoistureReferenceB">
+<Name description="Cantitate medie referinţă umiditate B">Cantitate medie referinţă umiditate B</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="352" domainID="vrConstituentMoistureReferenceC">
+<Name description="Cantitate medie referinţă umiditate C">Cantitate medie referinţă umiditate C</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="353" domainID="vrConstituentInvalid">
+<Name description="Constituent invalid">Constituent invalid</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="354" domainID="vrConstituentNitrogenAmmonia">
+<Name description="Cantitate medie azot (amoniac)">Cantitate medie azot (amoniac)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="355" domainID="vrConstituentPhosphorusAllTypes">
+<Name description="Cantitate medie fosfor (toate tipurile)">Cantitate medie fosfor (toate tipurile)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="356" domainID="vrInoculantDosingRateLow">
+<Name description="Rată de dozare inoculant redusă">Rată de dozare inoculant redusă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="357" domainID="vrInoculantDosingRateLowTotal">
+<Name description="Total rată de dozare inoculant redusă">Total rată de dozare inoculant redusă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="358" domainID="vrFuelVolumePerWetMass">
+<Name description="Volum carburant per masă umedă">volum carburant per masă umedă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="359" domainID="vrFuelVolumePerDryMass">
+<Name description="Volum carburant per masă uscată">volum carburant per masă uscată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="360" domainID="vrWetMassPerFuelVolume">
+<Name description="Masă umedă per volum carburant">masă umedă per volum carburant</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="361" domainID="vrDryMassPerFuelVolume">
+<Name description="Masă uscată per volum carburant">masă uscată per volum carburant</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="362" domainID="vrManureTotalSolids">
+<Name description="Total îngrăşământ solid">Total îngrăşământ solid</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="363" domainID="vrTillageDepthMeasured">
+<Name description="Adâncime arat măsurată">adâncime arat măsurată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="364" domainID="vrTillageDepthControl">
+<Name description="Control adâncime arat">control adâncime arat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="365" domainID="vrCircleEdgeRadius">
+<Name description="Decalaj rază">Decalaj rază</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="366" domainID="vrABCurveRadialShift">
+<Name description="Deplasare rază">Deplasare rază</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="367" domainID="vrABCurveRadialTotalShift">
+<Name description="Deplasare radială totală">Deplasare radială totală</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="368" domainID="vrTillagePressureTarget">
+<Name description="Presiune-ţintă arat">presiune-ţintă arat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="369" domainID="vrTillagePressureMeasured">
+<Name description="Presiune arat măsurată">presiune arat măsurată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="370" domainID="vrFuelProductivity">
+<Name description="Productivitate carburant">Productivitate carburant</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="371" domainID="vrGuidanceShift">
+<Name description="Deplasare urmă">Distanţa cu care se deplasează o urmă de ghidare când utilizatorul face clic pe butonul deplasare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="372" domainID="vrRemainingABLineDistance">
+<Name description="Distanţă rămasă linie AB">Distanţa rămasă necesară pentru completarea liniei curente</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="374" domainID="vrTrackSpacingGap">
+<Name description="Spaţiu liber la Spaţiere urme">Suprapunerea (sau spaţiul liber) dintre spaţierea urmelor şi lăţimea instrumentului</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="375" domainID="vrSlowSpeed">
+<Name description="Viteză redusă">Viteza la deplasarea lentă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="376" domainID="vrActualSeedSpacingCV">
+<Name description="CV efectiv spaţiere seminţe">CV efectiv spaţiere seminţe specificat ca procentaj</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="377" domainID="vrPlantingSingulation">
+<Name description="Singulaţie">Procentaj singulaţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="378" domainID="vrPlantingSkips">
+<Name description="Omiteri">Procentaj omiteri</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="379" domainID="vrPlantingDoubles">
+<Name description="Dublări">Procentaj dublări</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="380" domainID="vrDownForceApplied">
+<Name description="Deportanţă aplicată">Deportanţă aplicată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="381" domainID="vrGroundContact">
+<Name description="Contact cu solul">Contact cu solul</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="382" domainID="vrRideQuality">
+<Name description="Calitate deplasare">Calitate deplasare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="383" domainID="vrTillagePressureControl">
+<Name description="Control presiune arat">control presiune arat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="384" domainID="vrHarvestTrash">
+<Name description="Reziduuri recoltă">Reziduuri</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="385" domainID="vrYieldMassCane">
+<Name description="Masă producţie trestie">Bucăţi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="386" domainID="vrYieldMassCanePerArea">
+<Name description="Masă producţie trestie per suprafaţă">Bucăţi per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="387" domainID="vrYieldRawMassCane">
+<Name description="Masă producţie trestie brută">Cultură</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="388" domainID="vrYieldRawMassCanePerArea">
+<Name description="Masă producţie trestie brută per suprafaţă">Cultură per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="389" domainID="vrCaneBilletLossMass">
+<Name description="Cane billet loss mass">Billet Loss</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="390" domainID="vrCaneResidueMass">
+<Name description="Cane residue mass">Residue</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="391" domainID="vrYieldRawMass">
+<Name description="Raw yield mass">Crop</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="392" domainID="vrYieldRawMassPerArea">
+<Name description="Raw yield mass per area">Crop per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="500" domainID="vrSCTurnOnTime">
+<Name description="Timp întârziere mecanică la pornire">Latenţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="501" domainID="vrSCTurnOffTime">
+<Name description="Timp întârziere mecanică la oprire">Latenţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="503" domainID="vrAppliedYieldLatency">
+<Name description="Întârzierea care a fost aplicată datelor.">Latenţă aplicată producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="504" domainID="vrAppliedMoistureLatency">
+<Name description="Întârzierea care a fost aplicată datelor.">Latenţă aplicată umiditate</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="505" domainID="vrHeaderHours">
+<Name description="Ore colector">Ore colector</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="506" domainID="vrSeparatorHours">
+<Name description="Ore separator">Ore separator</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="507" domainID="vrDeltaDistance">
+<Name description="Distanţă delta">Distanţă delta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="508" domainID="vrDeltaArea">
+<Name description="Suprafaţă delta">Suprafaţă delta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="509" domainID="vrDeltaAppliedVolume">
+<Name description="Volum delta">Volum delta aplicat</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="510" domainID="vrHarvestWetMassFlow">
+<Name description="Debit masă umedă recoltă">Debit masă umedă recoltă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="511" domainID="vrSolutionSystemFlowRatePerMinute">
+<Name description="Rată debit pe minut la sistemul de soluţie">Rată debit pe minut la sistemul de soluţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="512" domainID="vrSCTuningDistance">
+<Name description="Distanţă reglare Control secţiuni">Distanţă reglare Control secţiuni</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="513" domainID="vrSCTuningSpeed">
+<Name description="Viteză reglare Control secţiuni">Viteză reglare Control secţiuni</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="514" domainID="vrFanSpeedControl">
+<Name description="Comanda vitezei ventilatorului">Comanda vitezei ventilatorului</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="515" domainID="vrFanSpeedTarget">
+<Name description="Viteză-ţintă ventilator">Viteză-ţintă ventilator</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="516" domainID="vrFanSpeedMeasured">
+<Name description="Viteză măsurată ventilator">Viteză măsurată ventilator</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="517" domainID="vrThreshingSpeedControl">
+<Name description="Control viteză treierare">Control viteză treierare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="518" domainID="vrThreshingSpeedTarget">
+<Name description="Viteză-ţintă treierare">Viteză-ţintă treierare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="519" domainID="vrThreshingSpeedMeasured">
+<Name description="Viteză măsurată treierare">Viteză măsurată treierare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="520" domainID="vrThreshingClearanceControl">
+<Name description="Control distanţare treierare">Control distanţare treierare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="521" domainID="vrThreshingClearanceTarget">
+<Name description="Distanţare-ţintă treierare">Distanţare-ţintă treierare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="522" domainID="vrThreshingClearanceMeasured">
+<Name description="Distanţare măsurată treierare">Distanţare măsurată treierare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="523" domainID="vrChaferPositionControl">
+<Name description="Control poziţie tocător de paie">Control poziţie tocător de paie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="524" domainID="vrChafferPositionTarget">
+<Name description="Poziţie-ţintă tocător de paie">Poziţie-ţintă tocător de paie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="525" domainID="vrChafferPositionMeasured">
+<Name description="Poziţie măsurată tocător de paie">Poziţie măsurată tocător de paie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="526" domainID="vrSievePositionControl">
+<Name description="Control poziţie sită">Control poziţie sită</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="527" domainID="vrSievePositionTarget">
+<Name description="Poziţie-ţintă sită">Poziţie-ţintă sită</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="528" domainID="vrSievePositionMeasured">
+<Name description="Poziţie măsurată sită">Poziţie măsurată sită</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="541" domainID="vrPrescriptionRateMultiplier">
+<Name description="Multiplicator rate prescripţie">Multiplicator de aplicat la ratele de prescripţie înainte de a fi trimise la controler.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="542" domainID="vrPrescriptionLookAheadTime">
+<Name description="Timp anticipare prescripţie">Durata de proiectare de-a lungul căii curente când se găsesc şi se trimit ratele de prescripţie la controler.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="543" domainID="vrYieldCalibration">
+<Name description="Factor calibrare producţie">Factor calibrare producţie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="544" domainID="vrAvgYieldWetMassPerArea">
+<Name description="Masă producţie umedă medie per suprafaţă">Masă producţie umedă medie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="545" domainID="vrAvgYieldMassPerArea">
+<Name description="Masă producţie uscată medie per suprafaţă">Masă producţie uscată medie per suprafaţă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="546" domainID="vrAvgHarvestMoisture">
+<Name description="Umiditate medie recoltă">Umiditate medie recoltă</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="547" domainID="vrPlantingSkipsCount">
+<Name description="Omiteri">Contor omiteri</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="548" domainID="vrPlantingDoublesCount">
+<Name description="Dublări">Contor dublări</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="549" domainID="vrDistanceFromTrack">
+<Name description="Distanţă de urmă">Distanţa la care se află tractorul faţă de urma selectată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="550" domainID="vrEngineLoadCurrentSpeed">
+<Name description="Sarcină motor la turaţia actuală">Raportul dintre procentul de cuplu efectiv al motorului (indicat) şi cuplul maxim indicat disponibil la turaţia actuală a motorului, redus la cuplu zero la frânarea motorului.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="551" domainID="vrProductIndex">
+<Name description="Indexul produsului.">Indexul produsului utilizat când se asociază produse cu date precum rânduri, cuve, rezervoare etc. pentru comunicaţia prin CAN şi prin datele de lucru de la Model echipament.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="552" domainID="vrDeltaAppRateMass">
+<Name description="Masă delta aplicare produs">Masă delta aplicată</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="553" domainID="vrSprayBoomHeight">
+<Name description="Înălţime braţ autocisternă de stropit.">Înălţime braţ autocisternă de stropit.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="554" domainID="vrAverageQuantityAppliedVolume">
+<Name description="Volum aplicat cantitate medie">Volum aplicat cantitate medie.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="555" domainID="vrCropIntensityIndex">
+<Name description="Index intensitate cultură">Intensitatea culturii măsurată de senzorii de producţie pe secţiune.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="556" domainID="vrCropIntensityIndexPerArea">
+<Name description="Intensitate cultură per suprafaţă">Indexul de intensitate a culturii normalizat după suprafaţa acoperită.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="557" domainID="vrHeaderBackshaftSprocketToothCount">
+<Name description="Contor pinioane arbore posterior colector">Contor pinioane arbore posterior colector</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="558" domainID="vrHeaderDriveshaftSprocketToothCount">
+<Name description="Contor dinţi pinioane arbore motor colector">Contor dinţi pinioane arbore motor colector</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="559" domainID="vrHeaderBackshaftSpeed">
+<Name description="Turaţie arbore posterior colector">Turaţie arbore posterior colector</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="560" domainID="vrWheelSpeed">
+<Name description="Viteză roţi">Viteză roţi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="561" domainID="vrRadarSpeed">
+<Name description="Viteză radar">Viteză radar</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="562" domainID="vrWheelSlip">
+<Name description="Alunecare roţi.">Alunecare roţi.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="563" domainID="vrSprayPressure">
+<Name description="Presiune stropire">Presiunea lichidului din sistemul de produs măsurată la distribuitor sau la punctul principal de distribuţie.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="564" domainID="vrActiveContainer">
+<Name description="The Active Bin.">The active container / bin when using equipment that supports features such as bin chaining where one bin might be active until it is empty and then the equipment will automaticall switch to the next bin with the same product.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="565" domainID="vrMachineSelectedSpeed">
+<Name description="Machine selected speed">The speed selected and provided by the equipment itself.  When present, this overrides any other speeds on the display.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="566" domainID="vrAppRateVolumePerDistanceControl">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="567" domainID="vrAppRateVolumePerDistanceTarget">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="568" domainID="vrAppRateVolumePerDistanceMeasured">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="569" domainID="vrISODVCElementNumber">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="570" domainID="vrVisionRowSpacing">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="571" domainID="vrVisionCameraHeight">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="572" domainID="vrISOTaskId">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="573" domainID="vrISOMeasureOnTimeInterval">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="574" domainID="vrISOMeasureOnDistanceInterval">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="575" domainID="vrISOMeasureMinThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="576" domainID="vrISOMeasureMaxThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="577" domainID="vrISOMeasureChangeThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="578" domainID="vrISOMeasureDefaultSet">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="600" domainID="vrAppRateVolumePerHour">
+<Name description="Volum rată aplicare per oră">Volum rată aplicare per oră</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="601" domainID="vrISOImpApplicationTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="602" domainID="vrISOImpApplicationTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="603" domainID="vrISOImpApplicationTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="604" domainID="vrISOImpYieldTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="605" domainID="vrISOImpYieldTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="606" domainID="vrISOImpYieldTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="607" domainID="vrISOImpTotalArea">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="608" domainID="vrISOImpEffectiveTotalDistance">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="609" domainID="vrISOImpIneffectiveTotalDistance">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="610" domainID="vrISOImpEffectiveTotalTime">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="611" domainID="vrISOImpIneffectiveTotalTime">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="612" domainID="vrISOImpTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="613" domainID="vrISOImpYieldTotalDryMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="614" domainID="vrISOImpYieldTotalSeedCottonMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="615" domainID="vrISOImpYieldTotalLintCottonMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="616" domainID="vrISOImpPrecutTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="617" domainID="vrISOImpUncutTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="618" domainID="vrISOImpEffectiveTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="619" domainID="vrISOImpIneffectiveTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="620" domainID="vrISOImpEffectiveTotalDieselExhaustFluid">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="621" domainID="vrISOImpIneffectiveTotalDieselExhaustFluid">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="622" domainID="vrISOImpFrontPTOHours">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="623" domainID="vrISOImpRearPTOHours">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="624" domainID="vrISOImpApplicationTotalVolumeMl">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="625" domainID="vrISOImpApplicationTotalMassG">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="626" domainID="vrISOImpApplicationOfNitrogen">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="627" domainID="vrISOImpApplicationOfAmmonium">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="628" domainID="vrISOImpApplicationOfPhosphor">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="629" domainID="vrISOImpApplicationOfPotassium">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="630" domainID="vrISOImpApplicationOfDryMatter">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="631" domainID="vrISOImpTotalBaleLength">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="632" domainID="vrISOImpTotalDieselExhaustFluidConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="633" domainID="vrISOImpLoadedTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="634" domainID="vrISOImpUnloadedTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="635" domainID="vrISOImpLoadedTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="636" domainID="vrISOImpUnloadedTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="637" domainID="vrISOImpLoadedTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="638" domainID="vrISOImpUnloadedTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="639" domainID="vrISOImpTotalRevolutionsInFractionalRevolutions">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="640" domainID="vrISOImpTotalRevolutionsInCompleteRevolutions">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="641" domainID="vrDeltaSeedRateSeeds">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="642" domainID="vrDeltaSeedRateMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="643" domainID="vrNozzleTurretPositionsTotal">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="644" domainID="vrNozzleTurretPosition">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="645" domainID="vrNozzleTurretPositionA">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtApplicationMethod" domainTag="1001">
+<Name description="Metodă de aplicare">Metodă de aplicare</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5041" domainID="dti1InchAway">
+<Name description="La distanţă de 1 inch">La distanţă de 1 inch</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5042" domainID="dti2InchAway">
+<Name description="La distanţă de 2 inci">La distanţă de 2 inci</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5043" domainID="dtiAerial">
+<Name description="Antenă">Antenă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5044" domainID="dtiBanding">
+<Name description="Aplicare produse chimice">Aplicare produse chimice</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5045" domainID="dtiChemigation">
+<Name description="Irigare cu prod. chimice">Irigare cu prod. chimice</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5001" domainID="dtiInFurrow">
+<Name description="Pe arătură">Pe arătură</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5047" domainID="dtiInjected">
+<Name description="Injectat">Injectat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5039" domainID="dtiSurface">
+<Name description="Suprafaţă">Suprafaţă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5049" domainID="dtiTBand">
+<Name description="Bandă T">Bandă T</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5050" domainID="dtiBackpackSpray">
+<Name description="Dispozitiv de stropire tip rucsac">Disp. de str. tip rucsac</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5051" domainID="dtiBand">
+<Name description="Bandă">Bandă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5052" domainID="dtiHoodedSprayer">
+<Name description="Autocisternă de stropit acoperită">Autocist. str. acoperită</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5053" domainID="dtiImpregnate">
+<Name description="Impregnare">Impregnare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5054" domainID="dtiPlanter">
+<Name description="Maşină de plantat">Maşină de plantat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5055" domainID="dtiPostDirSpray">
+<Name description="Dispozitiv de stropire în urmă">Disp. de stropire în urmă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5056" domainID="dtiRopeWick">
+<Name description="Fitil textil">Fitil textil</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5057" domainID="dtiSideDress">
+<Name description="Apărătoare laterală">Apărătoare laterală</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5040" domainID="dtiBroadcast">
+<Name description="Răspândire">Răspândire</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5059" domainID="dtiMisApplication">
+<Name description="Aplic. necorespunzătoare">Aplic. necorespunzătoare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5060" domainID="dtiCoApplication">
+<Name description="Aplicare combinată">Aplicare combinată</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5061" domainID="dtiAirBlast">
+<Name description="Suflu de aer">Suflu de aer</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5062" domainID="dtiElectroStatic">
+<Name description="Electrostatic">Electrostatic</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5063" domainID="dtiGround">
+<Name description="Sol">Sol</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5064" domainID="dtiFertigation">
+<Name description="Irigare cu produse de fertilizare">Irig. cu prod. fertiliz.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtRecordingStatus" domainTag="1003">
+<Name description="Utilizat pentru specificarea stării înregistrării.  Valorile pot fi Activat sau Dezactivat.">Stare înregistrare secţiune</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5003" domainID="dtiRecordingStatusOn">
+<Name description="Activat">Activat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5004" domainID="dtiRecordingStatusOff">
+<Name description="Dezactivat">Dezactivat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWindDirection" domainTag="1004">
+<Name description="Direcţie vânt în incremente textuale">Direcţie vânt</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5005" domainID="dtiWindDirectionN">
+<Name description="Nord">N</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5006" domainID="dtiWindDirectionS">
+<Name description="Sud">S</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5007" domainID="dtiWindDirectionE">
+<Name description="Est">E</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5008" domainID="dtiWindDirectionW">
+<Name description="Vest">V</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5009" domainID="dtiWindDirectionNE">
+<Name description="Nord-Est">NE</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5010" domainID="dtiWindDirectionSE">
+<Name description="Sud-Est">SE</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5011" domainID="dtiWindDirectionSW">
+<Name description="Sud-Vest">SV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5012" domainID="dtiWindDirectionNW">
+<Name description="Nord-Vest">NV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtABLineSaveMethod" domainTag="1005">
+<Name description="Metoda de salvare care a fost utilizată pentru crearea liniei AB.">Metodă de salvare</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5014" domainID="dtiABLineMethodBPoint">
+<Name description="Metoda de salvare a liniei AB utilizând punctele A şi B">A + B</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5015" domainID="dtiABLineMethodHeading">
+<Name description="Metoda de salvare a liniei AB utilizând punctul A şi cap-compasul">A + cap-compas</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5016" domainID="dtiABLineMethodManualEntry">
+<Name description="Metoda de salvare a liniei AB utilizând introducerea manuală şi punctele A şi B">Lat/Lon</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5017" domainID="dtiABLineMethodAutomaticB">
+<Name description="Metoda de salvare a liniei AB, B automat">Auto B</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5088" domainID="dtiABLineMethodLatLonHeading">
+<Name description="Metoda de salvare a liniei AB utilizând introducerea manuală pentru punctul A şi cap-compasul">Lat/Lon + Cap-compas</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSkyCondition" domainTag="1006">
+<Name description="Condiţii atmosferice">Condiţii atmosferice</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5019" domainID="dtiSunny">
+<Name description="Condiţii atmosferice de cer însorit">Însorit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5020" domainID="dtiCloudy">
+<Name description="Condiţii atmosferice de cer înnorat">Înnorat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5021" domainID="dtiPartlyCloudy">
+<Name description="Condiţii atmosferice de cer parţial înnorat">Parţial înnorat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5022" domainID="dtiRain">
+<Name description="Condiţii de vreme ploioasă">Ploaie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5023" domainID="dtiSnow">
+<Name description="Condiţii de ninsoare">Ninsoare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5024" domainID="dtiClear">
+<Name description="Condiţii de cer senin">Senin</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtInlineOffsetType" domainTag="1007">
+<Name description="Decalaj în linie">Decalaj în linie</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5025" domainID="dtiInlineFront">
+<Name description="Secţiune faţă în linie">Secţiune faţă în linie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5026" domainID="dtiInlineCenter">
+<Name description="Centru în linie">Centru în linie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5027" domainID="dtiInlineRear">
+<Name description="Secţiune spate în linie">Secţiune spate în linie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLateralOffsetType" domainTag="1008">
+<Name description="Decalaj lateral">Decalaj lateral</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5028" domainID="dtiLateralLeft">
+<Name description="Lateral stânga">Lateral stânga</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5029" domainID="dtiLateralCenter">
+<Name description="Lateral centru">Lateral centru</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5030" domainID="dtiLateralRight">
+<Name description="Lateral dreapta"> Lateral dreapta</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHitchType" domainTag="1009">
+<Name description="Tip cârlig">Tip cârlig</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5031" domainID="dtiThreePoint">
+<Name description="Punte spate rigidă 3 puncte">Punte spate rig. 3 puncte</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5146" domainID="dtiRearTwoPoint">
+<Name description="Pivot spate 2 puncte">Pivot spate 2 puncte</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5032" domainID="dtiDrawbar">
+<Name description="Bară tracţ. pivot post.">Bară tracţ. pivot post.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5147" domainID="dtiRearPivotWagonHitch">
+<Name description="Cârlig-vagon pivot posterior">Cârlig-vagon pivot post.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5148" domainID="dtiFrontRigidThreePoint">
+<Name description="Punte faţă rigidă 3 puncte">Punte faţă rig. 3 puncte</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSoilMoisture" domainTag="1010">
+<Name description="Umezeală sol">Umezeală sol</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5033" domainID="dtiCloddy">
+<Name description="Compact">Compact</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5034" domainID="dtiDry">
+<Name description="Uscat">Uscat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5035" domainID="dtiFrozen">
+<Name description="Îngheţat">Îngheţat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5036" domainID="dtiIdeal">
+<Name description="Ideal">Ideal</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5037" domainID="dtiMuddy">
+<Name description="Noroios">Noroios</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5038" domainID="dtiWet">
+<Name description="Umed">Umed</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSeedingApplicationMethod" domainTag="1011">
+<Name description="Metoda de însămânţare">Metoda de însămânţare</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5065" domainID="dtiBroadcastSeeding">
+<Name description="Răspândire însămânţare">Răspândire însămânţare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5066" domainID="dtiInGround">
+<Name description="În pământ">În pământ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtOperationClass" domainTag="1012">
+<Name description="Clasificare operaţiune">Clasificare operaţiune</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5070" domainID="dtiTillage">
+<Name description="OperaţiuneArat">OperaţiuneArat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5071" domainID="dtiHarvest">
+<Name description="OperaţiuneRecoltare">OperaţiuneRecoltare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5072" domainID="dtiSeeding">
+<Name description="OperaţiuneÎnsămânţare">OperaţiuneÎnsămânţare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5073" domainID="dtiApplication">
+<Name description="OperaţiuneAplicare">OperaţiuneAplicare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5074" domainID="dtiOther">
+<Name description="AltăOperaţiune">AltăOperaţiune</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5152" domainID="dtiSurfaceWaterManagement">
+<Name description="Operaţie de admin.ape de suprafaţă">OperaţieAdminApeSuprafaţă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSensorStatus" domainTag="1013">
+<Name description="Stare senzor">StareSenzor</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5067" domainID="dtiSensorOn">
+<Name description="Stare senzor - Activat">Activat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5068" domainID="dtiFail">
+<Name description="Stare senzor - Defect">Defect</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5069" domainID="dtiSensorOff">
+<Name description="Stare senzor - Dezactivat">Dezactivat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPrescriptionState" domainTag="1014">
+<Name description="Stare prescripţie">Stare prescripţie</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5075" domainID="dtiPrescriptionUsed">
+<Name description="Prescripţie - Utilizată">Utilizat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5076" domainID="dtiPrescriptionNotUsed">
+<Name description="Prescripţie - Neutilizată">Neutilizat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5077" domainID="dtiPrescriptionOverridden">
+<Name description="Prescripţie - Anulată şi înlocuită">Anulat şi înlocuit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLoadType" domainTag="1015">
+<Name description="Tip încărcare recoltă">Tip încărcare recoltă</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5078" domainID="dtiLoadField">
+<Name description="Câmp">Câmp</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5079" domainID="dtiLoadTruck">
+<Name description="Remorcă">Remorcă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5080" domainID="dtiLoadTank">
+<Name description="Rezervor">Rezervor</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCottonLoadType" domainTag="1016">
+<Name description="Tip încărcare recoltă bumbac">Tip încărcare recoltă bumbac</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5082" domainID="dtiCottonLoadField">
+<Name description="Câmp">Câmp</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5083" domainID="dtiCottonLoadModule">
+<Name description="Modul dreptunghi">Modul dreptunghi</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5084" domainID="dtiCottonLoadBasket">
+<Name description="Coş">Coş</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5085" domainID="dtiCottonLoadRoundModule">
+<Name description="Modul rotund">Modul rotund</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCircleSaveMethod" domainTag="1017">
+<Name description="Metoda de salvare utilizată pentru crearea cercului.">Metodă de salvare</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5086" domainID="dtiCircleMethodDriving">
+<Name description="Metoda de salvare a cercului prin cercul de deplasare">Cercul de deplasare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5087" domainID="dtiCircleMethodLatLong">
+<Name description="Metoda de salvare a cercului utilizând introducerea manuală a centrului cercului">Lat/Lon</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtMaterialClass" domainTag="1018">
+<Name description="Clasă material produs">Clasă material</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5089" domainID="dtiMaterialClassDry">
+<Name description="Produs uscat">Uscat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5090" domainID="dtiMaterialClassLiquid">
+<Name description="Produs lichid">Lichid</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionType" domainTag="1019">
+<Name description="Tip funcţie perimetru">Tip funcţie</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5091" domainID="dtiFunctionModifyGroundSpeed">
+<Name description="Modificare viteză la sol">Modificare viteză la sol</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5092" domainID="dtiFunctionAdjustHitch">
+<Name description="Cârlig inferior">Reglare cârlig</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5195" domainID="dtiFunctionAdjustFrontHitch">
+<Name description="Cârlig inferior">Reglare cârlig</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5093" domainID="dtiFunctionChangePTO">
+<Name description="Modificare PTO">Modificare PTO</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5094" domainID="dtiFunctionChangeDiffLock">
+<Name description="Modif blocare diferenţial">Modif blocare diferenţial</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5095" domainID="dtiFunctionChange4WD">
+<Name description="Modificare 4WD">Modificare 4WD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5096" domainID="dtiFunctionChangeSCV1">
+<Name description="SCV I">SCV I</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5097" domainID="dtiFunctionChangeSCV2">
+<Name description="SCV II">SCV II</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5098" domainID="dtiFunctionChangeSCV3">
+<Name description="SCV III">SCV III</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5099" domainID="dtiFunctionChangeSCV4">
+<Name description="SCV IV">SCV IV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5100" domainID="dtiFunctionChangeSCV5">
+<Name description="SCV V">SCV V</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5101" domainID="dtiFunctionChangeSCV6">
+<Name description="SCV VI">SCV VI</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5179" domainID="dtiFunctionChangeSCV7">
+<Name description="SCV VII">SCV VII</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5180" domainID="dtiFunctionChangeSCV11">
+<Name description="SCV XI">SCV XI</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5181" domainID="dtiFunctionChangeSCV12">
+<Name description="SCV XII">SCV XII</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5182" domainID="dtiFunctionChangeSCV13">
+<Name description="SCV XIII">SCV XIII</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5193" domainID="dtiFunctionChangeSCV14">
+<Name description="SCV XIV">SCV XIV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5194" domainID="dtiFunctionChangeSCV15">
+<Name description="SCV XV">SCV XV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5183" domainID="dtiFunctionModifyFieldCruise">
+<Name description="Modif.turaţie motor">Modif.turaţie motor</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5132" domainID="dtiFunctionChangeAccuDepth1">
+<Name description="Precizie adâncime I">Precizie adâncime I</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5133" domainID="dtiFunctionChangeAccuDepth2">
+<Name description="Precizie adâncime II">Precizie adâncime II</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5134" domainID="dtiFunctionChangeAccuDepth3">
+<Name description="Precizie adâncime III">Precizie adâncime III</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5135" domainID="dtiFunctionChangeAccuDepth4">
+<Name description="Precizie adâncime IV">Precizie adâncime IV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5136" domainID="dtiFunctionChangeAccuDepth5">
+<Name description="Precizie adâncime V">Precizie adâncime V</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5137" domainID="dtiFunctionChangeAccuDepth6">
+<Name description="Precizie adâncime VI">Precizie adâncime VI</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5138" domainID="dtiFunctionChangeAPS">
+<Name description="APS">APS</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5149" domainID="dtiFunctionChangeGear">
+<Name description="Mecanism">Mecanism</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5157" domainID="dtiFunctionChangeFrontPTO">
+<Name description="Schimb.PTO faţă">Schimb.PTO faţă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionHitchChange" domainTag="1020">
+<Name description="Stare cârlig" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5102" domainID="dtiFunctionLowerHitch">
+<Name description="Coborâre">Coborâre</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5103" domainID="dtiFunctionRaiseHitch">
+<Name description="Ridicare">Ridicare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionPTOChange" domainTag="1021">
+<Name description="Stare PTO" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5104" domainID="dtiFunctionEngagePTO">
+<Name description="Cuplare">Cuplare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5105" domainID="dtiFunctionDisengagePTO">
+<Name description="Decuplare">Decuplare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionDiffLocChange" domainTag="1022">
+<Name description="Stare blocare diferenţial" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5106" domainID="dtiFunctionEngageDiffLock">
+<Name description="Cuplare">Cuplare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5107" domainID="dtiFunctionDisengageDiffLock">
+<Name description="Decuplare">Decuplare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunction4WDChange" domainTag="1023">
+<Name description="Stare MFWD" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5108" domainID="dtiFunctionEngage4WD">
+<Name description="MFWD automată">MFWD automată</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5109" domainID="dtiFunctionDisengage4WD">
+<Name description="Decuplare MFWD">Decuplare MFWD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5161" domainID="dtiFunctionManualEngage4WD">
+<Name description="Cuplare MFWD">Cuplare MFWD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionSCVChange" domainTag="1024">
+<Name description="Stare SCV" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5110" domainID="dtiFunctionSCVExtend">
+<Name description="Extindere">Extindere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5111" domainID="dtiFunctionSCVRetract">
+<Name description="Retragere">Retragere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5112" domainID="dtiFunctionSCVFloat">
+<Name description="Flotaj">Flotaj</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5113" domainID="dtiFunctionSCVCancel">
+<Name description="Anulare">Anulare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionFieldCruiseChange" domainTag="1041">
+<Name description="Stare tempomat câmp" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5184" domainID="dtiFunctionEngageFieldCruise">
+<Name description="Activare tempomat câmp">Activare tempomat câmp</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5185" domainID="dtiFunctionDisengageFieldCruise">
+<Name description="Dezactivare tempomat câmp">Dezactivare tempomat câmp</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtGuidanceBoundaryBehavior" domainTag="1025">
+<Name description="Comportament perimetru ghidare">Comportament perimetru ghidare</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5114" domainID="dtiStraightLineProjection">
+<Name description="Proiecţie linie dreaptă">Proiecţie linie dreaptă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5115" domainID="dtiAutogeneratedTurns">
+<Name description="Întoarceri generate autom">Întoarceri generate autom</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5116" domainID="dtiFollowRecordedPath">
+<Name description="Urmare cale înregistrată">Urmare cale înregistrată</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSkipPattern" domainTag="1026">
+<Name description="Tipar de omitere ghidare">Tipar de omitere ghidare</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5117" domainID="dtiAlternateRows">
+<Name description="Rânduri alternative">Rânduri alternative</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5118" domainID="dtiSkip1AndFill">
+<Name description="Omitere şi completare">Omitere şi completare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5119" domainID="dtiAutomaticSkipPattern">
+<Name description="Omitere prima întoarcere">Omitere prima întoarcere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCoverageSetting" domainTag="1027">
+<Name description="Tipar acoperire">Tipar acoperire</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5121" domainID="dtiCoverageMinimizeOverlap">
+<Name description="Minimizare suprapunere">Minimizare suprapunere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5122" domainID="dtiCoverageMinimizeSkips">
+<Name description="Minimizare omiteri">Minimizare omiteri</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSignalType" domainTag="1028">
+<Name description="Tip de semnal utilizat în momentul înregistrării datelor">Tip de semnal</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5123" domainID="dtiSignalTypeUnknown">
+<Name description="Tip de semnal necunoscut">Necunoscut</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5124" domainID="dtiSignalTypeDigitized">
+<Name description="Digitizat de la o imagine raster">Digitizat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5125" domainID="dtiSignalTypeNoDiff">
+<Name description="Doar semnal GPS, fără diferenţial">Fără diferenţial</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5126" domainID="dtiSignalTypeUnknownDiff">
+<Name description="Tip de semnal diferenţial necunoscut">Semnal difer. necunoscut</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5127" domainID="dtiSignalTypeWAAS">
+<Name description="Tip de semnal WAAS sau EGNOS">WAAS/EGNOS</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5128" domainID="dtiSignalTypeSF1">
+<Name description="Tip de semnal SF1">SF1</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5129" domainID="dtiSignalTypeSF2">
+<Name description="Tip de semnal SF2">SF2</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5130" domainID="dtiSignalTypeRTKX">
+<Name description="Tip de semnal RTK-X">RTK-X</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5131" domainID="dtiSignalTypeRTK">
+<Name description="Tip de semnal RTK">RTK</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6035" domainID="dtiSignalTypeSF3">
+<Name description="Tip de semnal SF3">SF3</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionAPSChange" domainTag="1029">
+<Name description="Stare APS" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5139" domainID="dtiFunctionEngage">
+<Name description="Cuplare">Cuplare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNavigationType" domainTag="1030">
+<Name description="Tip de navigare" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5140" domainID="dtiVehicleGPS">
+<Name description="GPS vehicul">GPS vehicul</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5141" domainID="dtiComputedImplement">
+<Name description="GPS instrument calculat">GPS instrument calculat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5142" domainID="dtiImplementGPS">
+<Name description="GPS instrument">GPS instrument</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNonSteeringAxleLocation" domainTag="1031">
+<Name description="Locaţie punte rigidă" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5143" domainID="dtiFrontAxle">
+<Name description="Punte faţă">Punte faţă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5144" domainID="dtiRearAxle">
+<Name description="Punte spate">Punte spate</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSPFHLoadType" domainTag="1032">
+<Name description="Tip încărcare recoltă">Tip încărcare recoltă</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5150" domainID="dtiSPFHLoadField">
+<Name description="Câmp">Câmp</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5151" domainID="dtiSPFHLoadTruck">
+<Name description="Remorcă">Remorcă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSurfaceWaterManagementOpType" domainTag="1033">
+<Name description="Tip operaţie de admin.ape de suprafaţă">Tip operaţie de admin.ape de suprafaţă</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5153" domainID="dtiSWMDitches">
+<Name description="Şanţ">Şanţ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5154" domainID="dtiSWMLevees">
+<Name description="Rambl">Rambl</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionFrontPTOChange" domainTag="1034">
+<Name description="Stare PTO faţă" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5155" domainID="dtiFunctionEngageFrontPTO">
+<Name description="Cuplare">Cuplare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5156" domainID="dtiFunctionDisengageFrontPTO">
+<Name description="Decuplare">Decuplare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtDrainType" domainTag="1035">
+<Name description="Tip drenaj">Tip drenaj</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5158" domainID="dtiDrainTypeUnknown">
+<Name description="Tip drenaj necun.">Tip drenaj necun.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5159" domainID="dtiDrainTypeLinear">
+<Name description="Dren.liniar">Dren.liniar</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5160" domainID="dtiDrainTypeBestFit">
+<Name description="Dren.potr.max.">Dren.potr.max.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHeaderStatus" domainTag="1036">
+<Name description="Indică starea hederului.  Valorile sunt Ac şi Opr. Dacă un contor indică ac.valoare în cadrul unei operaţiuni într-un fişier-jurnal, ea va fi utilizată pt.aplicarea filtrului de întârziere la începutul şi sfârşitul cursei la starea care apare la secţiuni la aceeaşi operaţiune.">Stare heder</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5162" domainID="dtiHeaderStatusOn">
+<Name description="Activat">Activat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5163" domainID="dtiHeaderStatusOff">
+<Name description="Dezactivat">Dezactivat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTicketStatus" domainTag="1037">
+<Name description="Identifică starea unui tichet din fişierul Jurnal carburant.">Stare tichet jurnal carb.</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5165" domainID="dtiNew">
+<Name description="Nou">Nou</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5166" domainID="dtiModified">
+<Name description="Modificat">Modificat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5167" domainID="dtiDeleted">
+<Name description="Şters">Şters</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductDetailsProductType" domainTag="1038">
+<Name description="Specifică detalii privind produsele chimice şi îngrăşămintele." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5168" domainID="dtiBufferZone">
+<Name description="Zonă prot.">Zonă prot.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5169" domainID="dtiWaitingTime">
+<Name description="TimpAşteptare">TimpAşteptare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5170" domainID="dtiProductContent">
+<Name description="Conţinut produs">Conţinut produs</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5171" domainID="dtiActiveIngredient">
+<Name description="Ingredient activ">Ingredient activ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5172" domainID="dtiProductLimitIndication">
+<Name description="Indicaţie limită produs">Indicaţie limită produs</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductDetailsSeedType" domainTag="1039">
+<Name description="Specifică detalii privind produsele de însămânţare." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5173" domainID="dtiThousandCropWeight">
+<Name description="Greutate mie seminţe">Greutate mie seminţe</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5174" domainID="dtiPrimingInformation">
+<Name description="Info pregătire">Info pregătire</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5175" domainID="dtiGerminationRate">
+<Name description="Rată germinare">Rată germinare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5176" domainID="dtiGmoInformation">
+<Name description="Informaţii OMG">Informaţii OMG</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTicketType" domainTag="1040">
+<Name description="Specifică tipul tichetelor pentru sarcini de transport." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5177" domainID="dtiLoad">
+<Name description="Tip tichet încărc.">Tip tichet încărc.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5178" domainID="dtiUnload">
+<Name description="Tip tichet descărc.">Tip tichet descărc.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtMeasuredWeightStatus" domainTag="1042">
+<Name description="Utilizat pentru a identifica starea masei măsurate pentru bon.">Starea măsurată a masei.</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5186" domainID="dtiWeightStable">
+<Name description="Greutatea este o valoare măsurată stabilă">Greutate stabilă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5187" domainID="dtiWeightUnStable">
+<Name description="Greutatea este o valoare măsurată instabilă">Greutate instabilă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5188" domainID="dtiWeightError">
+<Name description="Greutatea raportează o eroare">Eroare greutate</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProjectionType" domainTag="1043">
+<Name description="Tip proiecţie ghidare" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5189" domainID="dtiProjectionDeere">
+<Name description="John Deere">John Deere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5190" domainID="dtiNonJohnDeere1">
+<Name description="Non John Deere 1">Non John Deere 1</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5191" domainID="dtiNonJohnDeere2">
+<Name description="Non John Deere 2">Non John Deere 2</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5192" domainID="dtiNonJohnDeere3">
+<Name description="Non John Deere 3">Non John Deere 3</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTillageType" domainTag="1044">
+<Name description="Tip arat">Tip arat</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5196" domainID="dtiTillageTypeDisk">
+<Name description="Disc">Disc</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5197" domainID="dtiTillageTypeRipper">
+<Name description="Scarificator">Scarificator</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5198" domainID="dtiTillageTypeClosingDisk">
+<Name description="Disc de închidere">Disc de închidere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5199" domainID="dtiTillageTypeShank">
+<Name description="Dinţi">Dinţi</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5200" domainID="dtiTillageTypeOpener">
+<Name description="Deschizător">Deschizător</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5201" domainID="dtiTillageTypeBasket">
+<Name description="Coş">Coş</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5202" domainID="dtiTillageTypeCoulter">
+<Name description="Cuţit">Cuţit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5203" domainID="dtiTillageTypeHarrow">
+<Name description="Grapă">Grapă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5204" domainID="dtiTillageTypeRoller">
+<Name description="Cilindru">Cilindru</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtUnloadingAugerState" domainTag="1500">
+<Name description="Stare melc descărcare">Stare melc descărcare</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6000" domainID="dtiUnloadingAugerStateDisabled">
+<Name description="Dezactivat">Dezactivat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6001" domainID="dtiUnloadingAugerStateEnabled">
+<Name description="Activat">Activat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6002" domainID="dtiUnloadingAugerStateError">
+<Name description="Eroare">Eroare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6003" domainID="dtiUnloadingAugerStateNotAvailable">
+<Name description="Indisponibil">Indisponibil</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtJDArmedDWS" domainTag="1501">
+<Name description="Stare lucru condensată braţe John Deere">Stare lucru condensată braţe John Deere</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6004" domainID="dtiReady">
+<Name description="Pregătit">Pregătit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6005" domainID="dtiIBSDisabled">
+<Name description="IBS dezactivat">IBS dezactivat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6006" domainID="dtiManualDisabled">
+<Name description="Manual dezactivat">Manual dezactivat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6007" domainID="dtiMasterDisabled">
+<Name description="Principal dezactivat">Principal dezactivat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSectionControlMasterState" domainTag="1502">
+<Name description="Stare Control secţiuni principal ISO">Stare Control secţiuni principal ISO</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6008" domainID="dtiSCMasterManualOff">
+<Name description="Inactiv">Inactiv</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6009" domainID="dtiSCMasterAutoOn">
+<Name description="Activ">Activ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6010" domainID="dtiSCMasterError">
+<Name description="Eroare">Eroare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6011" domainID="dtiSCMasterUndefined">
+<Name description="Nedefinit">Nedefinit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSprayerSystemOperatingMode" domainTag="1503">
+<Name description="Mod funcţionare sistem autocisternă de stropit">Modul de funcţionare prezent al autocisternei de stropit, cum ar fi purjare, încărcare la distanţă, amorsare injecţie şi stropire.</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6012" domainID="dtiSysemIdle">
+<Name description="Neocupat">Sistem neocupat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6013" domainID="dtiSpraySystemRinse">
+<Name description="Purjare">Purjare sistem stropire</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6014" domainID="dtiSolutionPumpCal">
+<Name description="Calibrare pompă">Calibrare pompă soluţie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6015" domainID="dtiFlowMeterCal">
+<Name description="Calibrare debitmetre">Calibrare debitmetre</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6016" domainID="dtiPressureSensorCal">
+<Name description="Calibrare senzor presiune">Calibrare senzor presiune</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6017" domainID="dtiRemoteLoading">
+<Name description="Încărcare la distanţă">Încărcare la distanţă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6018" domainID="dtiNozzleFlowCheck">
+<Name description="Verificare debit duze">Test de verificare debit duze</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6019" domainID="dtiEductorInUse">
+<Name description="Ejector în uz">Ejector în uz</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6020" domainID="dtiBoomPressureRelief">
+<Name description="Eliberare presiune în braţ">Eliberare presiune în braţ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6021" domainID="dtiLoadCommandInUse">
+<Name description="Load Command în uz">Load Command în uz</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6022" domainID="dtiDirectInjectionDisable">
+<Name description="Dezactivare injecţie directă">Dezactivare injecţie directă</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6023" domainID="dtiInjectionPrime">
+<Name description="Amorsare injecţie">Amorsare injecţie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6024" domainID="dtiBoomPrime">
+<Name description="Amorsare braţ">Amorsare braţ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6025" domainID="dtiMinSprayPressure">
+<Name description="Mod presiune minimă stropire">Presiune minimă stropire</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6026" domainID="dtiTargetPressure">
+<Name description="Mod presiune-ţintă stropire">Presiune-ţintă stropire</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6027" domainID="dtiTargetApplRate">
+<Name description="Mod rată-ţintă aplicare">Rată-ţintă aplicare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6028" domainID="dtiPrescription">
+<Name description="Mod prescripţie">Mod prescripţie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6029" domainID="dtiError">
+<Name description="Eroare">Eroare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6030" domainID="dtiNotAvailable">
+<Name description="Indisponibil">Indisponibil</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6079" domainID="dtiSprayOpModeUnknown">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPrescriptionControlMasterState" domainTag="1504">
+<Name description="Stare Control prescripţie principal ISO">Stare Control prescripţie principal ISO</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6031" domainID="dtiPrscMasterManualOff">
+<Name description="Inactiv">Inactiv</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6032" domainID="dtiPrscMasterAutoOn">
+<Name description="Activ">Activ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6033" domainID="dtiPrscMasterError">
+<Name description="Eroare">Eroare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6034" domainID="dtiPrscMasterUndefined">
+<Name description="Nedefinit">Nedefinit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductSelectionMode" domainTag="1505">
+<Name description="-- translate --" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6036" domainID="dtiProductSelectionModeDefault">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6037" domainID="dtiProductSelectionModeProductMixOnly">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTaskControllerStatus" domainTag="1506">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6038" domainID="dtiTaskStatusOff">
+<Name description="Inactiv">Inactiv</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6039" domainID="dtiTaskStatusOn">
+<Name description="Activ">Activ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHeaderType" domainTag="1507">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6040" domainID="dtiNoHeaderConnected">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6041" domainID="dtiChoppingCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6042" domainID="dtiRowCropHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6043" domainID="dtiFoldingCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6044" domainID="dtiCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6045" domainID="dtiBeltPickup2HeightSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6046" domainID="dtiBeltPickup1HeightSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6047" domainID="dtiRigidPlatform">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6048" domainID="dtiFlexibleDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6049" domainID="dtiDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6050" domainID="dtiAdvancedDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6051" domainID="dtiFlex">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6052" domainID="dtiEuroDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6053" domainID="dtiHydraflex">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6054" domainID="dtiVario">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6055" domainID="dtiRotaryHarvestingUnit">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6056" domainID="dtiRotaryHarvestingUnitBigDrum">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6057" domainID="dtiGrassPickup">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6058" domainID="dtiGrassPickupSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6059" domainID="dtiGrassPickupAuxDrive">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6060" domainID="dtiGrassPickupAuxDriveAndSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6061" domainID="dtiDirectCut">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6062" domainID="dtiWoodChopper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6063" domainID="dtiRotaryHarvestingUnitBigDrumElecBrake">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6064" domainID="dti850FDFlexWingDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6065" domainID="dti800CCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6066" domainID="dti815BPBeltPickup">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6067" domainID="dtiHeaderTypeError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6068" domainID="dtiHeaderNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWorkStateTarget" domainTag="1508">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6069" domainID="dtiTWSDisableOff">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6070" domainID="dtiTWSEnableOn">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6071" domainID="dtiTWSError">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6072" domainID="dtiTWSNoChange">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWorkStateActual" domainTag="1509">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6073" domainID="dtiAWSDisabledOff">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6074" domainID="dtiAWSEnabledOn">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6075" domainID="dtiAWSError">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6076" domainID="dtiAWSUndefinedNotInstalled">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLogMethod" domainTag="1510">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6077" domainID="dtiLogPerValue">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6078" domainID="dtiLogPerChunk">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6117" domainID="dtiDoNotLog">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSolenoidOperatingMode" domainTag="1511">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6080" domainID="dtiSolenoidA">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6081" domainID="dtiSolenoidB">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6082" domainID="dtiSolenoidAB">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6083" domainID="dtiSolenoidAuto">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6084" domainID="dtiSolenoidError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6085" domainID="dtiSolenoidNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPulsingMode" domainTag="1512">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6086" domainID="dtiPulsingNo">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6087" domainID="dtiPulsingInPhase">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6088" domainID="dtiPulsingCounterPhase">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6089" domainID="dtiPulsingError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6090" domainID="dtiPulsingNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtAirInductionStatus" domainTag="1513">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6091" domainID="dtiAirInductionNo">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6092" domainID="dtiAirInductionYes">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6093" domainID="dtiAirInductionError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6094" domainID="dtiAirInductionNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNozzleTipOrificeType" domainTag="1514">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6095" domainID="dtiTipOrificeTypeNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6096" domainID="dtiTipOrificeTypeNone">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6097" domainID="dtiTipOrificeType005">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6098" domainID="dtiTipOrificeType0067">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6099" domainID="dtiTipOrificeType007">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6100" domainID="dtiTipOrificeType01">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6101" domainID="dtiTipOrificeType015">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6102" domainID="dtiTipOrificeType02">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6103" domainID="dtiTipOrificeType025">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6104" domainID="dtiTipOrificeType03">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6105" domainID="dtiTipOrificeType035">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6106" domainID="dtiTipOrificeType04">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6107" domainID="dtiTipOrificeType05">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6108" domainID="dtiTipOrificeType06">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6109" domainID="dtiTipOrificeType08">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6110" domainID="dtiTipOrificeType10">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6111" domainID="dtiTipOrificeType15">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6112" domainID="dtiTipOrificeType20">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6113" domainID="dtiTipOrificeType30">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6114" domainID="dtiTipOrificeType40">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6115" domainID="dtiTipOrificeType50">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6116" domainID="dtiTipOrificeType60">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+</RepresentationSystemTranslation>

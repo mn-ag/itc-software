@@ -1,0 +1,2599 @@
+﻿<?xml version="1.0" encoding="utf-8"?><RepresentationSystemTranslation xmlns="urn:schemas-johndeere-com:RepresentationSystemTranslation" xmlns:bt="urn:schemas-johndeere-com:BasicTypes" xmlns:rep="urn:schemas-johndeere-com:Representation" xmlns:unit="urn:schemas-johndeere-com:UnitSystem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:schemas-johndeere-com:RepresentationSystemTranslation RepresentationSystemTranslation.xsd" locale="cs">
+<SchemaVersion major="1" minor="0" />
+<ContentVersion major="1" minor="0" />
+<VariableRepresentationTranslation domainTag="1" domainID="vrABRowSpacing">
+<Name description="ABRoztečŘádků">ABRoztečŘádků</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="2" domainID="vrABShiftTrack">
+<Name description="ABPosunStopy">ABPosunStopy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="3" domainID="vrABLineHeading">
+<Name description="Kurz ve stupních">Kurz ve stupních</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="4" domainID="vrCommodityPricePerBale">
+<Name description="CenaKomodityNaBalík">Cena komodity na balík</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="5" domainID="vrCommodityPricePerVolume">
+<Name description="CenaKomodityNaObjem">CenaKomodityNaObjem</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="6" domainID="vrHarvestMoisture">
+<Name description="Vlhkost sklizně">Vlhkost sklizně</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="7" domainID="vrCropWeightBale">
+<Name description="HmotnostPlodinyBalík">Hmotnost balíku plodiny</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="8" domainID="vrCropWeightVolume">
+<Name description="HmotnostPlodinyObjem">HmotnostPlodinyObjem</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="9" domainID="vrFSAArea">
+<Name description="FSAPlocha">FSAPlocha</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="10" domainID="vrReportedFieldArea">
+<Name description="Plocha pole.  Tuto hodnotu zadává vlastník nebo producent pole.">Vykázaná plocha pole</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="11" domainID="vrSpatialFieldArea">
+<Name description="Plocha vypočtená z ohraničení pole.">Plocha ohraničení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="12" domainID="vrYieldTotalMass">
+<Name description="Hmotnost výnosu">Hmotnost výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="13" domainID="vrYieldTotalVolume">
+<Name description="Objem výnosu">Objem výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="14" domainID="vrHeadlandOffset">
+<Name description="PosunSouvratě">PosunSouvratě</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="15" domainID="vrLatency">
+<Name description="Latence">Latence</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="16" domainID="vrLoadArea">
+<Name description="PlochaNákladu">Plocha nákladu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="17" domainID="vrMassPer1000Seeds">
+<Name description="HmotnostNa1000Semen">hmotnost na tisíc semen</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="18" domainID="vrMassPerContainer">
+<Name description="HmotnostNaNádobu">hmotnost na kontejner</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="19" domainID="vrMaturity">
+<Name description="Zralost">Zralost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="20" domainID="vrEquipmentWidth">
+<Name description="Šířka zařízení.  Mostly used with implements.  Většinou se používá u nářadí.  Udává fyzikální šířku nářadí.">šířka zařízení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="21" domainID="vrTrackSpacing">
+<Name description="Rozestup stopy">Rozestup stopy je definován jako šířka mezi stopami a používá se pouze v navádění.  Jde o fyzikální šířku nářadí mínus veškeré překrytí.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="22" domainID="vrPathOverlap">
+<Name description="Překrytí používané v operacích navádění.  Overlap plus Working width equals implement width in rows.  Překrytí plus Pracovní šířka se rovná šířce nářadí.">překrytí trasy navádění</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="23" domainID="vrInlineOffset">
+<Name description="ŘadovýPosunSekce">řadový posun trasy sekce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="24" domainID="vrLateralOffset">
+<Name description="BočníPosunNářadí">boční posun nářadí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="25" domainID="vrVerticalOffset">
+<Name description="VertikálníPosunSekce">vertikální posun sekce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="26" domainID="vrSectionWidth">
+<Name description="ŠířkaSekce">šířka sekce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="27" domainID="vrSeedGerminationPercent">
+<Name description="ProcentoKlíčivostiOsiva">procento klíčivosti osiva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="28" domainID="vrSeedLoadQuantity">
+<Name description="MnožstvíNákladuOsiva">množství nákladu osiva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="29" domainID="vrSeedsPerContainer">
+<Name description="OsivoNaNádobu">osivo na nádobu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="30" domainID="vrSeedsPerMass">
+<Name description="Hodnota související s hodnotou OdrůdaOsiva DávkaOsiva, která slouží k převádění osiva na libry nebo liber na osivo nebo na jiné hmotnostní jednotky podle potřeby.">OsivoNaHmotnost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="31" domainID="vrSolutionRateLiquid">
+<Name description="KapalinaDávkyRoztoku">kapalina dávky roztoku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="32" domainID="vrSolutionRateMass">
+<Name description="HmotnostDávkyRoztoku">hmotnost dávky roztoku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="33" domainID="vrSwathWidth">
+<Name description="ŠířkaŘádku">šířka řádku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="34" domainID="vrYieldBale">
+<Name description="Balík výnosu">Balík výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="35" domainID="vrYieldBalePerArea">
+<Name description="Balík výnosu na plochu">Balík výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="36" domainID="vrYieldWetMass">
+<Name description="Hmotnost mokrého výnosu">Hmotnost mokrého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="37" domainID="vrYieldWetMassPerArea">
+<Name description="Hmotnost výnosu na plochu">hmotnost výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="38" domainID="vrYieldWetVolume">
+<Name description="Objem výnosu">objem výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="39" domainID="vrYieldWetVolumePerArea">
+<Name description="Hmotnost vlhkého výnosu na plochu">Hmotnost vlhkého výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="40" domainID="vrYieldMass">
+<Name description="Hmotnost suchého výnosu">Hmotnost suchého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="41" domainID="vrYieldMassPerArea">
+<Name description="Hmotnost suchého výnosu na plochu">Hmotnost suchého výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="42" domainID="vrYieldVolume">
+<Name description="Objem suchého výnosu">Objem suchého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="43" domainID="vrYieldVolumePerArea">
+<Name description="Objem výnosu na plochu">objem výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="44" domainID="vrAppRateMassMetered">
+<Name description="OdměřovanáHmotnostRychlostiAplikace">odměřovaná hmotnost rychlosti aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="45" domainID="vrAppRateMassMeasured">
+<Name description="MěřenáHmotnostRychlostiAplikace">měřená hmotnost rychlosti aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="46" domainID="vrAppRateMassControl">
+<Name description="MapovanáHmotnostRychlostiAplikace">mapovaná hmotnost rychlosti aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="47" domainID="vrAppRateMassTarget">
+<Name description="CílováHmotnostRychlostiAplikace">cílová hmotnost rychlosti aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="48" domainID="vrAppRateVolumeMetered">
+<Name description="OdměřovanýObjemRychlostiAplikace">odměřovaný objem rychlosti aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="49" domainID="vrAppRateVolumeMeasured">
+<Name description="MěřenýObjemRychlostiAplikace">měřený objem rychlosti aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="50" domainID="vrAppRateVolumeControl">
+<Name description="MapovanýObjemRychlostiAplikace">mapovaný objem rychlosti aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="51" domainID="vrAppRateVolumeTarget">
+<Name description="CílovýObjemRychlostiAplikace">cílový objem rychlosti aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="52" domainID="vrAppHeightTarget">
+<Name description="CílováVýškaAplikace">cílová výška aplikace</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="53" domainID="vrTillageDepthTarget">
+<Name description="CílováHloubkaObdělávání">cílová hloubka obdělávání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="54" domainID="vrSeedRateMassMetered">
+<Name description="OdměřovanáHmotnostRychlostiSetí">odměřovaná hmotnost rychlosti setí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="55" domainID="vrSeedRateMassMeasured">
+<Name description="MěřenáHmotnostRychlostiSetí">měřená hmotnost rychlosti setí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="56" domainID="vrSeedRateMassControl">
+<Name description="MapovanáHmotnostRychlostiSetí">mapovaná hmotnost rychlosti setí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="57" domainID="vrSeedRateMassTarget">
+<Name description="Cílová hmotnost rychlosti setí">Rychlost setí posílaná do řídicí jednotky jako hmotnost.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="58" domainID="vrSeedRateSeedsMetered">
+<Name description="Odměřované osivo rychlosti setí">cílová hmotnost rychlosti setí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="59" domainID="vrSeedRateSeedsMeasured">
+<Name description="Měřené osivo rychlosti setí">Měřená rychlost setí přijímaná z řídicí jednotky.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="60" domainID="vrSeedRateSeedsControl">
+<Name description="Řízení osiva rychlosti setí">Rychlost setí vyjádřená v osivu z předpisu, která se posílá do řídicí jednotky.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="61" domainID="vrSeedRateSeedsTarget">
+<Name description="Cílové osivo rychlosti setí">Rychlost setí vyjádřená v osivu, která se posílá do řídicí jednotky.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="62" domainID="vrSeedDepthTarget">
+<Name description="CílováHloubkaSetí">cílová hloubka setí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="63" domainID="vrRelativeHumidity">
+<Name description="Zaznamenává se mimo relativní vlhkost.">Relativní vlhkost.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="64" domainID="vrAirTemperature">
+<Name description="Zaznamenává se mimo teplotu vzduchu.">Teplota vzduchu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="65" domainID="vrWindSpeed">
+<Name description="Zaznamenaná rychlost větru">Rychlost větru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="66" domainID="vrSoilTemperature">
+<Name description="Zaznamenaná teplota půdy.">Teplota půdy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="67" domainID="vrTotalAreaCovered">
+<Name description="Celková pokrytá plocha.">Celková pokrytá plocha.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="68" domainID="vrTotalQuantityAppliedMass">
+<Name description="Celková hmotnost aplikovaného množství.">Celková hmotnost aplikovaného množství</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="69" domainID="vrTotalQuantityAppliedVolume">
+<Name description="Celkový objem aplikovaného množství.">Celkový objem aplikovaného množství</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="70" domainID="vrTotalSeedQuantityAppliedSeed">
+<Name description="Celkový výsev aplikovaného množství osiva.">Celkový výsev aplikovaného množství osiva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="71" domainID="vrTotalSeedQuantityAppliedMass">
+<Name description="Celkový objem aplikovaného množství osiva.">Celková hmotnost aplikovaného množství osiva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="72" domainID="vrTotalOperationTime">
+<Name description="Celková provozní doba.">Celková provozní doba</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="73" domainID="vrHeading">
+<Name description="Kurz indikuje orientaci zařízení">Kurz zařízení.  0 stupňů je sever, 90 stupňů je východ.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="74" domainID="vrElevation">
+<Name description="Elevace">Výška elevace nad hladinou moře.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="75" domainID="vrStandardPayableMoisture">
+<Name description="Standardní produktivní vlhkost">StandardníProduktivníVlhkost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="76" domainID="vrLatitude">
+<Name description="Zeměpisná šířka">Zeměpisná šířka</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="77" domainID="vrLongitude">
+<Name description="Zeměpisná délka">Zeměpisná délka</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="78" domainID="vrDistanceTraveled">
+<Name description="Ujetá vzdálenost">Ujetá vzdálenost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="80" domainID="vrNonLogTime">
+<Name description="Doba bez protokolování">Doba bez protokolování</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="81" domainID="vrVehicleSpeed">
+<Name description="RychlostVozidla">Rychlost vozidla</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="82" domainID="vrDeltaTime">
+<Name description="Rozdílový čas">Rozdílový čas</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="84" domainID="vrEquipmentLogFrequency">
+<Name description="Frekvence, se kterou bude určitá řídicí jednotka na sběrnici CAN posílat data.">Frekvence protokolu zařízení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="85" domainID="vrCommodityPricePerArea">
+<Name description="Cena komodity na plochu">Cena komodity na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="86" domainID="vrCommodityPricePerYield">
+<Name description="Cena komodity na výnos">Cena komodity na výnos</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="87" domainID="vrCommodityPricePerContainer">
+<Name description="Cena komodity na nádobu">Cena komodity na nádobu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="88" domainID="vrRowWidth">
+<Name description="Vzdálenost mezi řádky pro řádkové plodiny">Šířka řádku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="89" domainID="vrGuidanceSmallShift">
+<Name description="Malý posun">Malý posun</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="90" domainID="vrGuidanceLargeShift">
+<Name description="Velký posun">Velký posun</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="91" domainID="vrPathAccuracyIndicator">
+<Name description="Indikátor přesnosti dráhy">Indikátor přesnosti dráhy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="92" domainID="vrTrackToneBeginningDistance">
+<Name description="Tóny sledování zahájení vzdálenosti">Tóny sledování zahájení vzdálenosti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="93" domainID="vrLeadCompensation">
+<Name description="Kompenzace vedení">Kompenzace vedení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="94" domainID="vrAccuracyBarStepSize">
+<Name description="Velikost kroku pruhu přesnosti">Velikost kroku pruhu přesnosti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="95" domainID="vrTurnDistance">
+<Name description="Vzdálenost otočky">Vzdálenost otočky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="96" domainID="vrTrackSpacingRows">
+<Name description="Rozestup stopy v řádcích">Rozestup stopy je definován jako šířka mezi stopami a používá se pouze v navádění.  Jde o fyzikální šířku v řádcích plodiny daného nářadí mínus veškeré překrytí.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="97" domainID="vrEquipmentWidthRows">
+<Name description="Šířka zařízení.  Mostly used with implements.  Většinou se používá u nářadí.  Udává fyzikální šířku nářadí v řádcích plodiny.">šířka zařízení v řádcích</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="98" domainID="vrPathOverlapRows">
+<Name description="Překrytí používané v operacích navádění.  Overlap plus Working width equals implement width in rows.  Překrytí plus Pracovní šířka se rovná šířce nářadí v řádcích.">překrytí trasy navádění v řádcích</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="99" domainID="vrFuelRatePerHour">
+<Name description="Spotřeba paliva">Spotřeba paliva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="100" domainID="vrFuelTotal">
+<Name description="Celkové spotřebované palivo">Celkové spotřebované palivo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="101" domainID="vrTotalYieldVolume">
+<Name description="Objem suchého výnosu">Objem suchého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="102" domainID="vrTotalYieldMass">
+<Name description="Hmotnost suchého výnosu">Hmotnost suchého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="103" domainID="vrTotalYieldWetMass">
+<Name description="Hmotnost mokrého výnosu">Hmotnost mokrého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="104" domainID="vrTotalYieldWetVolume">
+<Name description="Objem výnosu">objem výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="105" domainID="vrTotalYieldBale">
+<Name description="Balík výnosu">Balík výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="106" domainID="vrHarvestMinimumMoisture">
+<Name description="Minimální vlhkost sklizně">Minimální vlhkost sklizně</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="107" domainID="vrHarvestMaximumMoisture">
+<Name description="Maximální vlhkost sklizně">Maximální vlhkost sklizně</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="108" domainID="vrYieldMassMinimum">
+<Name description="Hmotnost suchého výnosu">Hmotnost suchého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="109" domainID="vrYieldMassMaximum">
+<Name description="Hmotnost suchého výnosu">Hmotnost suchého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="110" domainID="vrYieldMassPerAreaMinimum">
+<Name description="Hmotnost suchého výnosu na plochu">Hmotnost suchého výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="111" domainID="vrYieldMassPerAreaMaximum">
+<Name description="Hmotnost suchého výnosu na plochu">Hmotnost suchého výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="112" domainID="vrYieldVolumeMinimum">
+<Name description="Objem suchého výnosu">Objem suchého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="113" domainID="vrYieldVolumeMaximum">
+<Name description="Objem suchého výnosu">Objem suchého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="114" domainID="vrYieldVolumePerAreaMinimum">
+<Name description="Objem výnosu na plochu">objem výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="115" domainID="vrYieldVolumePerAreaMaximum">
+<Name description="Objem výnosu na plochu">objem výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="116" domainID="vrYieldBaleMinimum">
+<Name description="Balík výnosu">Balík výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="117" domainID="vrYieldBaleMaximum">
+<Name description="Balík výnosu">Balík výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="118" domainID="vrYieldBalePerAreaMinimum">
+<Name description="Balík výnosu na plochu">Balík výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="119" domainID="vrYieldWetMassMinimum">
+<Name description="Hmotnost mokrého výnosu">Hmotnost mokrého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="120" domainID="vrYieldWetMassMaximum">
+<Name description="Hmotnost mokrého výnosu">Hmotnost mokrého výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="121" domainID="vrYieldWetMassPerAreaMinumum">
+<Name description="Hmotnost výnosu na plochu">hmotnost výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="122" domainID="vrYieldWetMassPerAreaMaximum">
+<Name description="Hmotnost výnosu na plochu">hmotnost výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="123" domainID="vrYieldWetVolumeMinimum">
+<Name description="Objem výnosu">objem výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="124" domainID="vrYieldWetVolumeMaximum">
+<Name description="Objem výnosu">objem výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="125" domainID="vrYieldWetVolumePerAreaMinimum">
+<Name description="Hmotnost vlhkého výnosu na plochu">Hmotnost vlhkého výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="126" domainID="vrYieldWetVolumePerAreaMaximum">
+<Name description="Hmotnost vlhkého výnosu na plochu">Hmotnost vlhkého výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="127" domainID="vrEastShiftComponent">
+<Name description="Komponenta posunu ve směru osy x">Komponenta posunu ve směru osy x</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="128" domainID="vrNorthShiftComponent">
+<Name description="Komponenta posunu ve směru osy y">Komponenta posunu ve směru osy y</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="129" domainID="vrTurnout">
+<Name description="Procento výkonu použité pro sklízení bavlny">Výkon</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="130" domainID="vrTaskArea">
+<Name description="Plocha pokrytá úkolem nebo oblastí úkolu">Plocha úkolu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="131" domainID="vrBoundaryOffset">
+<Name description="PosunHranice">PosunHranice</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="132" domainID="vrSpatialFieldPerimeter">
+<Name description="ObvodPole">ObvodPole</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="133" domainID="vrAreaProductivity">
+<Name description="Produktivita plochy">Produktivita plochy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="134" domainID="vrMassProductivity">
+<Name description="Produktivita objemu">Produktivita objemu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="135" domainID="vrVolumeProductivity">
+<Name description="Produktivita objemu">ProduktivitaObjemu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="136" domainID="vrBaleProductivity">
+<Name description="Produktivita balíku">ProduktivitaBalíku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="137" domainID="vrSeedsProductivity">
+<Name description="Produktivita osiva">ProduktivitaOsiva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="138" domainID="vrRadiusOffset">
+<Name description="Posun poloměru">Posun poloměru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="139" domainID="vrRadialHeading">
+<Name description="Radiální kurz">Radiální kurz</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="140" domainID="vrRadiusShift">
+<Name description="Posun poloměru">Posun poloměru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="141" domainID="vrRecordingTimeRemaining">
+<Name description="Zbývající doba nahrávání">Zbývající doba nahrávání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="142" domainID="vrReceiverOffset">
+<Name description="LaterálníPosunPřijímače">posun přijímače</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="143" domainID="vrManagementZoneClipping">
+<Name description="Vzdálenost odřezávání použitá pro importy zóny řízení">Vzdálenost odřezávání zóny řízení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="144" domainID="vrTrackRowWidth">
+<Name description="Šířka řádku použitá pro rozestup stopy">Šířka řádku stopy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="145" domainID="vrInoculantDosing">
+<Name description="Dávkování očkovadla">Dávkování očkovadla</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="146" domainID="vrLengthOfCut">
+<Name description="Délka sekání">Délka sekání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="147" domainID="vrHeadland">
+<Name description="Text souvratě">Souvrať</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="148" domainID="vrGenericZoneValue">
+<Name alternateLabel="NA" description="Hodnota obecné zóny">Hodnota obecné zóny</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="149" domainID="vrHarvestMoistureTotal">
+<Name description="Akumulovaná vlhkost celkem">Akumulovaná vlhkost celkem</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="150" domainID="vrHarvestMoistureCount">
+<Name description="Počet měření vlhkosti">Počet měření vlhkosti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="151" domainID="vrCutWidthIncrement">
+<Name description="Vzdálenost, o kterou se má zvýšit nebo snížit šířka sekání.">Inkrement šířky záběru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="152" domainID="vrCutWidthIncrementRows">
+<Name description="Počet řádků, o který se má zvýšit nebo snížit šířka sekání.">Inkrement šířky záběru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="153" domainID="vrBoundaryIntersectionDistance">
+<Name description="Posun vzdálenosti k průsečíku hranice">Posun vzdálenosti k průsečíku hranice</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="155" domainID="vrSequenceActivationDistance">
+<Name description="Posun vzdálenosti od začátku sekvence">Posun vzdálenosti od začátku sekvence</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="156" domainID="vrSequenceActivationTime">
+<Name description="Časový posun od začátku sekvence">Časový posun od začátku sekvence</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="157" domainID="vrSequenceOffsetDistance">
+<Name description="Vzdálenost posunu sekvence z asociované hranice">Vzdálenost posunu sekvence z asociované hranice</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="158" domainID="vrFunctionOffsetDistance">
+<Name description="Vzdálenost posunu funkce z hranice">Vzdálenost posunu funkce z hranice</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="159" domainID="vrFunctionValueSpeed">
+<Name description="Hodnota rychlosti asociovaná s funkcí v sekvenci">Hodnota rychlosti asociovaná s funkcí v sekvenci</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="276" domainID="vrFunctionValueEngineSpeed">
+<Name description="Hodnota otáček motoru asociovaná s funkcí v sekvenci">Hodnota otáček motoru asociovaná s funkcí v sekvenci</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="160" domainID="vrMachineTurnRadius">
+<Name description="Poloměr otáčení stroje">Poloměr otáčení stroje</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="161" domainID="vrImplementTurnRadius">
+<Name description="Poloměr otáčení nářadí">Poloměr otáčení nářadí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="162" domainID="vrInteriorHeadlandOffset">
+<Name description="PosunVnitřníSouvratě">Posun vnitřní souvratě</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="163" domainID="vrPhysicalImplementWidth">
+<Name description="Fyzická šířka nářadí">Fyzická šířka nářadí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="164" domainID="vrImplementLength">
+<Name description="Délka nářadí">Délka nářadí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="165" domainID="vrImplementFrontOffset">
+<Name description="Přední posun nářadí">Přední posun nářadí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="166" domainID="vrGPSToNonSteeringAxleOffset">
+<Name description="Posun GPS k neřízené nápravě">Posun GPS k neřízené nápravě</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="167" domainID="vrNonSteeringAxleToConnectionOffset">
+<Name description="Posun neřízené nápravy k napojení">Posun neřízené nápravy k napojení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="168" domainID="vrLateralControlPointToConnectionOffset">
+<Name description="Laterální posun řídicího bodu nářadí k napojení">Laterální posun řídicího bodu nářadí k napojení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="169" domainID="vrInlineControlPointToConnectionOffset">
+<Name description="Řadový posun řídicího bodu nářadí k napojení">Řadový posun řídicího bodu nářadí k napojení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="170" domainID="vrInRowSteerLimitation">
+<Name description="Omezení řízení v řádku">Omezení řízení v řádku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="171" domainID="vrSlopeCompensation">
+<Name description="Kompenzace sklonu">Kompenzace sklonu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="172" domainID="vrInlineConnectionPointToReceiverOffset">
+<Name description="Řadový bod napojení k posunu přijímače">Řadový bod napojení k posunu přijímače</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="173" domainID="vrLateralConnectionPointToReceiverOffset">
+<Name description="Laterální bod napojení k posunu přijímače">Laterální bod napojení k posunu přijímače</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="174" domainID="vrImplementReceiverHeight">
+<Name description="Výška přijímače nářadí">Výška přijímače nářadí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="175" domainID="vrStarfireHeight">
+<Name description="Výška přijímače StarFire">Výška přijímače StarFire</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="176" domainID="vrStarfireForeAft">
+<Name description="Posun StarFire před/po">Posun StarFire před/po</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="177" domainID="vrBoundaryDistance">
+<Name description="Vzdálenost průsečíku hranice">Vzdálenost průsečíku hranice</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="178" domainID="vrFeelerHoldOffTime">
+<Name description="Doba odložení dotykače">Doba odložení dotykače</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="179" domainID="vrRowSensorOffset">
+<Name description="Posun snímače řádku">Posun snímače řádku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="180" domainID="vrMapDistance">
+<Name description="VzdálenostMapy">VzdálenostMapy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="181" domainID="vrYieldTotalMassForage">
+<Name description="Celková hmotnost výnosu píce">Celková hmotnost výnosu píce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="182" domainID="vrYieldWetMassFrgPerArea">
+<Name description="Hmotnost výnosu píce na plochu">Hmotnost výnosu píce na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="183" domainID="vrYieldMassFrgPerArea">
+<Name description="Hmotnost suchého výnosu píce na plochu">Hmotnost suchého výnosu píce na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="184" domainID="vrModuleDiameter">
+<Name description="Průměr modulu">Průměr modulu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="185" domainID="vrModuleWeight">
+<Name description="Hmotnost modulu měřená v ovladači">Hmotnost modulu měřená v ovladači</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="186" domainID="vrYieldMassForage">
+<Name description="Hmotnost výnosu píce">Hmotnost výnosu píce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="187" domainID="vrSurveyTimeInterval">
+<Name description="Interval doby vyměřování">Interval doby vyměřování</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="188" domainID="vrSurveyDistanceInterval">
+<Name description="Interval vzdálenosti vyměřování">Interval vzdálenosti vyměřování</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="189" domainID="vrSurveyFrequencyInterval">
+<Name description="Interval frekvence vyměřování">Interval frekvence vyměřování</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="190" domainID="vrVDOP">
+<Name description="Vertikální přesnost GPS">Vertikální přesnost GPS</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="191" domainID="vrPitchAngle">
+<Name description="Úhel podélného sklonu zařízení">Úhel podélného sklonu zařízení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="192" domainID="vrRollAngle">
+<Name description="Úhel náklonu zařízení">Úhel náklonu zařízení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="193" domainID="vrEndTurnOffset">
+<Name description="Posun vzdálenosti pro zahájení koncové otočky">Posun vzdálenosti pro zahájení koncové otočky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="194" domainID="vrLeveeDrop">
+<Name description="Změna elevace mezi náspy pole">Změna elevace mezi náspy pole</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="195" domainID="vrYieldWetMassForage">
+<Name description="Vlhká hmotnost výnosu píce">Vlhká hmotnost výnosu píce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="196" domainID="vrYieldTotalWetMassForage">
+<Name description="Celková hmotnost výnosu píce">Celková vlhká hmotnost výnosu píce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="197" domainID="vrYieldMassMinForage">
+<Name description="Minimální hmotnost výnosu píce">Minimální hmotnost výnosu píce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="198" domainID="vrYieldMassMaxForage">
+<Name description="Maximální hmotnost výnosu píce">Maximální hmotnost výnosu píce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="199" domainID="vrYieldMassPerAreaMinForage">
+<Name description="Minimální hmotnost výnosu píce na plochu">Minimální hmotnost výnosu píce na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="200" domainID="vrYieldMassPerAreaMaxForage">
+<Name description="Maximální hmotnost výnosu píce na plochu">Maximální hmotnost výnosu píce na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="201" domainID="vrYieldWetMassMinForage">
+<Name description="Minimální vlhká hmotnost výnosu píce">Minimální vlhká hmotnost výnosu píce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="202" domainID="vrYieldWetMassMaxForage">
+<Name description="Maximální vlhká hmotnost výnosu píce">Maximální vlhká hmotnost výnosu píce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="203" domainID="vrYieldWetMassPerAreaMinForage">
+<Name description="Minimální vlhká hmotnost výnosu píce na plochu">Minimální vlhká hmotnost výnosu píce na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="204" domainID="vrYieldWetMassPerAreaMaxForage">
+<Name description="Maximální vlhká hmotnost výnosu píce na plochu">Maximální vlhká hmotnost výnosu píce na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="205" domainID="vrInoculantDosingTotal">
+<Name description="Dávkování očkovadla celkem">Dávkování očkovadla celkem</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="206" domainID="vrForageMassProductivity">
+<Name description="Produktivita objemu">Produktivita objemu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="207" domainID="vrGear">
+<Name description="Převodový stupeň">Převodový stupeň</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="208" domainID="vrVerticalAccuracyIndicator">
+<Name description="Indikátor vertikální přesnosti">Indikátor vertikální přesnosti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="209" domainID="vrInlineRearConnectionPointToConnectionPointOffset">
+<Name description="Řadová vzdálenost od zadního bodu napojení k přednímu bodu napojení dalšího nářadí.">Řadová vzdálenost od zadního bodu napojení k přednímu bodu napojení dalšího nářadí.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="210" domainID="vrLateralRearConnectionPointToConnectionPointOffset">
+<Name description="Laterální vzdálenost od zadního bodu napojení k přednímu bodu napojení dalšího nářadí.">Laterální vzdálenost od zadního bodu napojení k přednímu bodu napojení dalšího nářadí.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="211" domainID="vrMachineVerticalReceiverOffset">
+<Name description="Vertikální vzdálenost od přijímače GPS na stroji k zemi">Vertikální vzdálenost od přijímače GPS na stroji k zemi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="212" domainID="vrImplementVerticalReceiverToCuttingEdgeOffset">
+<Name description="Vertikální vzdálenost od přijímače GPS na nářadí k hraně sekání">Vertikální vzdálenost od přijímače GPS na nářadí k hraně sekání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="213" domainID="vrImplementVerticalCuttingEdgeToGroundOffset">
+<Name description="Vertikální vzdálenost od hrany sekání na nářadí k zemi">Vertikální vzdálenost od hrany sekání na nářadí k zemi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="214" domainID="vrVerticalProfileGridSize">
+<Name description="Velikost rastru vertikálního profilu">Velikost rastru vertikálního profilu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="215" domainID="vrHorizontalProfileGridSize">
+<Name description="Velikost rastru horizontálního profilu">Velikost rastru horizontálního profilu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="216" domainID="vrLinearFitDrainSlope">
+<Name description="Sklon lineárního odtoku">Sklon lineárního odtoku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="217" domainID="vrMaxBestFitDrainCutDepth">
+<Name description="Maximální hloubka záběru pro nejlepší odtok">Maximální hloubka záběru pro nejlepší odtok</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="218" domainID="vrMinBestFitDrainCutDepth">
+<Name description="Minimální hloubka záběru pro nejlepší odtok">Minimální hloubka záběru pro nejlepší odtok</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="219" domainID="vrRoverDistance">
+<Name description="Vzdálenost od roveru do stanice báze">Vzdálenost od roveru do stanice báze</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="220" domainID="vrPositiveLeveeElevationOffset">
+<Name description="Kladný posun elevace od cílové elevace náspu">Kladný posun elevace od cílové elevace náspu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="221" domainID="vrNegativeLeveeElevationOffset">
+<Name description="Záporný posun elevace od cílové elevace náspu">Záporný posun elevace od cílové elevace náspu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="222" domainID="vrLeveeDial">
+<Name description="Hodnota pro volič náspu">Hodnota pro volič náspu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="223" domainID="vrGPSAccuracy">
+<Name description="Přesnost GPS">Přesnost GPS</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="224" domainID="vrGPSVerticalAccuracy">
+<Name description="Vertikální přesnost GPS">Vertikální přesnost GPS</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="225" domainID="vrFlagArea">
+<Name description="Plocha země, která je označena.">Označená plocha</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="226" domainID="vrNormalizedMapPercent">
+<Name description="Procenta normalizované mapy">Procenta normalizované mapy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="227" domainID="vrRowFinderDisableTime">
+<Name description="Doba vypnutí vyhledávače řádku">Doba vypnutí vyhledávače řádku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="228" domainID="vrSeedsPerBag">
+<Name description="Osivo/pytel">osivo na pytel</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="229" domainID="vrSeedsPerSack">
+<Name description="Osivo/sáček">osivo na sáček</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="230" domainID="vrCommodityPricePerBag">
+<Name description="Cena komodity na pytel">Cena komodity na pytel</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="231" domainID="vrMassPerBag">
+<Name description="Hmotnost/pytel">hmotnost na pytel</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="232" domainID="vrMassPerSack">
+<Name description="Hmotnost/sáček">hmotnost na sáček</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="233" domainID="vrSeedLoadQuantityContainer">
+<Name description="MnožstvíNákladuOsiva">množství nákladu osiva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="234" domainID="vrSeedLoadQuantitySack">
+<Name description="MnožstvíNákladuOsiva">množství nákladu osiva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="235" domainID="vrCutVolume">
+<Name description="Objem záběru na odtoku">Objem záběru na odtoku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="236" domainID="vrMaxBestFitDrainSlope">
+<Name description="Maximální sklon nejlepšího odtoku">Maximální sklon nejlepšího odtoku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="237" domainID="vrMinBestFitDrainSlope">
+<Name description="Minimální sklon nejlepšího odtoku">Minimální sklon nejlepšího odtoku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="238" domainID="vrLinearFitDrainOffset">
+<Name description="Posun lineárního odtoku">Posun lineárního odtoku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="239" domainID="vrFlagLength">
+<Name description="Délka příznaku">Délka příznaku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="240" domainID="vrVerticalAccuracyBarStepSize">
+<Name description="Velikost kroku pruhu vertikální přesnosti">Velikost kroku pruhu vertikální přesnosti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="241" domainID="vrRowGuidanceSensorOffset">
+<Name description="Posun snímače řádkového navádění">Posun snímače řádkového navádění</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="242" domainID="vrTankFillSessionArea">
+<Name description="Informace o ploše">Informace o ploše</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="243" domainID="vrTankVolume">
+<Name description="Objem nádrže">Objem nádrže</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="244" domainID="vrCargoWeightMass">
+<Name description="Transportní hmotnost">Transportní hmotnost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="245" domainID="vrCargoWeightVolume">
+<Name description="Transportní objem">Transportní objem</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="246" domainID="vrTankVolumePercentage">
+<Name description="Hladina v nádrži v procentech">Hladina v nádrži v procentech</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="247" domainID="vrEngineHours">
+<Name description="Hodiny motoru">Hodiny motoru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="248" domainID="vrFuelAmount">
+<Name description="Množství paliva">Množství paliva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="249" domainID="vrBufferZone">
+<Name description="Nárazníková zóna popisuje vzdálenosti k určitým prvkům prostředí, jako jsou vodní toky, chodníky nebo zástavba.">Nárazníková zóna popisuje vzdálenosti k určitým prvkům prostředí, jako jsou vodní toky, chodníky nebo zástavba.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="250" domainID="vrWaitingTime">
+<Name description="Ukazuje minimální čekací dobu od posledního postřiku do zahájení sklizně pro určité produkty.">Ukazuje minimální čekací dobu od posledního postřiku do zahájení sklizně pro určité produkty.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="251" domainID="vrProductContent">
+<Name description="Produkty mohou mít různé složení (přísady, látky), jako je Mg, Mn, Cu, Zn, Br, Cao atd.">Produkty mohou mít různé složení (přísady, látky), jako je Mg, Mn, Cu, Zn, Br, Cao atd.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="252" domainID="vrActiveIngredientMass">
+<Name description="Biologická aktivita pesticidu je svou povahou chemická nebo biologická a je dána aktivní přísadou, která se také nazývá aktivní látka.">Biologická aktivita pesticidu je svou povahou chemická nebo biologická a je dána aktivní přísadou, která se také nazývá aktivní látka.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="253" domainID="vrActiveIngredientVolume">
+<Name description="Biologická aktivita pesticidu je svou povahou chemická nebo biologická a je dána aktivní přísadou, která se také nazývá aktivní látka.">Biologická aktivita pesticidu je svou povahou chemická nebo biologická a je dána aktivní přísadou, která se také nazývá aktivní látka.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="254" domainID="vrProductLimitIndicationCount">
+<Name description="Indikace popisuje rozsah aplikace při použití tohoto produktu. Pro použití určitého produktu musí být například překročen určitý limit výskytu plevele.">Indikace popisuje rozsah aplikace při použití tohoto produktu. Pro použití určitého produktu musí být například překročen určitý limit výskytu plevele.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="255" domainID="vrProductLimitIndicationPercent">
+<Name description="Indikace popisuje rozsah aplikace při použití tohoto produktu. Pro použití určitého produktu musí být například překročen určitý limit výskytu plevele.">Indikace popisuje rozsah aplikace při použití tohoto produktu. Pro použití určitého produktu musí být například překročen určitý limit výskytu plevele.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="256" domainID="vrThousandCropWeight">
+<Name description="Definuje hmotnost 1000 zrn.">Definuje hmotnost 1000 zrn.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="257" domainID="vrPrimingInfoVolPerMass">
+<Name description="Informace o iniciaci se týkají předběžné přípravy použitého osiva.">Informace o iniciaci se týkají předběžné přípravy použitého osiva.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="258" domainID="vrPrimingInfoMassPerMass">
+<Name description="Informace o iniciaci se týkají předběžné přípravy použitého osiva.">Informace o iniciaci se týkají předběžné přípravy použitého osiva.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="259" domainID="vrActiveIngredientVolPerVol">
+<Name description="Biologická aktivita pesticidu je svou povahou chemická nebo biologická a je dána aktivní přísadou, která se také nazývá aktivní látka.">Biologická aktivita pesticidu je svou povahou chemická nebo biologická a je dána aktivní přísadou, která se také nazývá aktivní látka.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="260" domainID="vrGerminationRate">
+<Name description="Poměr klíčivosti definuje schopnost osiva vytvořit klíček.">Poměr klíčivosti definuje schopnost osiva vytvořit klíček.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="261" domainID="vrProvidedAmountVolume">
+<Name description="Definuje dodaný objem produktu pro kalkulačku plnění nádrže.">Definuje dodaný objem produktu pro kalkulačku plnění nádrže.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="262" domainID="vrProvidedAmountMass">
+<Name description="Definuje dodanou hmotnost produktu pro kalkulačku plnění nádrže.">Definuje dodanou hmotnost produktu pro kalkulačku plnění nádrže.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="263" domainID="vrTimeUntilEmpty">
+<Name description="Doba do vyprázdnění palivové nádrže">Doba do vyprázdnění palivové nádrže</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="266" domainID="vrBatteryVoltage">
+<Name description="Napětí baterie">Napětí baterie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="267" domainID="vrEngineCoolantTemperature">
+<Name description="Teplota chladiva motoru">Teplota chladiva motoru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="268" domainID="vrEngineOilPressure">
+<Name description="Tlak motorového oleje">Tlak motorového oleje</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="269" domainID="vrHydraulicOilTemperature">
+<Name description="Teplota hydraulického oleje">Teplota hydraulického oleje</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="271" domainID="vrEngineSpeed">
+<Name description="Otáčky motoru">Otáčky motoru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="272" domainID="vrAirBrakePressure">
+<Name description="Tlak brzdového vzduchu">Tlak brzdového vzduchu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="273" domainID="vrAmbientAirTemperature">
+<Name description="Venkovní teplota vzduchu">Venkovní teplota vzduchu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="277" domainID="vrLFLateralNudgeExtent">
+<Name description="Laterální posun předlohy/následovníka">Laterální posun předlohy/následovníka</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="278" domainID="vrLFInlineNudgeExtent">
+<Name description="Řadový posun předlohy/následovníka">Řadový posun předlohy/následovníka</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="279" domainID="vrTransportDistance">
+<Name description="Transportní vzdálenost">Transportní vzdálenost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="280" domainID="vrTotalInlineDistance">
+<Name description="CelkováŘadováVzdálenost">Celková řadová vzdálenost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="281" domainID="vrTotalLateralDistance">
+<Name description="CelkováLaterálníVzdálenost">Celková laterální vzdálenost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="282" domainID="vrIngredientDensity">
+<Name description="Hustota přísady">Hustota přísady</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="283" domainID="vrProvidedAmountTotalMass">
+<Name description="Definuje dodanou hmotnost produktu pro kalkulačku plnění nádrže.">Definuje dodanou hmotnost produktu pro kalkulačku plnění nádrže.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="284" domainID="vrProvidedAmountTotalVolume">
+<Name description="Definuje dodaný objem produktu pro kalkulačku plnění nádrže.">Definuje dodaný objem produktu pro kalkulačku plnění nádrže.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="285" domainID="vrActiveIngredientMassPerMass">
+<Name description="Biologická aktivita pesticidu je svou povahou chemická nebo biologická a je dána aktivní přísadou, která se také nazývá aktivní látka.">Biologická aktivita pesticidu je svou povahou chemická nebo biologická a je dána aktivní přísadou, která se také nazývá aktivní látka.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="286" domainID="vrSeedSpacing">
+<Name description="Rozestup osiva">Rozestup osiva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="287" domainID="vrDownForceMargin">
+<Name description="Rozpětí síly dolů">Rozpětí síly dolů</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="288" domainID="vrTransmissionOilTemperature">
+<Name description="Teplota převodového oleje">Teplota převodového oleje</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="289" domainID="vrPricePerContainer">
+<Name description="Cena semen za kontejner">Cena semen za kontejner</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="290" domainID="vrPricePerBushel">
+<Name description="Prodejní cena za bušl">Prodejní cena za bušl</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="291" domainID="vrPricePerBag">
+<Name description="Cena semen za sáček">Cena semen za sáček</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="292" domainID="vrPricePerSack">
+<Name description="Cena semen za pytel">Cena semen za pytel</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="293" domainID="vrPriceSolutionLiquid">
+<Name description="CenaZaRoztokFormaKapalina">Cena za roztok - kapalina</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="294" domainID="vrPriceSolutionDry">
+<Name description="CenaZaRoztokFormaSušina">Cena za roztok - sušina</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="295" domainID="vrPriceSolutionGas">
+<Name description="CenaZaRoztokFormaPlyn">Cena za roztok - plyn</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="296" domainID="vrPricePerTime">
+<Name description="Cena za čas">Cena za čas</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="297" domainID="vrPricePerArea">
+<Name description="Cena za plochu">Cena za plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="298" domainID="vrPricePerField">
+<Name description="Cena na pole">Cena na pole</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="299" domainID="vrPricePerBale">
+<Name description="Cena za balík">Cena za balík</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="300" domainID="vrPricePerMassCrop">
+<Name description="Cena za množství plodiny">Cena za množství plodiny</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="301" domainID="vrPricePerMassCotton">
+<Name description="Cena za množství bavlny">Cena za množství bavlny</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="302" domainID="vrMeasuredWeight">
+<Name description="Hmotnost stanovená systémem vážení">Hmotnost stanovená systémem vážení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="303" domainID="vrBaleSize">
+<Name description="Skutečný rozměr balíků">Skutečný rozměr balíků - délka čtyřbokého lisu na balíky nebo průměr válcového lisu na balíky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="304" domainID="vrBaleTotal">
+<Name description="Celkem balíků">Celkový počet balíků</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="305" domainID="vrLookAheadTime">
+<Name description="Doba výhledu">Délka výhledu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="306" domainID="vrTankNumber">
+<Name description="Číslo nádrže">Číslo nádrže</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="307" domainID="vrImplementInGroundTurnRadius">
+<Name description="Nářadí na zemi - poloměr otočky">Nářadí na zemi - poloměr otočky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="308" domainID="vrDeltaT">
+<Name description="Delta T">Delta T</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="309" domainID="vrCountPerArea">
+<Name description="Počet na oblast">počet na oblast</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="310" domainID="vrConstituentCrudeProtein">
+<Name description="Průměrný obsah surového proteinu">Průměrný obsah surového proteinu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="311" domainID="vrConstituentStarch">
+<Name description="Průměrný obsah škrobu">Průměrný obsah škrobu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="312" domainID="vrConstituentAcidDetergentFiber">
+<Name description="Průměrný obsah ADF">Průměrný obsah ADF</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="313" domainID="vrConstituentNeutralDetergentFiber">
+<Name description="Průměrný obsah NDF">Průměrný obsah NDF</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="314" domainID="vrConstituentSugar">
+<Name description="Průměrný obsah cukru">Průměrný obsah cukru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="315" domainID="vrConstituentAsh">
+<Name description="Průměrný obsah popela">Průměrný obsah popela</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="316" domainID="vrConstituentCrudeFat">
+<Name description="Průměrný obsah surového tuku">Průměrný obsah surového tuku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="317" domainID="vrConstituentCrudeFiber">
+<Name description="Průměrný obsah surové vlákniny">Průměrný obsah surové vlákniny</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="318" domainID="vrConstituentLignin">
+<Name description="Průměrný obsah ligninu">Průměrný obsah ligninu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="319" domainID="vrConstituentLactic">
+<Name description="Průměrný obsah mléka">Průměrný obsah mléka</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="320" domainID="vrConstituentAcetic">
+<Name description="Průměrný obsah octa">Průměrný obsah octa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="321" domainID="vrConstituentButyric">
+<Name description="Průměrný obsah másla">Průměrný obsah másla</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="322" domainID="vrConstituentAmmonia">
+<Name description="Průměrný obsah čpavku">Průměrný obsah čpavku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="323" domainID="vrConstituentNonStructuralCarbohydrate">
+<Name description="Průměrný obsah uhlohydrátu bez struktury">Průměrný obsah uhlohydrátu bez struktury</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="324" domainID="vrConstituentProteinSolubility">
+<Name description="Průměrný obsah rozpustných proteinů">Průměrný obsah rozpustných proteinů</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="325" domainID="vrConstituentAdjustedCrudeProtein">
+<Name description="Průměrný obsah upravených surových proteinů">Průměrný obsah upravených surových proteinů</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="326" domainID="vrConstituentRumenUndegradableProtein">
+<Name description="Průměrný obsah nerozložitelných proteinů">Průměrný obsah nerozložitelných proteinů</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="327" domainID="vrConstituentNonProteinNitrogen">
+<Name description="Průměrný obsah NPN">Průměrný obsah NPN</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="328" domainID="vrConstituentTotalNitrogenKjeldahl">
+<Name description="Průměrný obsah celkového množství dusíku (Kjeldahl)">Průměrný obsah celkového množství dusíku (Kjeldahl)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="329" domainID="vrConstituentNitrogenNitrate">
+<Name description="Průměrný obsah celkového množství dusíku (dusičnany)">Průměrný obsah celkového množství dusíku (dusičnany)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="330" domainID="vrConstituentNitrogenAmmonium">
+<Name description="Průměrný obsah celkového množství dusíku (amonium)">Průměrný obsah celkového množství dusíku (amonium)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="331" domainID="vrConstituentDigestibleFat">
+<Name description="Průměrný obsah stravitelného tuku">Průměrný obsah stravitelného tuku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="332" domainID="vrConstituentNeutralDetergentFiberDigestibility">
+<Name description="Průměrný obsah stravitelného NDF">Průměrný obsah stravitelného NDF</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="333" domainID="vrConstituentCellulose">
+<Name description="Průměrný obsah celulózy">Průměrný obsah celulózy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="334" domainID="vrConstituentHemicellulose">
+<Name description="Průměrný obsah hemicelulózy">Průměrný obsah hemicelulózy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="335" domainID="vrConstituentTotalDigestibleNutrients">
+<Name description="Průměrná celková hodnota stravitelných živin">Průměrná celková hodnota stravitelných živin</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="336" domainID="vrConstituentNetEnergyForLactation">
+<Name description="Průměrný obsah čisté energie na laktaci">Průměrný obsah čisté energie na laktaci</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="337" domainID="vrConstituentNetEnergyForMaintenance">
+<Name description="Průměrný obsah čisté energie na výživu">Průměrný obsah čisté energie na výživu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="338" domainID="vrConstituentNetEnergyForGain">
+<Name description="Průměrný obsah čisté energie na přírůstek">Průměrný obsah čisté energie na přírůstek</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="339" domainID="vrConstituentDigestibleEnergy">
+<Name description="Průměrný obsah stravitelné energie">Průměrný obsah stravitelné energie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="340" domainID="vrConstituentMetabolizableEnergy">
+<Name description="Průměrý obsah metabolizovatelné energie">Průměrý obsah metabolizovatelné energie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="341" domainID="vrConstituentOil">
+<Name description="Průměrný obsah oleje">Průměrný obsah oleje</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="342" domainID="vrConstituentSuspendedNitrogen">
+<Name description="Průměrný obsah pozastaveného dusíku">Průměrný obsah pozastaveného dusíku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="343" domainID="vrConstituentTotalPhosphorus">
+<Name description="Průměrný obsah celkového množství fosforu">Průměrný obsah celkového množství fosforu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="344" domainID="vrConstituentSuspendedPhosphorus">
+<Name description="Průměrný obsah pozastaveného fosforu">Průměrný obsah pozastaveného fosforu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="345" domainID="vrConstituentPotassium">
+<Name description="Průměrný obsah draslíku">Průměrný obsah draslíku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="346" domainID="vrConstituentSodium">
+<Name description="Průměrný obsah sodíku">Průměrný obsah sodíku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="347" domainID="vrConstituentMagnesium">
+<Name description="Průměrný obsah hořčíku">Průměrný obsah hořčíku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="348" domainID="vrConstituentCalcium">
+<Name description="Průměrný obsah vápníku">Průměrný obsah vápníku</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="349" domainID="vrConstituentSulphur">
+<Name description="Průměrný obsah síry">Průměrný obsah síry</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="350" domainID="vrConstituentMoistureReferenceA">
+<Name description="Průměrný obsah referenční vlhkosti A">Průměrný obsah referenční vlhkosti A</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="351" domainID="vrConstituentMoistureReferenceB">
+<Name description="Průměrný obsah referenční vlhkosti B">Průměrný obsah referenční vlhkosti B</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="352" domainID="vrConstituentMoistureReferenceC">
+<Name description="Průměrný obsah referenční vlhkosti C">Průměrný obsah referenční vlhkosti C</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="353" domainID="vrConstituentInvalid">
+<Name description="Neplatný prvek">Neplatný prvek</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="354" domainID="vrConstituentNitrogenAmmonia">
+<Name description="Průměrný obsah dusíku (čpavek)">Průměrný obsah dusíku (čpavek)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="355" domainID="vrConstituentPhosphorusAllTypes">
+<Name description="Průměrný obsah fosforu (všechny typy)">Průměrný obsah fosforu (všechny typy)</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="356" domainID="vrInoculantDosingRateLow">
+<Name description="Dávkování očkovací látky je nízké">Dávkování očkovací látky je nízké</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="357" domainID="vrInoculantDosingRateLowTotal">
+<Name description="Celkové dávkování očkovací látky je nízké">Celkové dávkování očkovací látky je nízké</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="358" domainID="vrFuelVolumePerWetMass">
+<Name description="Objem paliva na mokrou hmotnost">objem paliva na mokrou hmotnost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="359" domainID="vrFuelVolumePerDryMass">
+<Name description="Objem paliva na suchou hmotnost">objem paliva na suchou hmotnost</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="360" domainID="vrWetMassPerFuelVolume">
+<Name description="Mokrá hmotnost na objem paliva">mokrá hmotnost na objem paliva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="361" domainID="vrDryMassPerFuelVolume">
+<Name description="Suchá hmotnost na objem paliva">suchá hmotnost na objem paliva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="362" domainID="vrManureTotalSolids">
+<Name description="Celkem pevného hnoje">Celkem pevného hnoje</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="363" domainID="vrTillageDepthMeasured">
+<Name description="ZměřenáHloubkaObdělávání">změřená hloubka obdělávání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="364" domainID="vrTillageDepthControl">
+<Name description="OvládáníHloubkyobdělávání">Ovládání hloubky obdělávání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="365" domainID="vrCircleEdgeRadius">
+<Name description="Posun poloměru">Posun poloměru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="366" domainID="vrABCurveRadialShift">
+<Name description="Posun poloměru">Posun poloměru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="367" domainID="vrABCurveRadialTotalShift">
+<Name description="Celkový radiální posun">Celkový radiální posun</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="368" domainID="vrTillagePressureTarget">
+<Name description="CílovýTlakObdělávání">cílový tlak obdělávání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="369" domainID="vrTillagePressureMeasured">
+<Name description="ZměřenýTlakObdělávání">Změřený tlak obdělávání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="370" domainID="vrFuelProductivity">
+<Name description="Produktivita paliva">Produktivita paliva</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="371" domainID="vrGuidanceShift">
+<Name description="Posun stopy">Krok k posunutí vodicí stopy, pokud uživatel klikne na tlačítko posunu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="372" domainID="vrRemainingABLineDistance">
+<Name description="Zbývající vzdálenost AB linie">Zbývající vzdálenost nutná k dokončení současné linie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="374" domainID="vrTrackSpacingGap">
+<Name description="Mezera mezi rozestupem stop">Překrývání (nebo mezera) mezi rozestupem stop a šířkou nářadí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="375" domainID="vrSlowSpeed">
+<Name description="Pomalá rychlost">Rychlost během pomalé jízdy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="376" domainID="vrActualSeedSpacingCV">
+<Name description="Skutečný variační koeficient rozteče setí">Skutečný variační koeficient rozteče setí specifikovaný v procentech</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="377" domainID="vrPlantingSingulation">
+<Name description="Jednoduché">Procento jednoduchých</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="378" domainID="vrPlantingSkips">
+<Name description="Vynechání">Procento vynechání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="379" domainID="vrPlantingDoubles">
+<Name description="Zdvojení">Procento zdvojení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="380" domainID="vrDownForceApplied">
+<Name description="Aplikovaná síla dolů">Aplikovaná síla dolů</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="381" domainID="vrGroundContact">
+<Name description="Kontakt se zemí">Kontakt se zemí</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="382" domainID="vrRideQuality">
+<Name description="Kvalita jízdy">Kvalita jízdy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="383" domainID="vrTillagePressureControl">
+<Name description="Ovládání tlaku obdělávání">ovládání tlaku obdělávání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="384" domainID="vrHarvestTrash">
+<Name description="Sklizňové zbytky">Koš</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="385" domainID="vrYieldMassCane">
+<Name description="Hmotnost výnosu cukr.třtiny">Řízek</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="386" domainID="vrYieldMassCanePerArea">
+<Name description="Hmotnost výnosu cukr.třtiny na plochu">Řízků na oblast</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="387" domainID="vrYieldRawMassCane">
+<Name description="Hmotnost výnosu surové cukr.třtiny">Plodina</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="388" domainID="vrYieldRawMassCanePerArea">
+<Name description="Hmotnost výnosu surové cukr.třtiny na plochu">Plodina na oblast</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="389" domainID="vrCaneBilletLossMass">
+<Name description="Cane billet loss mass">Billet Loss</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="390" domainID="vrCaneResidueMass">
+<Name description="Cane residue mass">Residue</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="391" domainID="vrYieldRawMass">
+<Name description="Raw yield mass">Crop</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="392" domainID="vrYieldRawMassPerArea">
+<Name description="Raw yield mass per area">Crop per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="500" domainID="vrSCTurnOnTime">
+<Name description="Mechanická doba prodlevy při spuštění">Latence</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="501" domainID="vrSCTurnOffTime">
+<Name description="Mechanická doba prodlevy vypnutí mechaniky">Latence</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="503" domainID="vrAppliedYieldLatency">
+<Name description="Časová prodleva aplikovaná na data.">Latence aplikovaná na výnos</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="504" domainID="vrAppliedMoistureLatency">
+<Name description="Časová prodleva aplikovaná na data.">Aplikovaná latence vlhkosti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="505" domainID="vrHeaderHours">
+<Name description="Provozní čas žacího válu">Provozní čas žacího válu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="506" domainID="vrSeparatorHours">
+<Name description="Hodiny separátoru">Hodiny separátoru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="507" domainID="vrDeltaDistance">
+<Name description="Delta vzdálenosti">Delta vzdálenosti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="508" domainID="vrDeltaArea">
+<Name description="Delta plochy">Delta plochy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="509" domainID="vrDeltaAppliedVolume">
+<Name description="Delta objemu">Delta aplikovaného objemu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="510" domainID="vrHarvestWetMassFlow">
+<Name description="Hmot.průtok mokr.výnosu">Hmot.průtok mokr.výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="511" domainID="vrSolutionSystemFlowRatePerMinute">
+<Name description="Průtok systému roztoku za minutu">Průtok systému roztoku za minutu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="512" domainID="vrSCTuningDistance">
+<Name description="Vzdálenost ladění ovládání sekce">Vzdálenost ladění ovládání sekce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="513" domainID="vrSCTuningSpeed">
+<Name description="Rychlost ladění ovládání sekce">Rychlost ladění ovládání sekce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="514" domainID="vrFanSpeedControl">
+<Name description="Ovládání rychlosti ventilátoru">Ovládání rychlosti ventilátoru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="515" domainID="vrFanSpeedTarget">
+<Name description="Cílová rychlost ventilátoru">Cílová rychlost ventilátoru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="516" domainID="vrFanSpeedMeasured">
+<Name description="Změřená rychlost ventilátoru">Změřená rychlost ventilátoru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="517" domainID="vrThreshingSpeedControl">
+<Name description="Ovládání rychlosti mlátičky">Ovládání rychlosti mlátičky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="518" domainID="vrThreshingSpeedTarget">
+<Name description="Cílová rychlost mlátičky">Cílová rychlost mlátičky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="519" domainID="vrThreshingSpeedMeasured">
+<Name description="Změřená rychlost mlátičky">Změřená rychlost mlátičky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="520" domainID="vrThreshingClearanceControl">
+<Name description="Ovládání štěrbiny mlátičky">Ovládání štěrbiny mlátičky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="521" domainID="vrThreshingClearanceTarget">
+<Name description="Cílová štěrbina mlátičky">Cílová štěrbina mlátičky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="522" domainID="vrThreshingClearanceMeasured">
+<Name description="Změřená štěrbina mlátičky">Změřená štěrbina mlátičky</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="523" domainID="vrChaferPositionControl">
+<Name description="Ovládání pol.úhrab.síta">Ovládání pol.úhrab.síta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="524" domainID="vrChafferPositionTarget">
+<Name description="Cílová pol.úhrab.síta">Cílová pol.úhrab.síta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="525" domainID="vrChafferPositionMeasured">
+<Name description="Změřená pol.úhrab.síta">Změřená pol.úhrab.síta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="526" domainID="vrSievePositionControl">
+<Name description="Ovládání polohy síta">Ovládání polohy síta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="527" domainID="vrSievePositionTarget">
+<Name description="Cílová poloha síta">Cílová poloha síta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="528" domainID="vrSievePositionMeasured">
+<Name description="Změřená poloha síta">Změřená poloha síta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="541" domainID="vrPrescriptionRateMultiplier">
+<Name description="Koeficient rychlosti přednastavení">Koeficient se aplikuje na rychlosti předpisu dříve, než budou odeslány do řídicí jednotky.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="542" domainID="vrPrescriptionLookAheadTime">
+<Name description="Doba výhledu předpisu">Množství času k promítnutí podél současné cesty při hledání a odesílání rychlostí předpisu řídicí jednotce</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="543" domainID="vrYieldCalibration">
+<Name description="Faktor kalibrace výnosu">Faktor kalibrace výnosu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="544" domainID="vrAvgYieldWetMassPerArea">
+<Name description="Prům.hmotnost mokrého výnosu na plochu">Prům.hmotnost mokrého výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="545" domainID="vrAvgYieldMassPerArea">
+<Name description="Prům.hmotnost suchého výnosu na plochu">Prům.hmotnost suchého výnosu na plochu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="546" domainID="vrAvgHarvestMoisture">
+<Name description="Prům. vlhkost sklizně">Prům. vlhkost sklizně</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="547" domainID="vrPlantingSkipsCount">
+<Name description="Vynechání">Počet vynechání</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="548" domainID="vrPlantingDoublesCount">
+<Name description="Zdvojení">Počet zdvojení</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="549" domainID="vrDistanceFromTrack">
+<Name description="VzdálenostOdStopy">Vzdálenost traktoru od nastavené stopy</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="550" domainID="vrEngineLoadCurrentSpeed">
+<Name description="Zatížení motoru při aktuální rychlosti">Poměr skutečného krouticího momentu motoru (indikovaného) k maximálnímu uvedenému krouticímu momentu při aktuální rychlosti motoru, sníženo na nulový krouticí moment během brzdění motorem.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="551" domainID="vrProductIndex">
+<Name description="Index produktu.">Index produktu se používá při přiřazování produktů věcem jako jsou řádky, zásobníky, nádrže atd. ke komunikaci prostřednictvím sběrnice CAN a prostřednictvím pracovních dat modelu zařízení.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="552" domainID="vrDeltaAppRateMass">
+<Name description="Delta aplikované hmotnosti výrobku">Delta aplikované hmotnosti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="553" domainID="vrSprayBoomHeight">
+<Name description="Výška ramena postřikovače.">Výška ramena postřikovače.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="554" domainID="vrAverageQuantityAppliedVolume">
+<Name description="PrůměrnéMnožstvíAplikovanéhoObjemu">Průměrné množství aplikovaného objemu.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="555" domainID="vrCropIntensityIndex">
+<Name description="Index intenzity plodiny">Intenzita plodiny měřená snímači výnosu sekce plochy.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="556" domainID="vrCropIntensityIndexPerArea">
+<Name description="Intenzita plodiny na oblast">Index intenzity plodiny normalizovaný podle pokryté plochy.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="557" domainID="vrHeaderBackshaftSprocketToothCount">
+<Name description="Počet ozub.kol zadního hřídele žacího válu">Počet ozub.kol zadního hřídele žacího válu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="558" domainID="vrHeaderDriveshaftSprocketToothCount">
+<Name description="Počet zubů ozub.kol hnacího hřídele žacího válu">Počet zubů ozub.kol hnacího hřídele žacího válu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="559" domainID="vrHeaderBackshaftSpeed">
+<Name description="Otáčky zadního hřídele žacího válu">Otáčky zadního hřídele žacího válu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="560" domainID="vrWheelSpeed">
+<Name description="Rychlost kol">Rychlost kol</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="561" domainID="vrRadarSpeed">
+<Name description="Rychlost radaru">Rychlost radaru</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="562" domainID="vrWheelSlip">
+<Name description="Prokluz kola.">Prokluz kola.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="563" domainID="vrSprayPressure">
+<Name description="Tlak postřiku">Tlak kapaliny v systému výrobku změřený v rozváděcí přírubě nebo hlavním rozváděcím bodu.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="564" domainID="vrActiveContainer">
+<Name description="The Active Bin.">The active container / bin when using equipment that supports features such as bin chaining where one bin might be active until it is empty and then the equipment will automaticall switch to the next bin with the same product.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="565" domainID="vrMachineSelectedSpeed">
+<Name description="Machine selected speed">The speed selected and provided by the equipment itself.  When present, this overrides any other speeds on the display.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="566" domainID="vrAppRateVolumePerDistanceControl">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="567" domainID="vrAppRateVolumePerDistanceTarget">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="568" domainID="vrAppRateVolumePerDistanceMeasured">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="569" domainID="vrISODVCElementNumber">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="570" domainID="vrVisionRowSpacing">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="571" domainID="vrVisionCameraHeight">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="572" domainID="vrISOTaskId">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="573" domainID="vrISOMeasureOnTimeInterval">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="574" domainID="vrISOMeasureOnDistanceInterval">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="575" domainID="vrISOMeasureMinThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="576" domainID="vrISOMeasureMaxThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="577" domainID="vrISOMeasureChangeThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="578" domainID="vrISOMeasureDefaultSet">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="600" domainID="vrAppRateVolumePerHour">
+<Name description="PřibRychObj za hodinu">PřibRychObj za hodinu</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="601" domainID="vrISOImpApplicationTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="602" domainID="vrISOImpApplicationTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="603" domainID="vrISOImpApplicationTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="604" domainID="vrISOImpYieldTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="605" domainID="vrISOImpYieldTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="606" domainID="vrISOImpYieldTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="607" domainID="vrISOImpTotalArea">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="608" domainID="vrISOImpEffectiveTotalDistance">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="609" domainID="vrISOImpIneffectiveTotalDistance">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="610" domainID="vrISOImpEffectiveTotalTime">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="611" domainID="vrISOImpIneffectiveTotalTime">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="612" domainID="vrISOImpTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="613" domainID="vrISOImpYieldTotalDryMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="614" domainID="vrISOImpYieldTotalSeedCottonMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="615" domainID="vrISOImpYieldTotalLintCottonMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="616" domainID="vrISOImpPrecutTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="617" domainID="vrISOImpUncutTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="618" domainID="vrISOImpEffectiveTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="619" domainID="vrISOImpIneffectiveTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="620" domainID="vrISOImpEffectiveTotalDieselExhaustFluid">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="621" domainID="vrISOImpIneffectiveTotalDieselExhaustFluid">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="622" domainID="vrISOImpFrontPTOHours">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="623" domainID="vrISOImpRearPTOHours">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="624" domainID="vrISOImpApplicationTotalVolumeMl">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="625" domainID="vrISOImpApplicationTotalMassG">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="626" domainID="vrISOImpApplicationOfNitrogen">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="627" domainID="vrISOImpApplicationOfAmmonium">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="628" domainID="vrISOImpApplicationOfPhosphor">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="629" domainID="vrISOImpApplicationOfPotassium">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="630" domainID="vrISOImpApplicationOfDryMatter">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="631" domainID="vrISOImpTotalBaleLength">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="632" domainID="vrISOImpTotalDieselExhaustFluidConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="633" domainID="vrISOImpLoadedTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="634" domainID="vrISOImpUnloadedTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="635" domainID="vrISOImpLoadedTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="636" domainID="vrISOImpUnloadedTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="637" domainID="vrISOImpLoadedTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="638" domainID="vrISOImpUnloadedTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="639" domainID="vrISOImpTotalRevolutionsInFractionalRevolutions">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="640" domainID="vrISOImpTotalRevolutionsInCompleteRevolutions">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="641" domainID="vrDeltaSeedRateSeeds">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="642" domainID="vrDeltaSeedRateMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="643" domainID="vrNozzleTurretPositionsTotal">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="644" domainID="vrNozzleTurretPosition">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="645" domainID="vrNozzleTurretPositionA">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtApplicationMethod" domainTag="1001">
+<Name description="MetodaAplikace">MetodaAplikace</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5041" domainID="dti1InchAway">
+<Name description="na 1 coul">na 1 coul</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5042" domainID="dti2InchAway">
+<Name description="na 2 couly">na 2 couly</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5043" domainID="dtiAerial">
+<Name description="Výškový">Výškový</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5044" domainID="dtiBanding">
+<Name description="V pruhu">V pruhu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5045" domainID="dtiChemigation">
+<Name description="Závlaha s chem. úpravou">Závlaha s chem. úpravou</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5001" domainID="dtiInFurrow">
+<Name description="V brázdě">V brázdě</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5047" domainID="dtiInjected">
+<Name description="Vstřikováno">Vstřikováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5039" domainID="dtiSurface">
+<Name description="Povrch">Povrch</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5049" domainID="dtiTBand">
+<Name description="T pruh">T pruh</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5050" domainID="dtiBackpackSpray">
+<Name description="Zádový postřik">Zádový postřik</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5051" domainID="dtiBand">
+<Name description="Pruh">Pruh</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5052" domainID="dtiHoodedSprayer">
+<Name description="Zakrytý postřikovač">Zakrytý postřikovač</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5053" domainID="dtiImpregnate">
+<Name description="Impregnace">Impregnace</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5054" domainID="dtiPlanter">
+<Name description="Secí stroj">Secí stroj</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5055" domainID="dtiPostDirSpray">
+<Name description="Následný přímý postřik">Následný přímý postřik</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5056" domainID="dtiRopeWick">
+<Name description="Lanový knot">Lanový knot</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5057" domainID="dtiSideDress">
+<Name description="MeziřádkovéHnojení">MeziřádkovéHnojení</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5040" domainID="dtiBroadcast">
+<Name description="Osévání">Osévání</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5059" domainID="dtiMisApplication">
+<Name description="Chybná aplikace">Chybná aplikace</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5060" domainID="dtiCoApplication">
+<Name description="Současná aplikace">Současná aplikace</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5061" domainID="dtiAirBlast">
+<Name description="Dmýchání">Dmýchání</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5062" domainID="dtiElectroStatic">
+<Name description="Elektrostatický">Elektrostatický</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5063" domainID="dtiGround">
+<Name description="Země">Země</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5064" domainID="dtiFertigation">
+<Name description="Hnojivá závlaha">Hnojivá závlaha</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtRecordingStatus" domainTag="1003">
+<Name description="Slouží k určení stavu záznamu.  Hodnoty mohou být Zap a Vyp.">Stav nahrávání sekce</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5003" domainID="dtiRecordingStatusOn">
+<Name description="Zapnuto">Zapnuto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5004" domainID="dtiRecordingStatusOff">
+<Name description="Vypnuto">Vypnuto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWindDirection" domainTag="1004">
+<Name description="Směr větru v textových inkrementech">Směr větru</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5005" domainID="dtiWindDirectionN">
+<Name description="Sever">S</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5006" domainID="dtiWindDirectionS">
+<Name description="Jih">J</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5007" domainID="dtiWindDirectionE">
+<Name description="Východ">V</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5008" domainID="dtiWindDirectionW">
+<Name description="Západ">Z</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5009" domainID="dtiWindDirectionNE">
+<Name description="Severovýchod">SV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5010" domainID="dtiWindDirectionSE">
+<Name description="Jihovýchod">JV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5011" domainID="dtiWindDirectionSW">
+<Name description="Jihozápad">JZ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5012" domainID="dtiWindDirectionNW">
+<Name description="Severozápad">SZ</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtABLineSaveMethod" domainTag="1005">
+<Name description="Metoda uložení, která byla použita pro vytvoření Linie AB.">Metoda uložení</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5014" domainID="dtiABLineMethodBPoint">
+<Name description="Metoda uložení Linie AB pomocí bodu A a B">A + B</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5015" domainID="dtiABLineMethodHeading">
+<Name description="Metoda uložení Linie AB pomocí bodu A a kurzu">A + Kurz</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5016" domainID="dtiABLineMethodManualEntry">
+<Name description="Metoda uložení Linie AB pomocí ručního zadání, bodu A a bodu B">ZŠ/ZD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5017" domainID="dtiABLineMethodAutomaticB">
+<Name description="Metoda uložení Linie AB automaticky B">Auto B</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5088" domainID="dtiABLineMethodLatLonHeading">
+<Name description="Metoda uložení Linie AB pomocí ručního zadání bodu A a kurzu">ZŠ/ZD + Kurz</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSkyCondition" domainTag="1006">
+<Name description="Oblačnost">Oblačnost</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5019" domainID="dtiSunny">
+<Name description="Jasno">Slunečno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5020" domainID="dtiCloudy">
+<Name description="Oblačno">Oblačno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5021" domainID="dtiPartlyCloudy">
+<Name description="Polojasno">Polojasno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5022" domainID="dtiRain">
+<Name description="Zataženo s deštěm">Déšť</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5023" domainID="dtiSnow">
+<Name description="Zataženo se sněhem">Sníh</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5024" domainID="dtiClear">
+<Name description="Jasná obloha">Smazat</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtInlineOffsetType" domainTag="1007">
+<Name description="Řadový posun">Řadový posun</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5025" domainID="dtiInlineFront">
+<Name description="Řadový vpředu">Řadový vpředu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5026" domainID="dtiInlineCenter">
+<Name description="Řadový ve středu">Řadový ve středu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5027" domainID="dtiInlineRear">
+<Name description="Řadový vzadu">Řadový vzadu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLateralOffsetType" domainTag="1008">
+<Name description="Laterální posun">Laterální posun</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5028" domainID="dtiLateralLeft">
+<Name description="Laterální vlevo">Laterální vlevo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5029" domainID="dtiLateralCenter">
+<Name description="Laterální ve středu">Laterální ve středu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5030" domainID="dtiLateralRight">
+<Name description="Laterální vpravo"> Laterální vpravo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHitchType" domainTag="1009">
+<Name description="Typ závěsu">Typ závěsu</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5031" domainID="dtiThreePoint">
+<Name description="Zadní pevný 3-bodový">Zadní pevný 3-bodový</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5146" domainID="dtiRearTwoPoint">
+<Name description="Zadní otočný 2-bodový">Zadní otočný 2-bodový</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5032" domainID="dtiDrawbar">
+<Name description="Zadní otočná tažná tyč">Zadní otočná tažná tyč</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5147" domainID="dtiRearPivotWagonHitch">
+<Name description="Zadní otočný vlečný závěs">Zadní otočný vlečný závěs</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5148" domainID="dtiFrontRigidThreePoint">
+<Name description="Přední pevný 3-bodový">Přední pevný 3-bodový</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSoilMoisture" domainTag="1010">
+<Name description="Vlhkost půdy">Vlhkost půdy</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5033" domainID="dtiCloddy">
+<Name description="Hroudovitá">Hroudovitá</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5034" domainID="dtiDry">
+<Name description="Suchý">Suchý</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5035" domainID="dtiFrozen">
+<Name description="Zmrzlá">Zmrzlá</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5036" domainID="dtiIdeal">
+<Name description="Ideální">Ideální</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5037" domainID="dtiMuddy">
+<Name description="Bahnitá">Bahnitá</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5038" domainID="dtiWet">
+<Name description="Mokrá">Mokrá</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSeedingApplicationMethod" domainTag="1011">
+<Name description="Metoda aplikace setí">Metoda aplikace setí</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5065" domainID="dtiBroadcastSeeding">
+<Name description="Osévání">Osévání</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5066" domainID="dtiInGround">
+<Name description="V zemi">V zemi</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtOperationClass" domainTag="1012">
+<Name description="Klasifikace operace">Klasifikace operace</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5070" domainID="dtiTillage">
+<Name description="OperaceObdělávání">OperaceObdělávání</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5071" domainID="dtiHarvest">
+<Name description="OperaceSklízení">OperaceSklízení</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5072" domainID="dtiSeeding">
+<Name description="OperaceSetí">OperaceSetí</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5073" domainID="dtiApplication">
+<Name description="OperaceAplikace">OperaceAplikace</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5074" domainID="dtiOther">
+<Name description="JináOperace">JináOperace</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5152" domainID="dtiSurfaceWaterManagement">
+<Name description="Operace řízení povrchové vody">OperŘízeníPovrchovéVody</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSensorStatus" domainTag="1013">
+<Name description="Stav snímače">Stav snímače</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5067" domainID="dtiSensorOn">
+<Name description="Stav snímače - zap">Zapnuto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5068" domainID="dtiFail">
+<Name description="Stav snímače - chyba">Chyba</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5069" domainID="dtiSensorOff">
+<Name description="Stav snímače - vyp">Vypnuto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPrescriptionState" domainTag="1014">
+<Name description="Stav předpisu">Stav předpisu</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5075" domainID="dtiPrescriptionUsed">
+<Name description="Předpis - použito">Použito</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5076" domainID="dtiPrescriptionNotUsed">
+<Name description="Předpis - nepoužito">Nepoužito</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5077" domainID="dtiPrescriptionOverridden">
+<Name description="Předpis - přepsáno">Přepsáno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLoadType" domainTag="1015">
+<Name description="Typ nákladu sklizně">Typ nákladu sklizně</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5078" domainID="dtiLoadField">
+<Name description="Pole">Pole</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5079" domainID="dtiLoadTruck">
+<Name description="Nákladní auto">Nákladní auto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5080" domainID="dtiLoadTank">
+<Name description="Nádrž">Nádrž</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCottonLoadType" domainTag="1016">
+<Name description="Typ nákladu sklizně bavlny">Typ nákladu sklizně bavlny</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5082" domainID="dtiCottonLoadField">
+<Name description="Pole">Pole</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5083" domainID="dtiCottonLoadModule">
+<Name description="Pravoúhlý modul">Pravoúhlý modul</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5084" domainID="dtiCottonLoadBasket">
+<Name description="Koš">Koš</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5085" domainID="dtiCottonLoadRoundModule">
+<Name description="Kulatý modul">Kulatý modul</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCircleSaveMethod" domainTag="1017">
+<Name description="Metoda uložení, která byla použita pro vytvoření kružnice.">Metoda uložení</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5086" domainID="dtiCircleMethodDriving">
+<Name description="Metoda uložení kružnice objetím kružnice">Objet kružnici</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5087" domainID="dtiCircleMethodLatLong">
+<Name description="Metoda uložení kružnice pomocí ručního zadání, střed kružnice">ZŠ/ZD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtMaterialClass" domainTag="1018">
+<Name description="Třída materiálu produktu">Třída materiálu</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5089" domainID="dtiMaterialClassDry">
+<Name description="Suchý produkt">Suchý</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5090" domainID="dtiMaterialClassLiquid">
+<Name description="Mokrý produkt">Mokrý</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionType" domainTag="1019">
+<Name description="Typ funkce hranice">Typ funkce</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5091" domainID="dtiFunctionModifyGroundSpeed">
+<Name description="Změnit pojezdovou rychlost">Změnit pojezdovou rychl.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5092" domainID="dtiFunctionAdjustHitch">
+<Name description="Dolní závěs">Upravit závěs</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5195" domainID="dtiFunctionAdjustFrontHitch">
+<Name description="Dolní závěs">Upravit závěs</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5093" domainID="dtiFunctionChangePTO">
+<Name description="Změnit PTO">Změnit PTO</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5094" domainID="dtiFunctionChangeDiffLock">
+<Name description="Změnit závěr diferenciálu">Změnit závěr diferenciálu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5095" domainID="dtiFunctionChange4WD">
+<Name description="Změnit 4WD">Změnit 4WD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5096" domainID="dtiFunctionChangeSCV1">
+<Name description="SCV I">SCV I</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5097" domainID="dtiFunctionChangeSCV2">
+<Name description="SCV II">SCV II</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5098" domainID="dtiFunctionChangeSCV3">
+<Name description="SCV III">SCV III</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5099" domainID="dtiFunctionChangeSCV4">
+<Name description="SCV IV">SCV IV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5100" domainID="dtiFunctionChangeSCV5">
+<Name description="SCV V">SCV V</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5101" domainID="dtiFunctionChangeSCV6">
+<Name description="SCV VI">SCV VI</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5179" domainID="dtiFunctionChangeSCV7">
+<Name description="SCV VII">SCV VII</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5180" domainID="dtiFunctionChangeSCV11">
+<Name description="SCV XI">SCV XI</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5181" domainID="dtiFunctionChangeSCV12">
+<Name description="SCV XII">SCV XII</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5182" domainID="dtiFunctionChangeSCV13">
+<Name description="SCV XIII">SCV XIII</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5193" domainID="dtiFunctionChangeSCV14">
+<Name description="SCV XIV">SCV XIV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5194" domainID="dtiFunctionChangeSCV15">
+<Name description="SCV XV">SCV XV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5183" domainID="dtiFunctionModifyFieldCruise">
+<Name description="Změnit otáčky motoru">Změnit otáčky motoru</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5132" domainID="dtiFunctionChangeAccuDepth1">
+<Name description="AccuDepth I">AccuDepth I</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5133" domainID="dtiFunctionChangeAccuDepth2">
+<Name description="AccuDepth II">AccuDepth II</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5134" domainID="dtiFunctionChangeAccuDepth3">
+<Name description="AccuDepth III">AccuDepth III</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5135" domainID="dtiFunctionChangeAccuDepth4">
+<Name description="AccuDepth IV">AccuDepth IV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5136" domainID="dtiFunctionChangeAccuDepth5">
+<Name description="AccuDepth V">AccuDepth V</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5137" domainID="dtiFunctionChangeAccuDepth6">
+<Name description="AccuDepth VI">AccuDepth VI</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5138" domainID="dtiFunctionChangeAPS">
+<Name description="APS">APS</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5149" domainID="dtiFunctionChangeGear">
+<Name description="Převodový stupeň">Převodový stupeň</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5157" domainID="dtiFunctionChangeFrontPTO">
+<Name description="Změnit přední PTO">Změnit přední PTO</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionHitchChange" domainTag="1020">
+<Name description="Stav závěsu" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5102" domainID="dtiFunctionLowerHitch">
+<Name description="Snížit">Snížit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5103" domainID="dtiFunctionRaiseHitch">
+<Name description="Zvýšit">Zvýšit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionPTOChange" domainTag="1021">
+<Name description="Stav PTO" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5104" domainID="dtiFunctionEngagePTO">
+<Name description="Zapojit">Zapojit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5105" domainID="dtiFunctionDisengagePTO">
+<Name description="Vypojit">Vypojit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionDiffLocChange" domainTag="1022">
+<Name description="Stav závěru diferenciálu" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5106" domainID="dtiFunctionEngageDiffLock">
+<Name description="Zapojit">Zapojit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5107" domainID="dtiFunctionDisengageDiffLock">
+<Name description="Vypojit">Vypojit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunction4WDChange" domainTag="1023">
+<Name description="Stav MFWD" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5108" domainID="dtiFunctionEngage4WD">
+<Name description="Automaticky MFWD">Automaticky MFWD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5109" domainID="dtiFunctionDisengage4WD">
+<Name description="Vypojit MFWD">Vypojit MFWD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5161" domainID="dtiFunctionManualEngage4WD">
+<Name description="Zapojit MFWD">Zapojit MFWD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionSCVChange" domainTag="1024">
+<Name description="Stav SCV" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5110" domainID="dtiFunctionSCVExtend">
+<Name description="Vysunout">Vysunout</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5111" domainID="dtiFunctionSCVRetract">
+<Name description="Zasunout">Zasunout</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5112" domainID="dtiFunctionSCVFloat">
+<Name description="Plovoucí">Plovoucí</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5113" domainID="dtiFunctionSCVCancel">
+<Name description="Storno">Storno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionFieldCruiseChange" domainTag="1041">
+<Name description="Stav polní rychlosti " />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5184" domainID="dtiFunctionEngageFieldCruise">
+<Name description="Zapojit polní rychlost">Zapojit polní rychlost</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5185" domainID="dtiFunctionDisengageFieldCruise">
+<Name description="Vypojit polní rychlost">Vypojit polní rychlost</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtGuidanceBoundaryBehavior" domainTag="1025">
+<Name description="Chování hranice navádění">Chování hranice navádění</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5114" domainID="dtiStraightLineProjection">
+<Name description="Projekce přímé linie">Projekce přímé linie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5115" domainID="dtiAutogeneratedTurns">
+<Name description="Autom. generované otočky">Autom. generované otočky</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5116" domainID="dtiFollowRecordedPath">
+<Name description="Sledovat nahranou dráhu">Sledovat nahranou dráhu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSkipPattern" domainTag="1026">
+<Name description="Vzorec přeskočení navádění">Vzorec přeskočení navádění</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5117" domainID="dtiAlternateRows">
+<Name description="Střídat každý řádek">Střídat každý řádek</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5118" domainID="dtiSkip1AndFill">
+<Name description="Přeskočit 1 a vyplnit">Přeskočit 1 a vyplnit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5119" domainID="dtiAutomaticSkipPattern">
+<Name description="Přeskočení 1. otočky">Přeskočení 1. otočky</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCoverageSetting" domainTag="1027">
+<Name description="Vzorec pokrytí">Vzorec pokrytí</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5121" domainID="dtiCoverageMinimizeOverlap">
+<Name description="Minimalizovat překrytí">Minimalizovat překrytí</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5122" domainID="dtiCoverageMinimizeSkips">
+<Name description="Minimalizovat přeskočení">Minimalizovat přeskočení</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSignalType" domainTag="1028">
+<Name description="Typ signálu použitý při nahrávání dat">Typ signálu</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5123" domainID="dtiSignalTypeUnknown">
+<Name description="Neznámý typ signálu">Neznámý</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5124" domainID="dtiSignalTypeDigitized">
+<Name description="Digitalizováno z obrazu rastru">Digitalizováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5125" domainID="dtiSignalTypeNoDiff">
+<Name description="Pouze signál GPS, žádný rozdíl">Žádný rozdíl</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5126" domainID="dtiSignalTypeUnknownDiff">
+<Name description="Neznámý typ rozdílového signálu">Neznámý rozdíl</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5127" domainID="dtiSignalTypeWAAS">
+<Name description="Typ signálu WAAS nebo EGNOS">WAAS/EGNOS</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5128" domainID="dtiSignalTypeSF1">
+<Name description="Typ signálu SF1">SF1</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5129" domainID="dtiSignalTypeSF2">
+<Name description="Typ signálu SF2">SF2</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5130" domainID="dtiSignalTypeRTKX">
+<Name description="Typ signálu RTK-X">RTK-X</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5131" domainID="dtiSignalTypeRTK">
+<Name description="Typ signálu RTK">RTK</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6035" domainID="dtiSignalTypeSF3">
+<Name description="Typ signálu SF3">SF3</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionAPSChange" domainTag="1029">
+<Name description="Stav APS" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5139" domainID="dtiFunctionEngage">
+<Name description="Zapojit">Zapojit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNavigationType" domainTag="1030">
+<Name description="Typ navigace" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5140" domainID="dtiVehicleGPS">
+<Name description="GPS vozidla">GPS vozidla</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5141" domainID="dtiComputedImplement">
+<Name description="Vypočtené GPS nářadí">Vypočtené GPS nářadí</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5142" domainID="dtiImplementGPS">
+<Name description="GPS nářadí">GPS nářadí</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNonSteeringAxleLocation" domainTag="1031">
+<Name description="Umístění neřízené nápravy" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5143" domainID="dtiFrontAxle">
+<Name description="Přední náprava">Přední náprava</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5144" domainID="dtiRearAxle">
+<Name description="Zadní náprava">Zadní náprava</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSPFHLoadType" domainTag="1032">
+<Name description="Typ nákladu sklizně">Typ nákladu sklizně</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5150" domainID="dtiSPFHLoadField">
+<Name description="Pole">Pole</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5151" domainID="dtiSPFHLoadTruck">
+<Name description="Nákladní auto">Nákladní auto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSurfaceWaterManagementOpType" domainTag="1033">
+<Name description="Typ operace řízení povrchové vody">Typ operace řízení povrchové vody</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5153" domainID="dtiSWMDitches">
+<Name description="Výkop">Výkop</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5154" domainID="dtiSWMLevees">
+<Name description="Násep">Násep</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionFrontPTOChange" domainTag="1034">
+<Name description="Stav přední PTO" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5155" domainID="dtiFunctionEngageFrontPTO">
+<Name description="Zapojit">Zapojit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5156" domainID="dtiFunctionDisengageFrontPTO">
+<Name description="Vypojit">Vypojit</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtDrainType" domainTag="1035">
+<Name description="Typ odtoku">Typ odtoku</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5158" domainID="dtiDrainTypeUnknown">
+<Name description="Neznámý typ odtoku">Neznámý typ odtoku</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5159" domainID="dtiDrainTypeLinear">
+<Name description="Lineární odtok">Lineární odtok</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5160" domainID="dtiDrainTypeBestFit">
+<Name description="Nejlepší odtok">Nejlepší odtok</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHeaderStatus" domainTag="1036">
+<Name description="Slouží k zadání stavu žacího válu.  Hodnoty jsou Zap nebo Vyp. Jestliže je tato hodnota v měřiči přítomna v rámci operace v souboru protokolu, bude použita pro aplikování počátku a konce filtrování zpoždění přejezdu na stav, který se objevuje v sekcích pro stejnou operaci.">Stav žacího válu</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5162" domainID="dtiHeaderStatusOn">
+<Name description="Zapnuto">Zapnuto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5163" domainID="dtiHeaderStatusOff">
+<Name description="Vypnuto">Vypnuto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTicketStatus" domainTag="1037">
+<Name description="Slouží ke zjištění stavu lístku v rámci souboru protokolu zápisníku paliva.">Stav lístku zápisníku paliva</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5165" domainID="dtiNew">
+<Name description="Nové">Nové</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5166" domainID="dtiModified">
+<Name description="Změněno">Změněno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5167" domainID="dtiDeleted">
+<Name description="Odstraněno">Odstraněno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductDetailsProductType" domainTag="1038">
+<Name description="Slouží k zadání detailů pro produkty typu chemikálií/hnojiv." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5168" domainID="dtiBufferZone">
+<Name description="Nárazníková zóna">Nárazníková zóna</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5169" domainID="dtiWaitingTime">
+<Name description="Doba čekání">Doba čekání</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5170" domainID="dtiProductContent">
+<Name description="Obsah produktu">Obsah produktu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5171" domainID="dtiActiveIngredient">
+<Name description="Aktivní přísada">Aktivní přísada</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5172" domainID="dtiProductLimitIndication">
+<Name description="Indikace limitu produktu">Indikace limitu produktu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductDetailsSeedType" domainTag="1039">
+<Name description="Slouží k zadání detailů pro produkty typu osiva." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5173" domainID="dtiThousandCropWeight">
+<Name description="Hmotnost tisíce kusů plodiny">Hmotn. tisíce kusů plod.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5174" domainID="dtiPrimingInformation">
+<Name description="Informace o iniciaci">Informace o iniciaci</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5175" domainID="dtiGerminationRate">
+<Name description="Poměr klíčivosti">Poměr klíčivosti</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5176" domainID="dtiGmoInformation">
+<Name description="Informace GMO">Informace GMO</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTicketType" domainTag="1040">
+<Name description="Slouží k zadání typu lístku v úloze transportu." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5177" domainID="dtiLoad">
+<Name description="Typ lístku naložení">Typ lístku naložení</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5178" domainID="dtiUnload">
+<Name description="Typ lístku vyložení">Typ lístku vyložení</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtMeasuredWeightStatus" domainTag="1042">
+<Name description="Slouží k identifikaci stavu zvážené hmotnosti na cenovce.">Stav zvážené hmotnosti.</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5186" domainID="dtiWeightStable">
+<Name description="Hmotnost je při vážení stálá">Hmotnost je stálá</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5187" domainID="dtiWeightUnStable">
+<Name description="Hmotnost je při vážení nestálá">Hmotnost je nestálá</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5188" domainID="dtiWeightError">
+<Name description="Při vážení došlo k chybě">Chyba hmotnosti</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProjectionType" domainTag="1043">
+<Name description="Typ projekce vedení " />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5189" domainID="dtiProjectionDeere">
+<Name description="John Deere">John Deere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5190" domainID="dtiNonJohnDeere1">
+<Name description="Není John Deere 1">Není John Deere 1</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5191" domainID="dtiNonJohnDeere2">
+<Name description="Není John Deere 2">Není John Deere 2</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5192" domainID="dtiNonJohnDeere3">
+<Name description="Není John Deere 3">Není John Deere 3</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTillageType" domainTag="1044">
+<Name description="Typ obdělávání">Typ obdělávání</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5196" domainID="dtiTillageTypeDisk">
+<Name description="Disk">Disk</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5197" domainID="dtiTillageTypeRipper">
+<Name description="Rozrývač">Rozrývač</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5198" domainID="dtiTillageTypeClosingDisk">
+<Name description="Uzavírací kotouč">Uzavírací kotouč</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5199" domainID="dtiTillageTypeShank">
+<Name description="Násada">Násada</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5200" domainID="dtiTillageTypeOpener">
+<Name description="Otevírač">Otevírač</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5201" domainID="dtiTillageTypeBasket">
+<Name description="Koš">Koš</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5202" domainID="dtiTillageTypeCoulter">
+<Name description="Krojidlo">Krojidlo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5203" domainID="dtiTillageTypeHarrow">
+<Name description="Brány">Brány</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5204" domainID="dtiTillageTypeRoller">
+<Name description="Válec">Válec</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtUnloadingAugerState" domainTag="1500">
+<Name description="Stav vykládacího šneku">Stav vykládacího šneku</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6000" domainID="dtiUnloadingAugerStateDisabled">
+<Name description="Deaktivováno">Deaktivováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6001" domainID="dtiUnloadingAugerStateEnabled">
+<Name description="Aktivováno">Aktivováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6002" domainID="dtiUnloadingAugerStateError">
+<Name description="Chyba">Chyba</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6003" domainID="dtiUnloadingAugerStateNotAvailable">
+<Name description="Není k dispozici">Není k dispozici</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtJDArmedDWS" domainTag="1501">
+<Name description="John Deere - pracovní stav kondenz.vybav.">John Deere - pracovní stav kondenz.vybav.</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6004" domainID="dtiReady">
+<Name description="Připraveno">Připraveno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6005" domainID="dtiIBSDisabled">
+<Name description="IBS deaktivováno">IBS deaktivováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6006" domainID="dtiManualDisabled">
+<Name description="Ruční deaktivováno">Ruční deaktivováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6007" domainID="dtiMasterDisabled">
+<Name description="Hlavní deaktivováno">Hlavní deaktivováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSectionControlMasterState" domainTag="1502">
+<Name description="Stav hlavního řízení sekce ISO">Stav hlavního řízení sekce ISO</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6008" domainID="dtiSCMasterManualOff">
+<Name description="Vyp">Vyp</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6009" domainID="dtiSCMasterAutoOn">
+<Name description="Zap">Zap</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6010" domainID="dtiSCMasterError">
+<Name description="Chyba">Chyba</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6011" domainID="dtiSCMasterUndefined">
+<Name description="Nedefinováno">Nedefinováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSprayerSystemOperatingMode" domainTag="1503">
+<Name description="Provozní režim systému postřikovače">Současný provozní režim systému postřikovače jako proplachování, vzdálené nakládání, proplachování vstřikování a postřikování.</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6012" domainID="dtiSysemIdle">
+<Name description="Naprázdno">Systém naprázdno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6013" domainID="dtiSpraySystemRinse">
+<Name description="Proplach">Proplach systému postřiku</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6014" domainID="dtiSolutionPumpCal">
+<Name description="Kalibrace čerpadla">Kalibrace čerpadla roztoku</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6015" domainID="dtiFlowMeterCal">
+<Name description="Kalibrace průtokoměru">Kalibrace průtokoměru</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6016" domainID="dtiPressureSensorCal">
+<Name description="Kalibrace snímače tlaku">Kalibrace snímače tlaku</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6017" domainID="dtiRemoteLoading">
+<Name description="Dálkové nakládání">Dálkové nakládání</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6018" domainID="dtiNozzleFlowCheck">
+<Name description="Kontrola průtoku trysek">Kontrola průtoku trysek</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6019" domainID="dtiEductorInUse">
+<Name description="Vstřikovač se používá">Vstřikovač se používá</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6020" domainID="dtiBoomPressureRelief">
+<Name description="Uvolnění tlaku v ramenu">Uvolnění tlaku v ramenu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6021" domainID="dtiLoadCommandInUse">
+<Name description="Používá se povel Load">Používá se povel Load</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6022" domainID="dtiDirectInjectionDisable">
+<Name description="Přímé vstřikování neaktiv.">Přímé vstřikování neaktiv.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6023" domainID="dtiInjectionPrime">
+<Name description="Plnění vstřikování">Plnění vstřikování</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6024" domainID="dtiBoomPrime">
+<Name description="Plnění ramena">Plnění ramena</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6025" domainID="dtiMinSprayPressure">
+<Name description="Režim minimálního tlaku postřiku">Minimální tlak postřiku</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6026" domainID="dtiTargetPressure">
+<Name description="Režim cílového tlaku postřiku">Cílový tlak postřiku</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6027" domainID="dtiTargetApplRate">
+<Name description="Režim cílové rychlosti aplikace">Cílová rychlost aplikace</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6028" domainID="dtiPrescription">
+<Name description="Režim předpisu">Režim předpisu</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6029" domainID="dtiError">
+<Name description="Chyba">Chyba</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6030" domainID="dtiNotAvailable">
+<Name description="Není k dispozici">Není k dispozici</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6079" domainID="dtiSprayOpModeUnknown">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPrescriptionControlMasterState" domainTag="1504">
+<Name description="Stav hlavního řízení předpisu ISO">Stav hlavního řízení předpisu ISO</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6031" domainID="dtiPrscMasterManualOff">
+<Name description="Vyp">Vyp</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6032" domainID="dtiPrscMasterAutoOn">
+<Name description="Zap">Zap</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6033" domainID="dtiPrscMasterError">
+<Name description="Chyba">Chyba</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6034" domainID="dtiPrscMasterUndefined">
+<Name description="Nedefinováno">Nedefinováno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductSelectionMode" domainTag="1505">
+<Name description="-- translate --" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6036" domainID="dtiProductSelectionModeDefault">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6037" domainID="dtiProductSelectionModeProductMixOnly">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTaskControllerStatus" domainTag="1506">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6038" domainID="dtiTaskStatusOff">
+<Name description="Vyp">Vyp</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6039" domainID="dtiTaskStatusOn">
+<Name description="Zap">Zap</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHeaderType" domainTag="1507">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6040" domainID="dtiNoHeaderConnected">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6041" domainID="dtiChoppingCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6042" domainID="dtiRowCropHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6043" domainID="dtiFoldingCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6044" domainID="dtiCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6045" domainID="dtiBeltPickup2HeightSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6046" domainID="dtiBeltPickup1HeightSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6047" domainID="dtiRigidPlatform">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6048" domainID="dtiFlexibleDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6049" domainID="dtiDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6050" domainID="dtiAdvancedDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6051" domainID="dtiFlex">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6052" domainID="dtiEuroDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6053" domainID="dtiHydraflex">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6054" domainID="dtiVario">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6055" domainID="dtiRotaryHarvestingUnit">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6056" domainID="dtiRotaryHarvestingUnitBigDrum">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6057" domainID="dtiGrassPickup">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6058" domainID="dtiGrassPickupSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6059" domainID="dtiGrassPickupAuxDrive">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6060" domainID="dtiGrassPickupAuxDriveAndSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6061" domainID="dtiDirectCut">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6062" domainID="dtiWoodChopper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6063" domainID="dtiRotaryHarvestingUnitBigDrumElecBrake">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6064" domainID="dti850FDFlexWingDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6065" domainID="dti800CCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6066" domainID="dti815BPBeltPickup">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6067" domainID="dtiHeaderTypeError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6068" domainID="dtiHeaderNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWorkStateTarget" domainTag="1508">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6069" domainID="dtiTWSDisableOff">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6070" domainID="dtiTWSEnableOn">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6071" domainID="dtiTWSError">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6072" domainID="dtiTWSNoChange">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWorkStateActual" domainTag="1509">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6073" domainID="dtiAWSDisabledOff">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6074" domainID="dtiAWSEnabledOn">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6075" domainID="dtiAWSError">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6076" domainID="dtiAWSUndefinedNotInstalled">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLogMethod" domainTag="1510">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6077" domainID="dtiLogPerValue">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6078" domainID="dtiLogPerChunk">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6117" domainID="dtiDoNotLog">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSolenoidOperatingMode" domainTag="1511">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6080" domainID="dtiSolenoidA">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6081" domainID="dtiSolenoidB">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6082" domainID="dtiSolenoidAB">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6083" domainID="dtiSolenoidAuto">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6084" domainID="dtiSolenoidError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6085" domainID="dtiSolenoidNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPulsingMode" domainTag="1512">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6086" domainID="dtiPulsingNo">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6087" domainID="dtiPulsingInPhase">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6088" domainID="dtiPulsingCounterPhase">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6089" domainID="dtiPulsingError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6090" domainID="dtiPulsingNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtAirInductionStatus" domainTag="1513">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6091" domainID="dtiAirInductionNo">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6092" domainID="dtiAirInductionYes">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6093" domainID="dtiAirInductionError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6094" domainID="dtiAirInductionNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNozzleTipOrificeType" domainTag="1514">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6095" domainID="dtiTipOrificeTypeNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6096" domainID="dtiTipOrificeTypeNone">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6097" domainID="dtiTipOrificeType005">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6098" domainID="dtiTipOrificeType0067">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6099" domainID="dtiTipOrificeType007">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6100" domainID="dtiTipOrificeType01">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6101" domainID="dtiTipOrificeType015">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6102" domainID="dtiTipOrificeType02">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6103" domainID="dtiTipOrificeType025">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6104" domainID="dtiTipOrificeType03">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6105" domainID="dtiTipOrificeType035">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6106" domainID="dtiTipOrificeType04">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6107" domainID="dtiTipOrificeType05">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6108" domainID="dtiTipOrificeType06">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6109" domainID="dtiTipOrificeType08">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6110" domainID="dtiTipOrificeType10">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6111" domainID="dtiTipOrificeType15">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6112" domainID="dtiTipOrificeType20">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6113" domainID="dtiTipOrificeType30">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6114" domainID="dtiTipOrificeType40">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6115" domainID="dtiTipOrificeType50">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6116" domainID="dtiTipOrificeType60">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+</RepresentationSystemTranslation>

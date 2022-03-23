@@ -1,0 +1,2599 @@
+﻿<?xml version="1.0" encoding="utf-8"?><RepresentationSystemTranslation xmlns="urn:schemas-johndeere-com:RepresentationSystemTranslation" xmlns:bt="urn:schemas-johndeere-com:BasicTypes" xmlns:rep="urn:schemas-johndeere-com:Representation" xmlns:unit="urn:schemas-johndeere-com:UnitSystem" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:schemas-johndeere-com:RepresentationSystemTranslation RepresentationSystemTranslation.xsd" locale="it">
+<SchemaVersion major="1" minor="0" />
+<ContentVersion major="1" minor="0" />
+<VariableRepresentationTranslation domainTag="1" domainID="vrABRowSpacing">
+<Name description="DistfilariAB">DistfilariAB</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="2" domainID="vrABShiftTrack">
+<Name description="Correzione linea A-B">Correzione linea A-B</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="3" domainID="vrABLineHeading">
+<Name description="Direzione in gradi">Direzione in gradi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="4" domainID="vrCommodityPricePerBale">
+<Name description="Prezzo merce per balla">Prezzo merce per balla</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="5" domainID="vrCommodityPricePerVolume">
+<Name description="Prezzo merce per volume">Prezzo merce per volume</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="6" domainID="vrHarvestMoisture">
+<Name description="Umidità raccolto">Umidità raccolto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="7" domainID="vrCropWeightBale">
+<Name description="Balla peso prodotto">Balla peso prodotto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="8" domainID="vrCropWeightVolume">
+<Name description="Volume peso prodotto">Volume peso prodotto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="9" domainID="vrFSAArea">
+<Name description="Area FSA">Area FSA</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="10" domainID="vrReportedFieldArea">
+<Name description="Area del campo.  Questo valore viene fornito dal proprietario o dal coltivatore del campo.">Area campo comunicata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="11" domainID="vrSpatialFieldArea">
+<Name description="Area calcolata in base al contorno di un campo.">Area confine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="12" domainID="vrYieldTotalMass">
+<Name description="Massa resa">Massa resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="13" domainID="vrYieldTotalVolume">
+<Name description="Volume resa">Volume resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="14" domainID="vrHeadlandOffset">
+<Name description="Scarto terra non arata">Scarto terra non arata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="15" domainID="vrLatency">
+<Name description="Latenza">Latenza</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="16" domainID="vrLoadArea">
+<Name description="Area carico">Area carico</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="17" domainID="vrMassPer1000Seeds">
+<Name description="massa per migliaia di semi">massa per migliaia di semi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="18" domainID="vrMassPerContainer">
+<Name description="massa per contenitore">massa per contenitore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="19" domainID="vrMaturity">
+<Name description="Maturità">Maturità</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="20" domainID="vrEquipmentWidth">
+<Name description="Larghezza attrezzatura.  Si riferisce principalmente agli attrezzi.  Specifica la larghezza fisica dell'attrezzo.">larghezza attrezzatura</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="21" domainID="vrTrackSpacing">
+<Name description="Larghezza passata">Larghezza lavoro è definita come la distanza tra le passate e viene usata solo dal sistema di guida.  È uguale alla differenza tra la larghezza dell'attrezzo ed eventuali sovrapposizioni.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="22" domainID="vrPathOverlap">
+<Name description="Sovrapposizione usata nelle operazioni con sistema di guida.  Sovrapposizione più larghezza di lavoro uguale alla larghezza attrezzo.">sovrapposizione percorso guida</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="23" domainID="vrInlineOffset">
+<Name description="Scarto percorso in linea sezione">scarto percorso in linea sezione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="24" domainID="vrLateralOffset">
+<Name description="Scarto laterale attrezzo">scarto laterale attrezzo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="25" domainID="vrVerticalOffset">
+<Name description="Scarto verticale sezione">scarto verticale sezione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="26" domainID="vrSectionWidth">
+<Name description="Larghezza sezione">larghezza sezione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="27" domainID="vrSeedGerminationPercent">
+<Name description="Percentuale germinazione semi">percentuale germinazione semi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="28" domainID="vrSeedLoadQuantity">
+<Name description="Quantità carico semi">quantità carico semi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="29" domainID="vrSeedsPerContainer">
+<Name description="Semi per contenitore">semi per contenitore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="30" domainID="vrSeedsPerMass">
+<Name description="Una misura metrica relativa a Lotto semi varietà prodotto, usata per la conversione da semi a libbre (o altre unità di massa) e viceversa.">semi per massa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="31" domainID="vrSolutionRateLiquid">
+<Name description="Velocità soluzione - liquido">dose base liquido</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="32" domainID="vrSolutionRateMass">
+<Name description="velocità soluzione - massa">massa dose soluzione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="33" domainID="vrSwathWidth">
+<Name description="Larghezza falciata">larghezza falciata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="34" domainID="vrYieldBale">
+<Name description="Balla resa">Balla resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="35" domainID="vrYieldBalePerArea">
+<Name description="Balla resa per area">Balla resa per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="36" domainID="vrYieldWetMass">
+<Name description="Massa resa umida">Massa resa umida</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="37" domainID="vrYieldWetMassPerArea">
+<Name description="Massa resa per area">massa resa per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="38" domainID="vrYieldWetVolume">
+<Name description="Volume resa">volume resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="39" domainID="vrYieldWetVolumePerArea">
+<Name description="volume resa umida per area">volume resa umida per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="40" domainID="vrYieldMass">
+<Name description="massa resa asciutta">massa resa asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="41" domainID="vrYieldMassPerArea">
+<Name description="massa resa asciutta per area">massa resa asciutta per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="42" domainID="vrYieldVolume">
+<Name description="volume resa asciutta">volume resa asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="43" domainID="vrYieldVolumePerArea">
+<Name description="Volume resa per area">volume resa per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="44" domainID="vrAppRateMassMetered">
+<Name description="Massa velocità applicazione dosata">massa dose applicazione dosata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="45" domainID="vrAppRateMassMeasured">
+<Name description="Massa velocità applicazione misurata">massa dose applicazione misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="46" domainID="vrAppRateMassControl">
+<Name description="MassaDoseAppMappata">massa dose applicazione mappata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="47" domainID="vrAppRateMassTarget">
+<Name description="Massa velocità applicazione prefissata">massa dose applicazione prefissata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="48" domainID="vrAppRateVolumeMetered">
+<Name description="Volume velocità applicazione dosato">volume dose applicazione dosato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="49" domainID="vrAppRateVolumeMeasured">
+<Name description="Volume velocità applicazione misurato">volume dose applicazione misurato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="50" domainID="vrAppRateVolumeControl">
+<Name description="Volume velocità applicazione mappato">volume dose applicazione mappato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="51" domainID="vrAppRateVolumeTarget">
+<Name description="Volume velocità applicazione prefissato">volume dose applicazione prefissato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="52" domainID="vrAppHeightTarget">
+<Name description="Altezza applicazione prefissata">altezza applicazione prefissata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="53" domainID="vrTillageDepthTarget">
+<Name description="Profondità dissodamento prefissata">profondità dissodamento prefissata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="54" domainID="vrSeedRateMassMetered">
+<Name description="Massa velocità semina dosata">massa dose semina dosata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="55" domainID="vrSeedRateMassMeasured">
+<Name description="Massa velocità semina misurata">massa dose semina misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="56" domainID="vrSeedRateMassControl">
+<Name description="Massa velocità semina mappata">massa dose semina mappata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="57" domainID="vrSeedRateMassTarget">
+<Name description="Massa velocità semina prefissata">La dose di semina inviata a un'unità di comando in unità di massa.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="58" domainID="vrSeedRateSeedsMetered">
+<Name description="Semi velocità semina dosata">massa dose semina prefissata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="59" domainID="vrSeedRateSeedsMeasured">
+<Name description="Semi velocità semina misurata">La dose di semina misurata inviata dall'unità di comando.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="60" domainID="vrSeedRateSeedsControl">
+<Name description="Velocità semina in semi comandata">La dose di semina in numero di semi in base a una prescrizione inviata all'unità di comando.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="61" domainID="vrSeedRateSeedsTarget">
+<Name description="Velocità semina in semi prefissata">La dose di semina in numero di semi inviata all'unità di comando.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="62" domainID="vrSeedDepthTarget">
+<Name description="Profondità semina prefissata">profondità semina prefissata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="63" domainID="vrRelativeHumidity">
+<Name description="Umidità relativa esterna registrata.">Umidità relativa.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="64" domainID="vrAirTemperature">
+<Name description="Temperatura dell'aria esterna registrata.">Temperatura aria</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="65" domainID="vrWindSpeed">
+<Name description="Velocità vento registrata">Velocità vento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="66" domainID="vrSoilTemperature">
+<Name description="Temperatura terreno registrata.">Temperatura terreno</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="67" domainID="vrTotalAreaCovered">
+<Name description="Area totale coperta.">Area totale coperta.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="68" domainID="vrTotalQuantityAppliedMass">
+<Name description="Quantità totale massa applicata.">Quantità totale massa applicata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="69" domainID="vrTotalQuantityAppliedVolume">
+<Name description="Quantità totale volume applicato.">Quantità totale volume applicato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="70" domainID="vrTotalSeedQuantityAppliedSeed">
+<Name description="Quantità totale semi applicati in numero di semi.">Quantità totale semi applicati in numero di semi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="71" domainID="vrTotalSeedQuantityAppliedMass">
+<Name description="Quantità totale semi applicata in unità di massa.">Quantità totale semi applicata in unità di massa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="72" domainID="vrTotalOperationTime">
+<Name description="Tempo operazioni totale.">Tempo operazioni totale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="73" domainID="vrHeading">
+<Name description="Direzione si riferisce alla direzione della macchina">La direzione della macchina.  0 gradi = Nord, 90 gradi = Est.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="74" domainID="vrElevation">
+<Name description="Elevazione">Elevazione sul livello del mare.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="75" domainID="vrStandardPayableMoisture">
+<Name description="Umidità utile standard">Umidità utile standard</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="76" domainID="vrLatitude">
+<Name description="Latitudine">Latitudine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="77" domainID="vrLongitude">
+<Name description="Longitudine">Longitudine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="78" domainID="vrDistanceTraveled">
+<Name description="Distanza percorsa">Distanza percorsa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="80" domainID="vrNonLogTime">
+<Name description="Tempo non registrato">Tempo non registrato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="81" domainID="vrVehicleSpeed">
+<Name description="Velocità veicolo">Velocità veicolo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="82" domainID="vrDeltaTime">
+<Name description="Tempo Delta">Tempo Delta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="84" domainID="vrEquipmentLogFrequency">
+<Name description="La frequenza a cui i dati vengono inviati da una data unità di comando sul bus CAN.">Frequenza registrazione veicolo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="85" domainID="vrCommodityPricePerArea">
+<Name description="Prezzo merce per area">Prezzo merce per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="86" domainID="vrCommodityPricePerYield">
+<Name description="Prezzo merce per resa">Prezzo merce per resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="87" domainID="vrCommodityPricePerContainer">
+<Name description="Prezzo merce per contenitore">Prezzo merce per contenitore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="88" domainID="vrRowWidth">
+<Name description="Distanza tra filari per macchina row crop">Larghezza filari</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="89" domainID="vrGuidanceSmallShift">
+<Name description="Spostamento piccolo">Spostamento piccolo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="90" domainID="vrGuidanceLargeShift">
+<Name description="Spostamento grande">Spostamento grande</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="91" domainID="vrPathAccuracyIndicator">
+<Name description="Indicatore precisione percorso">Indicatore precisione percorso</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="92" domainID="vrTrackToneBeginningDistance">
+<Name description="Allarme acustico distanza iniziale">Allarme acustico distanza iniziale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="93" domainID="vrLeadCompensation">
+<Name description="Compensazione">Compensazione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="94" domainID="vrAccuracyBarStepSize">
+<Name description="Incremento barra precisione">Incremento barra precisione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="95" domainID="vrTurnDistance">
+<Name description="Distanza di svolta">Distanza di svolta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="96" domainID="vrTrackSpacingRows">
+<Name description="Larghezza passata in filari">Larghezza lavoro è definita come la distanza tra le passate e viene usata solo dal sistema di guida.  È uguale alla differenza tra la larghezza dell'attrezzo in numero di filari ed eventuali sovrapposizioni.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="97" domainID="vrEquipmentWidthRows">
+<Name description="Larghezza attrezzatura.  Si riferisce principalmente agli attrezzi.  Specifica la larghezza fisica dell'attrezzo in numero di filari.">larghezza attrezzo in filari</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="98" domainID="vrPathOverlapRows">
+<Name description="Sovrapposizione usata nelle operazioni con sistema di guida.  Sovrapposizione più larghezza di lavoro uguale alla larghezza attrezzo in filari.">sovrapposizione percorso di guida in numero di filari</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="99" domainID="vrFuelRatePerHour">
+<Name description="Velocità consumo combustibile">Velocità consumo combustibile</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="100" domainID="vrFuelTotal">
+<Name description="Combustibile totale usato">Combustibile totale usato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="101" domainID="vrTotalYieldVolume">
+<Name description="volume resa asciutta">volume resa asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="102" domainID="vrTotalYieldMass">
+<Name description="massa resa asciutta">massa resa asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="103" domainID="vrTotalYieldWetMass">
+<Name description="Massa resa umida">Massa resa umida</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="104" domainID="vrTotalYieldWetVolume">
+<Name description="Volume resa">volume resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="105" domainID="vrTotalYieldBale">
+<Name description="Balla resa">Balla resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="106" domainID="vrHarvestMinimumMoisture">
+<Name description="Umidità minima raccolto">Umidità minima raccolto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="107" domainID="vrHarvestMaximumMoisture">
+<Name description="Umidità massima raccolto">Umidità massima raccolto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="108" domainID="vrYieldMassMinimum">
+<Name description="massa resa asciutta">massa resa asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="109" domainID="vrYieldMassMaximum">
+<Name description="massa resa asciutta">massa resa asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="110" domainID="vrYieldMassPerAreaMinimum">
+<Name description="massa resa asciutta per area">massa resa asciutta per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="111" domainID="vrYieldMassPerAreaMaximum">
+<Name description="massa resa asciutta per area">massa resa asciutta per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="112" domainID="vrYieldVolumeMinimum">
+<Name description="volume resa asciutta">volume resa asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="113" domainID="vrYieldVolumeMaximum">
+<Name description="volume resa asciutta">volume resa asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="114" domainID="vrYieldVolumePerAreaMinimum">
+<Name description="Volume resa per area">volume resa per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="115" domainID="vrYieldVolumePerAreaMaximum">
+<Name description="Volume resa per area">volume resa per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="116" domainID="vrYieldBaleMinimum">
+<Name description="Balla resa">Balla resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="117" domainID="vrYieldBaleMaximum">
+<Name description="Balla resa">Balla resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="118" domainID="vrYieldBalePerAreaMinimum">
+<Name description="Balla resa per area">Balla resa per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="119" domainID="vrYieldWetMassMinimum">
+<Name description="Massa resa umida">Massa resa umida</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="120" domainID="vrYieldWetMassMaximum">
+<Name description="Massa resa umida">Massa resa umida</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="121" domainID="vrYieldWetMassPerAreaMinumum">
+<Name description="Massa resa per area">massa resa per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="122" domainID="vrYieldWetMassPerAreaMaximum">
+<Name description="Massa resa per area">massa resa per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="123" domainID="vrYieldWetVolumeMinimum">
+<Name description="Volume resa">volume resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="124" domainID="vrYieldWetVolumeMaximum">
+<Name description="Volume resa">volume resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="125" domainID="vrYieldWetVolumePerAreaMinimum">
+<Name description="volume resa umida per area">volume resa umida per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="126" domainID="vrYieldWetVolumePerAreaMaximum">
+<Name description="volume resa umida per area">volume resa umida per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="127" domainID="vrEastShiftComponent">
+<Name description="componente spostamento Est">componente spostamento Est</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="128" domainID="vrNorthShiftComponent">
+<Name description="Componente spostamento Nord">Componente spostamento Nord</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="129" domainID="vrTurnout">
+<Name description="Rapporto percentuale usato per la raccolta cotone">Rapporto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="130" domainID="vrTaskArea">
+<Name description="L'area totale coperta da un'operazione o un'area operazione">Area operazione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="131" domainID="vrBoundaryOffset">
+<Name description="Scarto confine">Scarto confine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="132" domainID="vrSpatialFieldPerimeter">
+<Name description="Perimetro campo">Perimetro campo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="133" domainID="vrAreaProductivity">
+<Name description="Produttività area">Produttività area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="134" domainID="vrMassProductivity">
+<Name description="Produttività massa">Produttività massa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="135" domainID="vrVolumeProductivity">
+<Name description="Produttività volume">Produttività volume</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="136" domainID="vrBaleProductivity">
+<Name description="Produttività balla">Produttività balla</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="137" domainID="vrSeedsProductivity">
+<Name description="Produttività semi">Produttività semi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="138" domainID="vrRadiusOffset">
+<Name description="Scarto radiale">Scarto radiale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="139" domainID="vrRadialHeading">
+<Name description="Direzione radiale">Direzione radiale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="140" domainID="vrRadiusShift">
+<Name description="Spostamento radiale">Spostamento radiale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="141" domainID="vrRecordingTimeRemaining">
+<Name description="Tempo di registrazione rimanente">Tempo di registrazione rimanente</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="142" domainID="vrReceiverOffset">
+<Name description="Scarto laterale ricevitore">scarto ricevitore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="143" domainID="vrManagementZoneClipping">
+<Name description="Distanza di taglio usata per l'importazione area gestione">Distanza di taglio area gestione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="144" domainID="vrTrackRowWidth">
+<Name description="Larghezza filare usata come larghezza della passata">Larghezza passata filari</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="145" domainID="vrInoculantDosing">
+<Name description="Dosatura inoculante">Dosatura inoculante</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="146" domainID="vrLengthOfCut">
+<Name description="Lunghezza di taglio">Lunghezza di taglio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="147" domainID="vrHeadland">
+<Name description="Testo terreno non coltivato">Terreno non coltivato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="148" domainID="vrGenericZoneValue">
+<Name alternateLabel="NA" description="Valore area generico">Valore area generico</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="149" domainID="vrHarvestMoistureTotal">
+<Name description="Totale umidità accumulata">Totale umidità accumulata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="150" domainID="vrHarvestMoistureCount">
+<Name description="Conteggio misure umidità">Conteggio misure umidità</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="151" domainID="vrCutWidthIncrement">
+<Name description="La distanza in base alla quale si deve aumentare o diminuire la larghezza di taglio.">Incremento larghezza di taglio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="152" domainID="vrCutWidthIncrementRows">
+<Name description="Il numero di filari in base ai quali si deve aumentare o diminuire la larghezza di taglio.">Incremento larghezza di taglio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="153" domainID="vrBoundaryIntersectionDistance">
+<Name description="Scarto distanza all'incrocio con il confine">Scarto distanza all'incrocio con il confine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="155" domainID="vrSequenceActivationDistance">
+<Name description="Scarto distanza dall'inizio della sequenza">Scarto distanza dall'inizio della sequenza</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="156" domainID="vrSequenceActivationTime">
+<Name description="Scarto di tempo dall'inizio della sequenza">Scarto di tempo dall'inizio della sequenza</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="157" domainID="vrSequenceOffsetDistance">
+<Name description="Distanza scarto sequenza da un confine correlato">Distanza scarto sequenza da un confine correlato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="158" domainID="vrFunctionOffsetDistance">
+<Name description="Distanza scarto funzione da un confine">Distanza scarto funzione da un confine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="159" domainID="vrFunctionValueSpeed">
+<Name description="Valore di velocità legato a una funzione entro una data sequenza">Valore di velocità legato a una funzione entro una data sequenza</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="276" domainID="vrFunctionValueEngineSpeed">
+<Name description="Valore regime motore associato con una funzione in una sequenza">Valore regime motore associato con una funzione in una sequenza</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="160" domainID="vrMachineTurnRadius">
+<Name description="Raggio di svolta macchina">Raggio di svolta macchina</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="161" domainID="vrImplementTurnRadius">
+<Name description="Raggio di svolta attrezzo">Raggio di svolta attrezzo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="162" domainID="vrInteriorHeadlandOffset">
+<Name description="Scarto terreno non coltivato interno">Scarto terreno non coltivato interno</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="163" domainID="vrPhysicalImplementWidth">
+<Name description="Larghezza fisica attrezzo">Larghezza fisica attrezzo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="164" domainID="vrImplementLength">
+<Name description="Lunghezza attrezzo">Lunghezza attrezzo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="165" domainID="vrImplementFrontOffset">
+<Name description="Scarto parte anteriore attrezzo">Scarto parte anteriore attrezzo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="166" domainID="vrGPSToNonSteeringAxleOffset">
+<Name description="Scarto fra GPS e assale non sterzante">Scarto fra GPS e assale non sterzante</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="167" domainID="vrNonSteeringAxleToConnectionOffset">
+<Name description="Scarto fra assale non sterzante e connessione">Scarto fra assale non sterzante e connessione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="168" domainID="vrLateralControlPointToConnectionOffset">
+<Name description="Scarto laterale del punto di comando attrezzo rispetto alla connessione">Scarto laterale del punto di comando attrezzo rispetto alla connessione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="169" domainID="vrInlineControlPointToConnectionOffset">
+<Name description="Distanza in linea del punto di comando attrezzo rispetto alla connessione">Distanza in linea del punto di comando attrezzo rispetto alla connessione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="170" domainID="vrInRowSteerLimitation">
+<Name description="Limitazione sterzata in filare">Limitazione sterzata in filare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="171" domainID="vrSlopeCompensation">
+<Name description="Compensazione pendio">Compensazione pendio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="172" domainID="vrInlineConnectionPointToReceiverOffset">
+<Name description="Distanza in linea tra punto di connessione e ricevitore">Distanza in linea tra punto di connessione e ricevitore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="173" domainID="vrLateralConnectionPointToReceiverOffset">
+<Name description="Distanza laterale tra punto di connessione e ricevitore">Distanza laterale tra punto di connessione e ricevitore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="174" domainID="vrImplementReceiverHeight">
+<Name description="Altezza ricevitore attrezzo">Altezza ricevitore attrezzo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="175" domainID="vrStarfireHeight">
+<Name description="Altezza ricevitore Starfire">Altezza ricevitore Starfire</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="176" domainID="vrStarfireForeAft">
+<Name description="Scarto longitudinale Starfire">Scarto longitudinale Starfire</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="177" domainID="vrBoundaryDistance">
+<Name description="Distanza incrocio confine">Distanza incrocio confine</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="178" domainID="vrFeelerHoldOffTime">
+<Name description="Tempo di ritenuta tastatore">Tempo di ritenuta tastatore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="179" domainID="vrRowSensorOffset">
+<Name description="Scarto sensore filari">Scarto sensore filari</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="180" domainID="vrMapDistance">
+<Name description="MapDistance">MapDistance</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="181" domainID="vrYieldTotalMassForage">
+<Name description="Massa totale resa foraggio">Massa totale resa foraggio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="182" domainID="vrYieldWetMassFrgPerArea">
+<Name description="Massa resa foraggio per area">Massa resa foraggio per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="183" domainID="vrYieldMassFrgPerArea">
+<Name description="Massa resa foraggio secco per area">Massa resa foraggio secco per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="184" domainID="vrModuleDiameter">
+<Name description="Diametro modulo">Diametro modulo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="185" domainID="vrModuleWeight">
+<Name description="Peso modulo misurato dal gestore">Peso modulo misurato dal gestore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="186" domainID="vrYieldMassForage">
+<Name description="Massa resa foraggio">Massa resa foraggio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="187" domainID="vrSurveyTimeInterval">
+<Name description="Intervallo tempo rilevamento">Intervallo tempo rilevamento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="188" domainID="vrSurveyDistanceInterval">
+<Name description="Intervallo distanza rilevamento">Intervallo distanza rilevamento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="189" domainID="vrSurveyFrequencyInterval">
+<Name description="Intervallo frequenza rilevamento">Intervallo frequenza rilevamento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="190" domainID="vrVDOP">
+<Name description="Precisione verticale GPS">Precisione verticale GPS</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="191" domainID="vrPitchAngle">
+<Name description="Angolo inclinazione attrezzatura">Angolo inclinazione attrezzatura</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="192" domainID="vrRollAngle">
+<Name description="Angolo rollio attrezzatura">Angolo rollio attrezzatura</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="193" domainID="vrEndTurnOffset">
+<Name description="Scarto distanza per l'inizio di fine svolta">Scarto distanza per l'inizio di fine svolta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="194" domainID="vrLeveeDrop">
+<Name description="Cambio di elevazione tra bordi del campo">Cambio di elevazione tra bordi del campo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="195" domainID="vrYieldWetMassForage">
+<Name description="Massa resa foraggio umido">Massa resa foraggio umido</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="196" domainID="vrYieldTotalWetMassForage">
+<Name description="Massa totale resa foraggio">Massa totale resa foraggio umido</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="197" domainID="vrYieldMassMinForage">
+<Name description="Massa minima resa foraggio">Massa minima resa foraggio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="198" domainID="vrYieldMassMaxForage">
+<Name description="Massa massima resa foraggio">Massa massima resa foraggio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="199" domainID="vrYieldMassPerAreaMinForage">
+<Name description="Massa minima resa foraggio per area">Massa minima resa foraggio per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="200" domainID="vrYieldMassPerAreaMaxForage">
+<Name description="Massa massima resa foraggio per area">Massa massima resa foraggio per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="201" domainID="vrYieldWetMassMinForage">
+<Name description="Massa minima resa foraggio umido">Massa minima resa foraggio umido</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="202" domainID="vrYieldWetMassMaxForage">
+<Name description="Massa massima resa foraggio umido">Massa massima resa foraggio umido</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="203" domainID="vrYieldWetMassPerAreaMinForage">
+<Name description="Massa minima resa foraggio umido per area">Massa minima resa foraggio umido per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="204" domainID="vrYieldWetMassPerAreaMaxForage">
+<Name description="Massa massima resa foraggio umido per area">Massa massima resa foraggio umido per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="205" domainID="vrInoculantDosingTotal">
+<Name description="Totale dosaggio inoculazione">Totale dosaggio inoculazione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="206" domainID="vrForageMassProductivity">
+<Name description="Produttività massa">Produttività massa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="207" domainID="vrGear">
+<Name description="Marcia">Marcia</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="208" domainID="vrVerticalAccuracyIndicator">
+<Name description="Indicatore di precisione verticale">Indicatore di precisione verticale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="209" domainID="vrInlineRearConnectionPointToConnectionPointOffset">
+<Name description="Distanza in linea dal punto di connessione posteriore al punto di connessione anteriore dell'attrezzo successivo.">Distanza in linea dal punto di connessione posteriore al punto di connessione anteriore dell'attrezzo successivo.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="210" domainID="vrLateralRearConnectionPointToConnectionPointOffset">
+<Name description="Distanza laterale dal punto di connessione posteriore al punto di connessione anteriore dell'attrezzo successivo.">Distanza laterale dal punto di connessione posteriore al punto di connessione anteriore dell'attrezzo successivo.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="211" domainID="vrMachineVerticalReceiverOffset">
+<Name description="Distanza verticale dal ricevitore GPS del veicolo alla terra">Distanza verticale dal ricevitore GPS del veicolo alla terra</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="212" domainID="vrImplementVerticalReceiverToCuttingEdgeOffset">
+<Name description="Distanza verticale dal ricevitore GPS al bordo di taglio dell'attrezzo">Distanza verticale dal ricevitore GPS al bordo di taglio dell'attrezzo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="213" domainID="vrImplementVerticalCuttingEdgeToGroundOffset">
+<Name description="Distanza verticale dal bordo di taglio dell'attrezzo alla terra">Distanza verticale dal bordo di taglio dell'attrezzo alla terra</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="214" domainID="vrVerticalProfileGridSize">
+<Name description="Dimensioni griglia profilo verticale">Dimensioni griglia profilo verticale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="215" domainID="vrHorizontalProfileGridSize">
+<Name description="Dimensioni griglia profilo orizzontale">Dimensioni griglia profilo orizzontale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="216" domainID="vrLinearFitDrainSlope">
+<Name description="Pendenza scarico regressione lineare">Pendenza scarico regressione lineare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="217" domainID="vrMaxBestFitDrainCutDepth">
+<Name description="Massima profondità di taglio per lo scarico con retta migliore">Massima profondità di taglio per lo scarico con retta migliore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="218" domainID="vrMinBestFitDrainCutDepth">
+<Name description="Minima profondità di taglio per lo scarico con retta migliore">Minima profondità di taglio per lo scarico con retta migliore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="219" domainID="vrRoverDistance">
+<Name description="Distanza dal rover alla stazione base">Distanza dal rover alla stazione base</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="220" domainID="vrPositiveLeveeElevationOffset">
+<Name description="Scarto positivo elevazione dall'elevazione bordo desiderata">Scarto positivo elevazione dall'elevazione bordo desiderata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="221" domainID="vrNegativeLeveeElevationOffset">
+<Name description="Scarto negativo elevazione dall'elevazione bordo desiderata">Scarto negativo elevazione dall'elevazione bordo desiderata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="222" domainID="vrLeveeDial">
+<Name description="Valore indicatore bordo">Valore indicatore bordo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="223" domainID="vrGPSAccuracy">
+<Name description="Precisione GPS">Precisione GPS</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="224" domainID="vrGPSVerticalAccuracy">
+<Name description="Precisione GPS verticale">Precisione GPS verticale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="225" domainID="vrFlagArea">
+<Name description="Area del terreno marcata.">Area marcatore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="226" domainID="vrNormalizedMapPercent">
+<Name description="Percento mappa normalizzata">Percento mappa normalizzata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="227" domainID="vrRowFinderDisableTime">
+<Name description="Ora disabilitazione CercaFila">Ora disabilitazione CercaFila</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="228" domainID="vrSeedsPerBag">
+<Name description="SemiPerSacchetto">semi per sacchetto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="229" domainID="vrSeedsPerSack">
+<Name description="SemiPerSack">semi per sack</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="230" domainID="vrCommodityPricePerBag">
+<Name description="Prezzo merce per sacchetto">Prezzo merce per sacchetto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="231" domainID="vrMassPerBag">
+<Name description="MassaPerSacchetto">massa per sacchetto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="232" domainID="vrMassPerSack">
+<Name description="MassaPerSack">massa per sack</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="233" domainID="vrSeedLoadQuantityContainer">
+<Name description="Quantità carico semi">quantità carico semi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="234" domainID="vrSeedLoadQuantitySack">
+<Name description="Quantità carico semi">quantità carico semi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="235" domainID="vrCutVolume">
+<Name description="Volume taglio scarico">Volume taglio scarico</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="236" domainID="vrMaxBestFitDrainSlope">
+<Name description="Pendenza max per lo scarico con retta migliore">Pendenza max per lo scarico con retta migliore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="237" domainID="vrMinBestFitDrainSlope">
+<Name description="Pendenza min per lo scarico con retta migliore">Pendenza min per lo scarico con retta migliore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="238" domainID="vrLinearFitDrainOffset">
+<Name description="Scarto scarico regressione lineare">Scarto scarico regressione lineare</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="239" domainID="vrFlagLength">
+<Name description="Lunghezza marcatore">Lunghezza marcatore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="240" domainID="vrVerticalAccuracyBarStepSize">
+<Name description="Incremento barra precisione verticale">Incremento barra precisione verticale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="241" domainID="vrRowGuidanceSensorOffset">
+<Name description="Scarto sensore guida lungo filari">Scarto sensore guida lungo filari</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="242" domainID="vrTankFillSessionArea">
+<Name description="Informazioni area">Informazioni area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="243" domainID="vrTankVolume">
+<Name description="Volume tramoggia">Volume tramoggia</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="244" domainID="vrCargoWeightMass">
+<Name description="Massa peso trasporto">Massa peso trasporto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="245" domainID="vrCargoWeightVolume">
+<Name description="Volume peso trasporto">Volume peso trasporto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="246" domainID="vrTankVolumePercentage">
+<Name description="Livello tramoggia in percento">Livello tramoggia in percento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="247" domainID="vrEngineHours">
+<Name description="Ore motore">Ore motore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="248" domainID="vrFuelAmount">
+<Name description="Quantità combustibile">Quantità combustibile</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="249" domainID="vrBufferZone">
+<Name description="La zona buffer descrive distanze da certi ambienti come acque, pavimentazioni o un'area abitativa.">La zona buffer descrive distanze da certi ambienti come acque, pavimentazioni o un'area abitativa.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="250" domainID="vrWaitingTime">
+<Name description="Mostra il tempo di attesa minimo tra le ultime applicazioni di irrorazione e l'inizio della raccolta per certi prodotti.">Mostra il tempo di attesa minimo tra le ultime applicazioni di irrorazione e l'inizio della raccolta per certi prodotti.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="251" domainID="vrProductContent">
+<Name description="I prodotti possono avere numerosi contenuti diversi (ingredienti, sostanze) come Mg, Mn, Cu, Zn, Br, Cao ecc.">I prodotti possono avere numerosi contenuti diversi (ingredienti, sostanze) come Mg, Mn, Cu, Zn, Br, Cao ecc.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="252" domainID="vrActiveIngredientMass">
+<Name description="L'attività biologica di un pesticida è intrinsecamente chimica o biologica ed è determinata dal suo ingrediente attivo, noto anche come sostanza attiva.">L'attività biologica di un pesticida è intrinsecamente chimica o biologica ed è determinata dal suo ingrediente attivo, noto anche come sostanza attiva.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="253" domainID="vrActiveIngredientVolume">
+<Name description="L'attività biologica di un pesticida è intrinsecamente chimica o biologica ed è determinata dal suo ingrediente attivo, noto anche come sostanza attiva.">L'attività biologica di un pesticida è intrinsecamente chimica o biologica ed è determinata dal suo ingrediente attivo, noto anche come sostanza attiva.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="254" domainID="vrProductLimitIndicationCount">
+<Name description="L'indicazione descrive l'ambito dell'applicazione mentre viene usato questo prodotto. Ad esempio un limite di una certa erbaccia deve essere superato per l'uso di uno specifico prodotto.">L'indicazione descrive l'ambito dell'applicazione mentre viene usato questo prodotto. Ad esempio un limite di una certa erbaccia deve essere superato per l'uso di uno specifico prodotto.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="255" domainID="vrProductLimitIndicationPercent">
+<Name description="L'indicazione descrive l'ambito dell'applicazione mentre viene usato questo prodotto. Ad esempio un limite di una certa erbaccia deve essere superato per l'uso di uno specifico prodotto.">L'indicazione descrive l'ambito dell'applicazione mentre viene usato questo prodotto. Ad esempio un limite di una certa erbaccia deve essere superato per l'uso di uno specifico prodotto.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="256" domainID="vrThousandCropWeight">
+<Name description="Definisce il peso di 1000 grani.">Definisce il peso di 1000 grani.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="257" domainID="vrPrimingInfoVolPerMass">
+<Name description="Le informazioni di osmopriming indicano il pretrattamento dei semi adoperati.">Le informazioni di osmopriming indicano il pretrattamento dei semi adoperati.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="258" domainID="vrPrimingInfoMassPerMass">
+<Name description="Le informazioni di osmopriming indicano il pretrattamento dei semi adoperati.">Le informazioni di osmopriming indicano il pretrattamento dei semi adoperati.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="259" domainID="vrActiveIngredientVolPerVol">
+<Name description="L'attività biologica di un pesticida è intrinsecamente chimica o biologica ed è determinata dal suo ingrediente attivo, noto anche come sostanza attiva.">L'attività biologica di un pesticida è intrinsecamente chimica o biologica ed è determinata dal suo ingrediente attivo, noto anche come sostanza attiva.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="260" domainID="vrGerminationRate">
+<Name description="La velocità di germinazione definisce la capacità di un seme di produrre una gemma.">La velocità di germinazione definisce la capacità di un seme di produrre una gemma.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="261" domainID="vrProvidedAmountVolume">
+<Name description="Definisce il volume di prodotto fornito per un serbatoio con calcolatrice di riempimento.">Definisce il volume di prodotto fornito per un serbatoio con calcolatrice di riempimento.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="262" domainID="vrProvidedAmountMass">
+<Name description="Definisce la massa di prodotto fornito per un serbatoio con calcolatrice di riempimento.">Definisce la massa di prodotto fornito per un serbatoio con calcolatrice di riempimento.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="263" domainID="vrTimeUntilEmpty">
+<Name description="Tempo finché il serbatoio di combustibile è vuoto">Tempo finché il serbatoio di combustibile è vuoto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="266" domainID="vrBatteryVoltage">
+<Name description="Tensione batteria">Tensione batteria</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="267" domainID="vrEngineCoolantTemperature">
+<Name description="Temp. liquido raffredd. motore">Temp. liquido raffred. motore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="268" domainID="vrEngineOilPressure">
+<Name description="Pressione olio motore">Pressione olio motore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="269" domainID="vrHydraulicOilTemperature">
+<Name description="Temperatura olio idraulico">Temperatura olio idraulico</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="271" domainID="vrEngineSpeed">
+<Name description="Regime motore">Regime motore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="272" domainID="vrAirBrakePressure">
+<Name description="Pressione freno pneumatico">Pressione freno pneumatico</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="273" domainID="vrAmbientAirTemperature">
+<Name description="Temperatura ambiente">Temperatura ambiente</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="277" domainID="vrLFLateralNudgeExtent">
+<Name description="Scarto laterale inseguitore-guida">Scarto laterale inseguitore-guida</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="278" domainID="vrLFInlineNudgeExtent">
+<Name description="Scarto in linea inseguitore-guida">Scarto in linea inseguitore-guida</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="279" domainID="vrTransportDistance">
+<Name description="Distanza di trasporto">Distanza di trasporto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="280" domainID="vrTotalInlineDistance">
+<Name description="DistanzaInLineaTotale">Distanza in linea totale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="281" domainID="vrTotalLateralDistance">
+<Name description="DistanzaLateraleTotale">Distanza laterale totale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="282" domainID="vrIngredientDensity">
+<Name description="Densità ingrediente">Densità ingrediente</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="283" domainID="vrProvidedAmountTotalMass">
+<Name description="Definisce la massa di prodotto fornito per un serbatoio con calcolatrice di riempimento.">Definisce la massa di prodotto fornito per un serbatoio con calcolatrice di riempimento.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="284" domainID="vrProvidedAmountTotalVolume">
+<Name description="Definisce il volume di prodotto fornito per un serbatoio con calcolatrice di riempimento.">Definisce il volume di prodotto fornito per un serbatoio con calcolatrice di riempimento.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="285" domainID="vrActiveIngredientMassPerMass">
+<Name description="L'attività biologica di un pesticida è intrinsecamente chimica o biologica ed è determinata dal suo ingrediente attivo, noto anche come sostanza attiva.">L'attività biologica di un pesticida è intrinsecamente chimica o biologica ed è determinata dal suo ingrediente attivo, noto anche come sostanza attiva.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="286" domainID="vrSeedSpacing">
+<Name description="Spaziatura semi">Spaziatura semi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="287" domainID="vrDownForceMargin">
+<Name description="Margine forza giù">Margine forza giù</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="288" domainID="vrTransmissionOilTemperature">
+<Name description="Temperatura olio trasmissione">Temperatura olio trasmissione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="289" domainID="vrPricePerContainer">
+<Name description="Prezzo semi al contenitore">Prezzo semi al contenitore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="290" domainID="vrPricePerBushel">
+<Name description="Prezzo vendita al bushel">Prezzo vendita al bushel</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="291" domainID="vrPricePerBag">
+<Name description="Prezzo semi alla busta">Prezzo semi alla busta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="292" domainID="vrPricePerSack">
+<Name description="Prezzo semi al sacco">Prezzo semi al sacco</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="293" domainID="vrPriceSolutionLiquid">
+<Name description="PrezzoDoseSoluzioneLiquida">Prezzo soluzione classificata come liquida</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="294" domainID="vrPriceSolutionDry">
+<Name description="PrezzoDoseSoluzioneAsciutta">Prezzo soluzione classificata come asciutta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="295" domainID="vrPriceSolutionGas">
+<Name description="PrezzoDoseSoluzioneGassosa">Prezzo soluzione classificata come gassosa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="296" domainID="vrPricePerTime">
+<Name description="Prezzo/unità di tempo">Prezzo/unità di tempo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="297" domainID="vrPricePerArea">
+<Name description="Prezzo/superficie">Prezzo/superficie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="298" domainID="vrPricePerField">
+<Name description="Prezzo per campo">Prezzo per campo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="299" domainID="vrPricePerBale">
+<Name description="Prezzo alla balla">Prezzo alla balla</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="300" domainID="vrPricePerMassCrop">
+<Name description="Prezzo/massa prodotto">Prezzo/massa prodotto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="301" domainID="vrPricePerMassCotton">
+<Name description="Prezzo/massa cotone">Prezzo/massa cotone</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="302" domainID="vrMeasuredWeight">
+<Name description="Peso determinato mediante sistema di pesatura">Peso determinato mediante sistema di pesatura</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="303" domainID="vrBaleSize">
+<Name description="Dimensioni effettive balla">Dimensioni effettive balla: lunghezza, per imballatrici balle quadre, o diametro, per imballatrici balle tonde</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="304" domainID="vrBaleTotal">
+<Name description="Totale balle">Numero totale balle</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="305" domainID="vrLookAheadTime">
+<Name description="Valore segnalazione">Tempo segnalazione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="306" domainID="vrTankNumber">
+<Name description="Numero serbatoi">Numero serbatoi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="307" domainID="vrImplementInGroundTurnRadius">
+<Name description="Raggio di svolta attrezzo al suolo">Raggio di svolta attrezzo al suolo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="308" domainID="vrDeltaT">
+<Name description="Delta T">Delta T</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="309" domainID="vrCountPerArea">
+<Name description="Conteggio per area">conteggio per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="310" domainID="vrConstituentCrudeProtein">
+<Name description="Proteine grezze medie">Proteine grezze medie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="311" domainID="vrConstituentStarch">
+<Name description="Amido medio">Amido medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="312" domainID="vrConstituentAcidDetergentFiber">
+<Name description="FDA medie">FDA medie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="313" domainID="vrConstituentNeutralDetergentFiber">
+<Name description="FDN medie">FDN medie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="314" domainID="vrConstituentSugar">
+<Name description="Zuccheri medi">Zuccheri medi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="315" domainID="vrConstituentAsh">
+<Name description="Ceneri medie">Ceneri medie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="316" domainID="vrConstituentCrudeFat">
+<Name description="Grassi grezzi medi">Grassi grezzi medi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="317" domainID="vrConstituentCrudeFiber">
+<Name description="Fibre grezze medie">Fibre grezze medie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="318" domainID="vrConstituentLignin">
+<Name description="Lignin media">Lignin media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="319" domainID="vrConstituentLactic">
+<Name description="Lattic medio">Lattic medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="320" domainID="vrConstituentAcetic">
+<Name description="Acetic medio">Acetic medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="321" domainID="vrConstituentButyric">
+<Name description="Butiric medio">Butiric medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="322" domainID="vrConstituentAmmonia">
+<Name description="Ammoniaca media">Ammoniaca media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="323" domainID="vrConstituentNonStructuralCarbohydrate">
+<Name description="Carboidrati non strutturali medi">Carboidrati non strutturali medi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="324" domainID="vrConstituentProteinSolubility">
+<Name description="Solubilità proteine media">Solubilità proteine media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="325" domainID="vrConstituentAdjustedCrudeProtein">
+<Name description="Proteine grezze corrette medie">Proteine grezze corrette medie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="326" domainID="vrConstituentRumenUndegradableProtein">
+<Name description="Proteine non degradab rumine medie">Proteine non degradab rumine medie</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="327" domainID="vrConstituentNonProteinNitrogen">
+<Name description="NPN medio">NPN medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="328" domainID="vrConstituentTotalNitrogenKjeldahl">
+<Name description="Azoto totale (Kjeldahl) medio">Azoto totale (Kjeldahl) medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="329" domainID="vrConstituentNitrogenNitrate">
+<Name description="Azoto (nitrato) medio">Azoto (nitrato) medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="330" domainID="vrConstituentNitrogenAmmonium">
+<Name description="Azoto (ammonio) medio">Azoto (ammonio) medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="331" domainID="vrConstituentDigestibleFat">
+<Name description="Grasso digeribile medio">Grasso digeribile medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="332" domainID="vrConstituentNeutralDetergentFiberDigestibility">
+<Name description="Digeribilità FDN media">Digeribilità FDN media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="333" domainID="vrConstituentCellulose">
+<Name description="Cellulosa media">Cellulosa media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="334" domainID="vrConstituentHemicellulose">
+<Name description="Emicellulosa media">Emicellulosa media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="335" domainID="vrConstituentTotalDigestibleNutrients">
+<Name description="Nutrienti digeribili totali medi">Nutrienti digeribili totali medi</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="336" domainID="vrConstituentNetEnergyForLactation">
+<Name description="Energia netta per lattazione media">Energia netta per lattazione media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="337" domainID="vrConstituentNetEnergyForMaintenance">
+<Name description="Energia netta per mantenimento media">Energia netta per mantenimento media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="338" domainID="vrConstituentNetEnergyForGain">
+<Name description="Energia netta per guadagno media">Energia netta per guadagno media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="339" domainID="vrConstituentDigestibleEnergy">
+<Name description="Energia digeribile media">Energia digeribile media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="340" domainID="vrConstituentMetabolizableEnergy">
+<Name description="Energia metabolizzabile media">Energia metabolizzabile media</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="341" domainID="vrConstituentOil">
+<Name description="Olio medio">Olio medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="342" domainID="vrConstituentSuspendedNitrogen">
+<Name description="Azoto sospeso medio">Azoto sospeso medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="343" domainID="vrConstituentTotalPhosphorus">
+<Name description="Fosforo totale medio">Fosforo totale medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="344" domainID="vrConstituentSuspendedPhosphorus">
+<Name description="Fosforo sospeso medio">Fosforo sospeso medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="345" domainID="vrConstituentPotassium">
+<Name description="Potassio medio">Potassio medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="346" domainID="vrConstituentSodium">
+<Name description="Sodio medio">Sodio medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="347" domainID="vrConstituentMagnesium">
+<Name description="Magnesio medio">Magnesio medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="348" domainID="vrConstituentCalcium">
+<Name description="Calcio medio">Calcio medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="349" domainID="vrConstituentSulphur">
+<Name description="Zolfo medio">Zolfo medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="350" domainID="vrConstituentMoistureReferenceA">
+<Name description="Riferimento umidità A medio">Riferimento umidità A medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="351" domainID="vrConstituentMoistureReferenceB">
+<Name description="Riferimento umidità B medio">Riferimento umidità B medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="352" domainID="vrConstituentMoistureReferenceC">
+<Name description="Riferimento umidità C medio">Riferimento umidità C medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="353" domainID="vrConstituentInvalid">
+<Name description="Componente non valido">Componente non valido</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="354" domainID="vrConstituentNitrogenAmmonia">
+<Name description="Azoto (ammoniaca) medio">Azoto (ammoniaca) medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="355" domainID="vrConstituentPhosphorusAllTypes">
+<Name description="Fosforo (tutti i tipi) medio">Fosforo (tutti i tipi) medio</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="356" domainID="vrInoculantDosingRateLow">
+<Name description="Basso dosaggio dell'inoculazione">Basso dosaggio dell'inoculazione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="357" domainID="vrInoculantDosingRateLowTotal">
+<Name description="Totale basso dosaggio dell'inoculazione">Totale basso dosaggio dell'inoculazione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="358" domainID="vrFuelVolumePerWetMass">
+<Name description="Volume combustibile per massa prodotto umido">volume combustibile per massa prodotto umido</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="359" domainID="vrFuelVolumePerDryMass">
+<Name description="Volume combustibile per massa prodotto asciutto">volume combustibile per massa prodotto asciutto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="360" domainID="vrWetMassPerFuelVolume">
+<Name description="Massa prodotto umido per volume combustibile">massa prodotto umido per volume combustibile</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="361" domainID="vrDryMassPerFuelVolume">
+<Name description="Massa prodotto asciutto per volume combustibile">massa prodotto asciutto per volume combustibile</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="362" domainID="vrManureTotalSolids">
+<Name description="Totali letame solido">Totali letame solido</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="363" domainID="vrTillageDepthMeasured">
+<Name description="Profondità dissodamento misurata">profondità dissodamento misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="364" domainID="vrTillageDepthControl">
+<Name description="Comando profondità dissodamento">comando profondità dissodamento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="365" domainID="vrCircleEdgeRadius">
+<Name description="Scarto radiale">Scarto radiale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="366" domainID="vrABCurveRadialShift">
+<Name description="Spostamento radiale">Spostamento radiale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="367" domainID="vrABCurveRadialTotalShift">
+<Name description="Spostamento radiale totale">Spostamento radiale totale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="368" domainID="vrTillagePressureTarget">
+<Name description="Pressione dissodamento prevista">pressione dissodamento prevista</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="369" domainID="vrTillagePressureMeasured">
+<Name description="Pressione dissodamento misurata">pressione dissodamento misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="370" domainID="vrFuelProductivity">
+<Name description="Resa combustibile">Resa combustibile</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="371" domainID="vrGuidanceShift">
+<Name description="Spostamento linea">Valore dello spostamento di una linea di guida quando l'utente seleziona il pulsante di spostamento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="372" domainID="vrRemainingABLineDistance">
+<Name description="Distanza linea AB restante">La distanza restante necessaria per completare la linea corrente</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="374" domainID="vrTrackSpacingGap">
+<Name description="Distanza di larghezza passata">La sovrapposizione (o distanza) tra la larghezza della passata e quella dell'attrezzo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="375" domainID="vrSlowSpeed">
+<Name description="Velocità bassa">La velocità di avanzamento lento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="376" domainID="vrActualSeedSpacingCV">
+<Name description="CV distanza semi effettiva">CV distanza semi effettiva specificata come percentuale</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="377" domainID="vrPlantingSingulation">
+<Name description="Semina singola">Percentuale di semina singola</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="378" domainID="vrPlantingSkips">
+<Name description="Spazi vuoti">Percentuale di spazi vuoti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="379" domainID="vrPlantingDoubles">
+<Name description="Semina doppia">Percentuale semina doppia</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="380" domainID="vrDownForceApplied">
+<Name description="Sforzo di penetrazione applicato">Sforzo di penetrazione applicato</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="381" domainID="vrGroundContact">
+<Name description="Contatto al suolo">Contatto al suolo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="382" domainID="vrRideQuality">
+<Name description="Qualità sospensione">Qualità sospensione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="383" domainID="vrTillagePressureControl">
+<Name description="Controllo pressione dissodamento">controllo pressione dissodamento</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="384" domainID="vrHarvestTrash">
+<Name description="Residui di raccolta">Residui</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="385" domainID="vrYieldMassCane">
+<Name description="Massa resa canna da zucchero">Ceppo</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="386" domainID="vrYieldMassCanePerArea">
+<Name description="Massa resa canna da zucchero per area">Ceppo per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="387" domainID="vrYieldRawMassCane">
+<Name description="Massa resa canna da zucchero grezza">Prodotto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="388" domainID="vrYieldRawMassCanePerArea">
+<Name description="Massa resa canna da zucchero grezza per area">Prodotto per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="389" domainID="vrCaneBilletLossMass">
+<Name description="Cane billet loss mass">Billet Loss</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="390" domainID="vrCaneResidueMass">
+<Name description="Cane residue mass">Residue</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="391" domainID="vrYieldRawMass">
+<Name description="Raw yield mass">Crop</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="392" domainID="vrYieldRawMassPerArea">
+<Name description="Raw yield mass per area">Crop per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="500" domainID="vrSCTurnOnTime">
+<Name description="Ritardo di risposta meccanica attivazione">Latenza</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="501" domainID="vrSCTurnOffTime">
+<Name description="Ritardo di risposta meccanica disattivazione">Latenza</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="503" domainID="vrAppliedYieldLatency">
+<Name description="Il ritardo temporale che è stato applicato ai dati.">Latenza applicata a resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="504" domainID="vrAppliedMoistureLatency">
+<Name description="Il ritardo temporale che è stato applicato ai dati.">Latenza applicata a umidità</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="505" domainID="vrHeaderHours">
+<Name description="Ore testata">Ore testata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="506" domainID="vrSeparatorHours">
+<Name description="Ore separatore">Ore separatore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="507" domainID="vrDeltaDistance">
+<Name description="Distanza delta">Distanza delta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="508" domainID="vrDeltaArea">
+<Name description="Area delta">Area delta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="509" domainID="vrDeltaAppliedVolume">
+<Name description="Volume delta">Volume applicato delta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="510" domainID="vrHarvestWetMassFlow">
+<Name description="Flusso massa umida raccolto">Flusso massa umida raccolto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="511" domainID="vrSolutionSystemFlowRatePerMinute">
+<Name description="Portata impianto per soluzione al minuto">Portata impianto per soluzione al minuto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="512" domainID="vrSCTuningDistance">
+<Name description="Distanza ottimizzazione comando sezione">Distanza ottimizzazione comando sezione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="513" domainID="vrSCTuningSpeed">
+<Name description="Velocità ottimizzazione comando sezione">Velocità ottimizzazione comando sezione</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="514" domainID="vrFanSpeedControl">
+<Name description="Comando velocità della ventola">Comando velocità della ventola</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="515" domainID="vrFanSpeedTarget">
+<Name description="Velocità ventola prevista">Velocità ventola prevista</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="516" domainID="vrFanSpeedMeasured">
+<Name description="Velocità ventola misurata">Velocità ventola misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="517" domainID="vrThreshingSpeedControl">
+<Name description="Comando velocità trebbiatura">Comando velocità trebbiatura</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="518" domainID="vrThreshingSpeedTarget">
+<Name description="Velocità trebbiatura prevista">Velocità trebbiatura prevista</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="519" domainID="vrThreshingSpeedMeasured">
+<Name description="Velocità trebbiatura misurata">Velocità trebbiatura misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="520" domainID="vrThreshingClearanceControl">
+<Name description="Comando distanza trebbiatura">Comando distanza trebbiatura</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="521" domainID="vrThreshingClearanceTarget">
+<Name description="Distanza trebbiatura prevista">Distanza trebbiatura prevista</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="522" domainID="vrThreshingClearanceMeasured">
+<Name description="Distanza trebbiatura misurata">Distanza trebbiatura misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="523" domainID="vrChaferPositionControl">
+<Name description="Comando crivello superiore">Comando crivello superiore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="524" domainID="vrChafferPositionTarget">
+<Name description="Posizione crivello superiore prevista">Posizione crivello superiore prevista</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="525" domainID="vrChafferPositionMeasured">
+<Name description="Posizione crivello superiore misurata">Posizione crivello superiore misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="526" domainID="vrSievePositionControl">
+<Name description="Comando posizione crivello inferiore">Comando posizione crivello inferiore</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="527" domainID="vrSievePositionTarget">
+<Name description="Posizione crivello inferiore prevista">Posizione crivello inferiore prevista</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="528" domainID="vrSievePositionMeasured">
+<Name description="Posizione crivello inferiore misurata">Posizione crivello inferiore misurata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="541" domainID="vrPrescriptionRateMultiplier">
+<Name description="Moltiplicatore dose prescrizione">Il moltiplicatore da applicare alle dosi prescrizione prima che siano inviate all'unità di comando.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="542" domainID="vrPrescriptionLookAheadTime">
+<Name description="Valore di segnalazione prescrizione">Valore del ritardo da proiettare lungo il percorso corrente quando si trovano e si inviano dosi di prescrizione all'unità di comando.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="543" domainID="vrYieldCalibration">
+<Name description="Fattore di taratura della resa">Fattore di taratura della resa</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="544" domainID="vrAvgYieldWetMassPerArea">
+<Name description="Massa resa umida media per area">Massa resa umida media per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="545" domainID="vrAvgYieldMassPerArea">
+<Name description="Massa resa secca media per area">Massa resa secca media per area</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="546" domainID="vrAvgHarvestMoisture">
+<Name description="Umidità media raccolto">Umidità media raccolto</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="547" domainID="vrPlantingSkipsCount">
+<Name description="Spazi vuoti">Conteggio spazi vuoti</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="548" domainID="vrPlantingDoublesCount">
+<Name description="Semina doppia">Conteggio semina doppia</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="549" domainID="vrDistanceFromTrack">
+<Name description="Distanza da passata">La distanza alla quale si trova il trattore dalla passata selezionata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="550" domainID="vrEngineLoadCurrentSpeed">
+<Name description="Carico motore alla velocità attuale">Il rapporto della coppia percentuale motrice effettiva (indicata) rispetto alla coppia massima indicata disponibile al regime motore corrente, ridotto alla coppia zero durante la frenatura del motore.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="551" domainID="vrProductIndex">
+<Name description="Indice prodotto.">L'indice del prodotto utilizzato quando si associano i prodotti a elementi come filari, contenitori, serbatoi, ecc., per le comunicazioni su CAN e tramite dati di lavoro per Modello apparecchiatura.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="552" domainID="vrDeltaAppRateMass">
+<Name description="Massa applicazione del prodotto delta">Massa applicata delta</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="553" domainID="vrSprayBoomHeight">
+<Name description="Altezza braccio irroratrice.">Altezza braccio irroratrice.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="554" domainID="vrAverageQuantityAppliedVolume">
+<Name description="Volume applicato di quantità media">Volume applicato di quantità media.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="555" domainID="vrCropIntensityIndex">
+<Name description="Indice di intensità prodotto">Intensità del prodotto come misurata dai sensori di resa per sezione.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="556" domainID="vrCropIntensityIndexPerArea">
+<Name description="Intensità prodotto per area">Indice di intensità del prodotto normalizzato per area coperta.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="557" domainID="vrHeaderBackshaftSprocketToothCount">
+<Name description="Conteggio ruote dentate albero posteriore testata">Conteggio ruote dentate albero posteriore testata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="558" domainID="vrHeaderDriveshaftSprocketToothCount">
+<Name description="Conteggio denti ruote dentate albero di trasmissione testata">Conteggio denti ruote dentate albero di trasmissione testata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="559" domainID="vrHeaderBackshaftSpeed">
+<Name description="Velocità albero posteriore testata">Velocità albero posteriore testata</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="560" domainID="vrWheelSpeed">
+<Name description="Velocità ruote">Velocità ruote</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="561" domainID="vrRadarSpeed">
+<Name description="Velocità radar">Velocità radar</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="562" domainID="vrWheelSlip">
+<Name description="Slittamento ruote.">Slittamento ruote.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="563" domainID="vrSprayPressure">
+<Name description="Pressione irrorazione">Pressione del liquido nell'impianto del prodotto così come misurata in corrispondenza del collettore o del punto di distribuzione principale.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="564" domainID="vrActiveContainer">
+<Name description="The Active Bin.">The active container / bin when using equipment that supports features such as bin chaining where one bin might be active until it is empty and then the equipment will automaticall switch to the next bin with the same product.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="565" domainID="vrMachineSelectedSpeed">
+<Name description="Machine selected speed">The speed selected and provided by the equipment itself.  When present, this overrides any other speeds on the display.</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="566" domainID="vrAppRateVolumePerDistanceControl">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="567" domainID="vrAppRateVolumePerDistanceTarget">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="568" domainID="vrAppRateVolumePerDistanceMeasured">
+<Name description="--translate--">--translate--</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="569" domainID="vrISODVCElementNumber">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="570" domainID="vrVisionRowSpacing">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="571" domainID="vrVisionCameraHeight">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="572" domainID="vrISOTaskId">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="573" domainID="vrISOMeasureOnTimeInterval">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="574" domainID="vrISOMeasureOnDistanceInterval">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="575" domainID="vrISOMeasureMinThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="576" domainID="vrISOMeasureMaxThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="577" domainID="vrISOMeasureChangeThreshold">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="578" domainID="vrISOMeasureDefaultSet">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="600" domainID="vrAppRateVolumePerHour">
+<Name description="Volume dose app all'ora">Volume dose app all'ora</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="601" domainID="vrISOImpApplicationTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="602" domainID="vrISOImpApplicationTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="603" domainID="vrISOImpApplicationTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="604" domainID="vrISOImpYieldTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="605" domainID="vrISOImpYieldTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="606" domainID="vrISOImpYieldTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="607" domainID="vrISOImpTotalArea">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="608" domainID="vrISOImpEffectiveTotalDistance">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="609" domainID="vrISOImpIneffectiveTotalDistance">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="610" domainID="vrISOImpEffectiveTotalTime">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="611" domainID="vrISOImpIneffectiveTotalTime">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="612" domainID="vrISOImpTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="613" domainID="vrISOImpYieldTotalDryMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="614" domainID="vrISOImpYieldTotalSeedCottonMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="615" domainID="vrISOImpYieldTotalLintCottonMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="616" domainID="vrISOImpPrecutTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="617" domainID="vrISOImpUncutTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="618" domainID="vrISOImpEffectiveTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="619" domainID="vrISOImpIneffectiveTotalFuelConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="620" domainID="vrISOImpEffectiveTotalDieselExhaustFluid">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="621" domainID="vrISOImpIneffectiveTotalDieselExhaustFluid">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="622" domainID="vrISOImpFrontPTOHours">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="623" domainID="vrISOImpRearPTOHours">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="624" domainID="vrISOImpApplicationTotalVolumeMl">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="625" domainID="vrISOImpApplicationTotalMassG">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="626" domainID="vrISOImpApplicationOfNitrogen">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="627" domainID="vrISOImpApplicationOfAmmonium">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="628" domainID="vrISOImpApplicationOfPhosphor">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="629" domainID="vrISOImpApplicationOfPotassium">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="630" domainID="vrISOImpApplicationOfDryMatter">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="631" domainID="vrISOImpTotalBaleLength">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="632" domainID="vrISOImpTotalDieselExhaustFluidConsumption">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="633" domainID="vrISOImpLoadedTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="634" domainID="vrISOImpUnloadedTotalMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="635" domainID="vrISOImpLoadedTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="636" domainID="vrISOImpUnloadedTotalVolume">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="637" domainID="vrISOImpLoadedTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="638" domainID="vrISOImpUnloadedTotalCount">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="639" domainID="vrISOImpTotalRevolutionsInFractionalRevolutions">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="640" domainID="vrISOImpTotalRevolutionsInCompleteRevolutions">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="641" domainID="vrDeltaSeedRateSeeds">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="642" domainID="vrDeltaSeedRateMass">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="643" domainID="vrNozzleTurretPositionsTotal">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="644" domainID="vrNozzleTurretPosition">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<VariableRepresentationTranslation domainTag="645" domainID="vrNozzleTurretPositionA">
+<Name description="-- translate --">-- translate --</Name>
+</VariableRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtApplicationMethod" domainTag="1001">
+<Name description="Metodo di applicazione">Metodo di applicazione</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5041" domainID="dti1InchAway">
+<Name description="1 in. di distanza">1 in. di distanza</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5042" domainID="dti2InchAway">
+<Name description="2 in. di distanza">2 in. di distanza</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5043" domainID="dtiAerial">
+<Name description="Aereo">Aereo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5044" domainID="dtiBanding">
+<Name description="Bendaggio">Bendaggio</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5045" domainID="dtiChemigation">
+<Name description="Irrigaz. chimica">Irrigaz. chimica</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5001" domainID="dtiInFurrow">
+<Name description="In solco">In solco</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5047" domainID="dtiInjected">
+<Name description="A iniezione">A iniezione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5039" domainID="dtiSurface">
+<Name description="In superficie">In superficie</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5049" domainID="dtiTBand">
+<Name description="In banda a T">In banda a T</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5050" domainID="dtiBackpackSpray">
+<Name description="Polverizzatore portatile">Polverizzatore portatile</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5051" domainID="dtiBand">
+<Name description="In banda">In banda</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5052" domainID="dtiHoodedSprayer">
+<Name description="Polverizzatore a campana">Polverizzatore a campana</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5053" domainID="dtiImpregnate">
+<Name description="Impregnazione">Impregnazione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5054" domainID="dtiPlanter">
+<Name description="Piantatrice">Piantatrice</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5055" domainID="dtiPostDirSpray">
+<Name description="Polver. diretta post-emergenza">Polv. diretta post-emerg.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5056" domainID="dtiRopeWick">
+<Name description="A stoppino">A stoppino</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5057" domainID="dtiSideDress">
+<Name description="Laterale">Laterale</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5040" domainID="dtiBroadcast">
+<Name description="Diffusione">Diffusione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5059" domainID="dtiMisApplication">
+<Name description="Applicazione errata">Applicazione errata</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5060" domainID="dtiCoApplication">
+<Name description="Co-applicazione">Co-applicazione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5061" domainID="dtiAirBlast">
+<Name description="A getto d'aria">A getto d'aria</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5062" domainID="dtiElectroStatic">
+<Name description="Elettrostatico">Elettrostatico</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5063" domainID="dtiGround">
+<Name description="A interramento">A interramento</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5064" domainID="dtiFertigation">
+<Name description="Fertirrigazione">Fertirrigazione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtRecordingStatus" domainTag="1003">
+<Name description="Usato per specificare lo stato della registrazione.  Il valore può essere On o Off.">Stato registrazione sezione</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5003" domainID="dtiRecordingStatusOn">
+<Name description="On">On</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5004" domainID="dtiRecordingStatusOff">
+<Name description="Off">Off</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWindDirection" domainTag="1004">
+<Name description="Direzione del vento in incrementi testuali">Direzione vento</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5005" domainID="dtiWindDirectionN">
+<Name description="Nord">N</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5006" domainID="dtiWindDirectionS">
+<Name description="Sud">S</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5007" domainID="dtiWindDirectionE">
+<Name description="Est">E</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5008" domainID="dtiWindDirectionW">
+<Name description="Ovest">O</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5009" domainID="dtiWindDirectionNE">
+<Name description="Nord-Est">NE</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5010" domainID="dtiWindDirectionSE">
+<Name description="Sud-Est">SE</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5011" domainID="dtiWindDirectionSW">
+<Name description="Sud-Ovest">SO</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5012" domainID="dtiWindDirectionNW">
+<Name description="Nord-Ovest">NO</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtABLineSaveMethod" domainTag="1005">
+<Name description="Il metodo di salvataggio usato per creare la linea AB.">Metodo di salvataggio</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5014" domainID="dtiABLineMethodBPoint">
+<Name description="Salvataggio linea AB: immissione punti A e B">A + B</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5015" domainID="dtiABLineMethodHeading">
+<Name description="Salvataggio linea AB: immissione punto A e direzione">A + Direzione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5016" domainID="dtiABLineMethodManualEntry">
+<Name description="Salvataggio linea AB: immissione manuale punti A e B">Lat/Lon</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5017" domainID="dtiABLineMethodAutomaticB">
+<Name description="Salvataggio linea AB: definizione auto punto B">B auto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5088" domainID="dtiABLineMethodLatLonHeading">
+<Name description="Salvataggio linea AB tramite l'immissione manuale del punto A e della direzione">Lat/Lon + Direzione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSkyCondition" domainTag="1006">
+<Name description="Condizioni del cielo">Condizioni del cielo</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5019" domainID="dtiSunny">
+<Name description="Condizioni cielo sereno">Sereno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5020" domainID="dtiCloudy">
+<Name description="Condizioni cielo nuvoloso">Nuvoloso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5021" domainID="dtiPartlyCloudy">
+<Name description="Condizioni cielo parzialmente nuvoloso">Parzialmente nuvoloso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5022" domainID="dtiRain">
+<Name description="Condizioni cielo piovoso">Pioggia</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5023" domainID="dtiSnow">
+<Name description="Condizioni cielo nevoso">Neve</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5024" domainID="dtiClear">
+<Name description="Condizioni cielo terso">Terso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtInlineOffsetType" domainTag="1007">
+<Name description="Scarto in linea">Scarto in linea</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5025" domainID="dtiInlineFront">
+<Name description="Davanti in linea">Davanti in linea</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5026" domainID="dtiInlineCenter">
+<Name description="Centro in linea">Centro in linea</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5027" domainID="dtiInlineRear">
+<Name description="Dietro in linea">Dietro in linea</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLateralOffsetType" domainTag="1008">
+<Name description="Scarto laterale">Scarto laterale</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5028" domainID="dtiLateralLeft">
+<Name description="Laterale a sinistra">Laterale a sinistra</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5029" domainID="dtiLateralCenter">
+<Name description="Centro laterale">Centro laterale</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5030" domainID="dtiLateralRight">
+<Name description="Laterale a destra"> Laterale a destra</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHitchType" domainTag="1009">
+<Name description="Tipo di sollevatore">Tipo di sollevatore</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5031" domainID="dtiThreePoint">
+<Name description="Posteriore rigido in 3 punti">Posteriore rigido 3 punti</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5146" domainID="dtiRearTwoPoint">
+<Name description="Post. articol. 2 punti">Post. articol. 2 punti</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5032" domainID="dtiDrawbar">
+<Name description="Artic. barra traino post.">Artic. barra traino post.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5147" domainID="dtiRearPivotWagonHitch">
+<Name description="Articolazione attacco carro posteriore">Art. attacco carro post.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5148" domainID="dtiFrontRigidThreePoint">
+<Name description="Anteriore rigido in 3 punti">Anteriore rig. in 3 punti</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSoilMoisture" domainTag="1010">
+<Name description="Umidità suolo">Umidità suolo</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5033" domainID="dtiCloddy">
+<Name description="Zolloso">Zolloso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5034" domainID="dtiDry">
+<Name description="Asciutto">Asciutto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5035" domainID="dtiFrozen">
+<Name description="Congelato">Congelato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5036" domainID="dtiIdeal">
+<Name description="Ottimale">Ottimale</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5037" domainID="dtiMuddy">
+<Name description="Fangoso">Fangoso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5038" domainID="dtiWet">
+<Name description="Umido">Umido</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSeedingApplicationMethod" domainTag="1011">
+<Name description="Metodo di applicazione semi">Metodo di applicazione semi</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5065" domainID="dtiBroadcastSeeding">
+<Name description="Semina a diffusione">Semina a diffusione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5066" domainID="dtiInGround">
+<Name description="Nel terreno">Nel terreno</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtOperationClass" domainTag="1012">
+<Name description="Classificazione operazione">Classificazione operazione</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5070" domainID="dtiTillage">
+<Name description="Dissodamento">Dissodamento</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5071" domainID="dtiHarvest">
+<Name description="Raccolta">Raccolta</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5072" domainID="dtiSeeding">
+<Name description="Semina">Semina</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5073" domainID="dtiApplication">
+<Name description="Applicazione">Applicazione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5074" domainID="dtiOther">
+<Name description="Altro">Altro</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5152" domainID="dtiSurfaceWaterManagement">
+<Name description="Operazione gestione idrica superficiale">OperGestioneIdricaSuperf</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSensorStatus" domainTag="1013">
+<Name description="Stato sensore">Stato sensore</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5067" domainID="dtiSensorOn">
+<Name description="Stato sensore - On">On</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5068" domainID="dtiFail">
+<Name description="Stato sensore - Err.">Err.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5069" domainID="dtiSensorOff">
+<Name description="Stato sensore - Off">Off</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPrescriptionState" domainTag="1014">
+<Name description="Stato prescrizione">Stato prescrizione</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5075" domainID="dtiPrescriptionUsed">
+<Name description="Prescrizione - Usata">Usata</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5076" domainID="dtiPrescriptionNotUsed">
+<Name description="Prescrizione - Non usata">Non usata</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5077" domainID="dtiPrescriptionOverridden">
+<Name description="Prescrizione - Esclusa">Esclusa</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLoadType" domainTag="1015">
+<Name description="Tipo di carico raccolto">Tipo di carico raccolto</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5078" domainID="dtiLoadField">
+<Name description="Campo">Campo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5079" domainID="dtiLoadTruck">
+<Name description="Camion">Camion</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5080" domainID="dtiLoadTank">
+<Name description="Tanica">Tanica</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCottonLoadType" domainTag="1016">
+<Name description="Tipo di carico raccolto cotone">Tipo di carico raccolto cotone</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5082" domainID="dtiCottonLoadField">
+<Name description="Campo">Campo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5083" domainID="dtiCottonLoadModule">
+<Name description="Modulo rettangolare">Modulo rettangolare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5084" domainID="dtiCottonLoadBasket">
+<Name description="Cassone">Cassone</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5085" domainID="dtiCottonLoadRoundModule">
+<Name description="Modulo circolare">Modulo circolare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCircleSaveMethod" domainTag="1017">
+<Name description="Il metodo di salvataggio usato per creare il cerchio.">Metodo di salvataggio</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5086" domainID="dtiCircleMethodDriving">
+<Name description="Salvataggio cerchio: guida perimetro">Guida cerchio</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5087" domainID="dtiCircleMethodLatLong">
+<Name description="Salvataggio cerchio: immissione coordinate">Lat/Lon</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtMaterialClass" domainTag="1018">
+<Name description="Classe materiale prodotto">Classe materiale</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5089" domainID="dtiMaterialClassDry">
+<Name description="Prodotto asciutto">Asciutto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5090" domainID="dtiMaterialClassLiquid">
+<Name description="Prodotto liquido">Liquido</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionType" domainTag="1019">
+<Name description="Tipo funzione confine">Tipo funzione</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5091" domainID="dtiFunctionModifyGroundSpeed">
+<Name description="Modifica velocità di avanzamento sul terreno">Modifica vel. avanzamento</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5092" domainID="dtiFunctionAdjustHitch">
+<Name description="Abbassamento del sollevatore">Regolazione sollevatore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5195" domainID="dtiFunctionAdjustFrontHitch">
+<Name description="Abbassamento del sollevatore">Regolazione sollevatore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5093" domainID="dtiFunctionChangePTO">
+<Name description="Modifica PTO">Modifica PTO</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5094" domainID="dtiFunctionChangeDiffLock">
+<Name description="Modif. bloccaggio differ.">Modif. bloccaggio differ.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5095" domainID="dtiFunctionChange4WD">
+<Name description="Modifica trazione 4 ruote">Modifica trazione 4 ruote</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5096" domainID="dtiFunctionChangeSCV1">
+<Name description="Distributore idraulico 1">Distributore idraulico 1</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5097" domainID="dtiFunctionChangeSCV2">
+<Name description="Distributore idraulico 2">Distributore idraulico 2</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5098" domainID="dtiFunctionChangeSCV3">
+<Name description="Distributore idraulico n. 3">Distributore idraulico 3</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5099" domainID="dtiFunctionChangeSCV4">
+<Name description="Distributore idraulico n. 4">Distributore idraulico 4</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5100" domainID="dtiFunctionChangeSCV5">
+<Name description="Distributore idraulico n. 5">Distributore idraulico 5</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5101" domainID="dtiFunctionChangeSCV6">
+<Name description="Distributore idraulico n. 6">Distributore idraulico 6</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5179" domainID="dtiFunctionChangeSCV7">
+<Name description="Distributore idraulico VII">Distributore idraulico 7</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5180" domainID="dtiFunctionChangeSCV11">
+<Name description="Distributore idraulico 11">Distributore idraulico 11</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5181" domainID="dtiFunctionChangeSCV12">
+<Name description="Distributore idraulico 9">Distributore idraulico 9</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5182" domainID="dtiFunctionChangeSCV13">
+<Name description="Distributore idraulico 13">Distributore idraulico 13</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5193" domainID="dtiFunctionChangeSCV14">
+<Name description="Distributore idraulico 14">Distributore idraulico 14</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5194" domainID="dtiFunctionChangeSCV15">
+<Name description="Distributore idraulico 15">Distributore idraulico 15</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5183" domainID="dtiFunctionModifyFieldCruise">
+<Name description="Modifica regime motore">Modifica regime motore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5132" domainID="dtiFunctionChangeAccuDepth1">
+<Name description="AccuDepth I">AccuDepth I</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5133" domainID="dtiFunctionChangeAccuDepth2">
+<Name description="AccuDepth II">AccuDepth II</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5134" domainID="dtiFunctionChangeAccuDepth3">
+<Name description="AccuDepth III">AccuDepth III</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5135" domainID="dtiFunctionChangeAccuDepth4">
+<Name description="AccuDepth IV">AccuDepth IV</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5136" domainID="dtiFunctionChangeAccuDepth5">
+<Name description="AccuDepth V">AccuDepth V</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5137" domainID="dtiFunctionChangeAccuDepth6">
+<Name description="AccuDepth VI">AccuDepth VI</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5138" domainID="dtiFunctionChangeAPS">
+<Name description="APS">APS</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5149" domainID="dtiFunctionChangeGear">
+<Name description="Marcia">Marcia</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5157" domainID="dtiFunctionChangeFrontPTO">
+<Name description="Cambia PTO anteriore">Cambia PTO anteriore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionHitchChange" domainTag="1020">
+<Name description="Stato sollevatore" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5102" domainID="dtiFunctionLowerHitch">
+<Name description="Abbassato">Abbassato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5103" domainID="dtiFunctionRaiseHitch">
+<Name description="Sollevato">Sollevato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionPTOChange" domainTag="1021">
+<Name description="Stato PTO" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5104" domainID="dtiFunctionEngagePTO">
+<Name description="Attiv">Attiv</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5105" domainID="dtiFunctionDisengagePTO">
+<Name description="Disinserito">Disinserito</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionDiffLocChange" domainTag="1022">
+<Name description="Stato blocco differenziale" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5106" domainID="dtiFunctionEngageDiffLock">
+<Name description="Attiv">Attiv</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5107" domainID="dtiFunctionDisengageDiffLock">
+<Name description="Disinserito">Disinserito</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunction4WDChange" domainTag="1023">
+<Name description="Stato MFWD" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5108" domainID="dtiFunctionEngage4WD">
+<Name description="MFWD automatica">MFWD automatica</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5109" domainID="dtiFunctionDisengage4WD">
+<Name description="Disins. MFWD">Disins. MFWD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5161" domainID="dtiFunctionManualEngage4WD">
+<Name description="Attivare MFWD">Attivare MFWD</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionSCVChange" domainTag="1024">
+<Name description="Stato distributore idraulico" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5110" domainID="dtiFunctionSCVExtend">
+<Name description="Esteso">Esteso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5111" domainID="dtiFunctionSCVRetract">
+<Name description="Retratto">Retratto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5112" domainID="dtiFunctionSCVFloat">
+<Name description="Flottante">Flottante</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5113" domainID="dtiFunctionSCVCancel">
+<Name description="Annulla">Annulla</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionFieldCruiseChange" domainTag="1041">
+<Name description="Stato velo norm lav" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5184" domainID="dtiFunctionEngageFieldCruise">
+<Name description="Inserisci velocità normale di lavoro">Inser. velo. norm. lavoro</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5185" domainID="dtiFunctionDisengageFieldCruise">
+<Name description="Disinserisci velocità normale di lavoro">Disins. veloc norm lavoro</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtGuidanceBoundaryBehavior" domainTag="1025">
+<Name description="Configurazione guida al confine">Configurazione guida al confine</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5114" domainID="dtiStraightLineProjection">
+<Name description="Proiezione rettilinea">Proiezione rettilinea</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5115" domainID="dtiAutogeneratedTurns">
+<Name description="Generazione autom. svolte">Generazione autom. svolte</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5116" domainID="dtiFollowRecordedPath">
+<Name description="Segui il percorso registrato">Segui percorso registrato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSkipPattern" domainTag="1026">
+<Name description="Configurazione passate da saltare">Configurazione passate da saltare</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5117" domainID="dtiAlternateRows">
+<Name description="Alterna a ogni fila">Alterna a ogni fila</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5118" domainID="dtiSkip1AndFill">
+<Name description="Salta 1 e riempi">Salta 1 e riempi</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5119" domainID="dtiAutomaticSkipPattern">
+<Name description="Salto 1a svolta">Salto 1a svolta</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtCoverageSetting" domainTag="1027">
+<Name description="Configurazione copertura">Configurazione copertura</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5121" domainID="dtiCoverageMinimizeOverlap">
+<Name description="Riduci sovrappos. al min.">Riduci sovrappos. al min.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5122" domainID="dtiCoverageMinimizeSkips">
+<Name description="Riduci salti al minimo">Riduci salti al minimo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSignalType" domainTag="1028">
+<Name description="Tipo di segnale usato durante la registrazione dei dati">Tipo segnale</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5123" domainID="dtiSignalTypeUnknown">
+<Name description="Tipo segnale sconosciuto">Sconosciuto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5124" domainID="dtiSignalTypeDigitized">
+<Name description="Digitalizzato da un'immagine raster">Digitalizzato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5125" domainID="dtiSignalTypeNoDiff">
+<Name description="Solo segnale GPS, differenziale assente">Diff assente</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5126" domainID="dtiSignalTypeUnknownDiff">
+<Name description="Tipo segnale differenziale sconosciuto">Diff sconosciuto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5127" domainID="dtiSignalTypeWAAS">
+<Name description="Tipo segnale WAAS o EGNOS">WAAS/EGNOS</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5128" domainID="dtiSignalTypeSF1">
+<Name description="Tipo segnale SF1">SF1</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5129" domainID="dtiSignalTypeSF2">
+<Name description="Tipo segnale SF2">SF2</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5130" domainID="dtiSignalTypeRTKX">
+<Name description="Tipo segnale RTK-X">RTK-X</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5131" domainID="dtiSignalTypeRTK">
+<Name description="Tipo segnale RTK">RTK</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6035" domainID="dtiSignalTypeSF3">
+<Name description="Tipo segnale SF3">SF3</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionAPSChange" domainTag="1029">
+<Name description="Stato APS" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5139" domainID="dtiFunctionEngage">
+<Name description="Attiv">Attiv</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNavigationType" domainTag="1030">
+<Name description="Tipo di navigazione" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5140" domainID="dtiVehicleGPS">
+<Name description="GPS veicolo">GPS veicolo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5141" domainID="dtiComputedImplement">
+<Name description="GPS attrezzo calcolato">GPS attrezzo calcolato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5142" domainID="dtiImplementGPS">
+<Name description="GPS attrezzo">GPS attrezzo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNonSteeringAxleLocation" domainTag="1031">
+<Name description="Posizione assale non sterzante" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5143" domainID="dtiFrontAxle">
+<Name description="Assale anteriore">Assale anteriore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5144" domainID="dtiRearAxle">
+<Name description="Assale posteriore">Assale posteriore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSPFHLoadType" domainTag="1032">
+<Name description="Tipo di carico raccolto">Tipo di carico raccolto</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5150" domainID="dtiSPFHLoadField">
+<Name description="Campo">Campo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5151" domainID="dtiSPFHLoadTruck">
+<Name description="Camion">Camion</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSurfaceWaterManagementOpType" domainTag="1033">
+<Name description="Tipo di operazione gestione idrica superficiale">Tipo di operazione gestione idrica superficiale</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5153" domainID="dtiSWMDitches">
+<Name description="Fosso">Fosso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5154" domainID="dtiSWMLevees">
+<Name description="Bordo">Bordo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtFunctionFrontPTOChange" domainTag="1034">
+<Name description="Stato PTO anteriore" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5155" domainID="dtiFunctionEngageFrontPTO">
+<Name description="Attiv">Attiv</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5156" domainID="dtiFunctionDisengageFrontPTO">
+<Name description="Disinserito">Disinserito</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtDrainType" domainTag="1035">
+<Name description="Tipo di scarico">Tipo di scarico</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5158" domainID="dtiDrainTypeUnknown">
+<Name description="Tipo di scarico ignoto">Tipo di scarico ignoto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5159" domainID="dtiDrainTypeLinear">
+<Name description="Scarico lineare">Scarico lineare</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5160" domainID="dtiDrainTypeBestFit">
+<Name description="Scarico retta migliore">Scarico retta migliore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHeaderStatus" domainTag="1036">
+<Name description="Serve a specificare lo stato della testata.  I valori sono On e Off. Se questo valore è presente in un misuratore in un'operazione di un file di registro, sarà utilizzato per applicare l'inizio e la fine del filtraggio del ritardo della passata allo stato che compare sulle sezioni per la stessa operazione.">Stato testata</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5162" domainID="dtiHeaderStatusOn">
+<Name description="On">On</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5163" domainID="dtiHeaderStatusOff">
+<Name description="Off">Off</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTicketStatus" domainTag="1037">
+<Name description="Serve a identificare lo stato di un elemento del prospetto nel file del registro combustibile.">Stato prospetto registro combustibile</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5165" domainID="dtiNew">
+<Name description="Nuovo">Nuovo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5166" domainID="dtiModified">
+<Name description="Modificato">Modificato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5167" domainID="dtiDeleted">
+<Name description="Cancellato">Cancellato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductDetailsProductType" domainTag="1038">
+<Name description="Serve a specificare i dettagli per i prodotti chimici o fertilizzanti." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5168" domainID="dtiBufferZone">
+<Name description="Zona buffer">Zona buffer</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5169" domainID="dtiWaitingTime">
+<Name description="Tempo di attesa">Tempo di attesa</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5170" domainID="dtiProductContent">
+<Name description="Contenuto del prodotto">Contenuto del prodotto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5171" domainID="dtiActiveIngredient">
+<Name description="Ingrediente attivo">Ingrediente attivo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5172" domainID="dtiProductLimitIndication">
+<Name description="Indicazione limite prodotto">Indicaz. limite prodotto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductDetailsSeedType" domainTag="1039">
+<Name description="Serve a specificare i dettagli per i prodotti a semi." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5173" domainID="dtiThousandCropWeight">
+<Name description="Peso di 1.000 semi">Peso di 1.000 semi</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5174" domainID="dtiPrimingInformation">
+<Name description="Informazioni di osmopriming">Info di osmopriming</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5175" domainID="dtiGerminationRate">
+<Name description="Velocità di germinazione">Velocità di germinazione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5176" domainID="dtiGmoInformation">
+<Name description="Informazioni sugli OGM">Informazioni sugli OGM</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTicketType" domainTag="1040">
+<Name description="Serve a specificare il tipo di un elemento del prospetto dell'operazione di trasporto." />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5177" domainID="dtiLoad">
+<Name description="Tipo prospetto carico">Tipo prospetto carico</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5178" domainID="dtiUnload">
+<Name description="Tipo prospetto scaricamento">Tipo prospetto scaricam.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtMeasuredWeightStatus" domainTag="1042">
+<Name description="Da impiegarsi per identificare lo stato del peso misurato per il prospetto.">Stato del peso misurato.</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5186" domainID="dtiWeightStable">
+<Name description="Il peso corrisponde a un valore stabile">Peso stabile</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5187" domainID="dtiWeightUnStable">
+<Name description="Il peso corrisponde a un valore instabile">Peso instabile</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5188" domainID="dtiWeightError">
+<Name description="Il peso indica un errore">Errore peso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProjectionType" domainTag="1043">
+<Name description="Tipo di proiezione sistema di guida" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="5189" domainID="dtiProjectionDeere">
+<Name description="John Deere">John Deere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5190" domainID="dtiNonJohnDeere1">
+<Name description="Non John Deere 1">Non John Deere 1</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5191" domainID="dtiNonJohnDeere2">
+<Name description="Non John Deere 2">Non John Deere 2</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5192" domainID="dtiNonJohnDeere3">
+<Name description="Non John Deere 3">Non John Deere 3</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTillageType" domainTag="1044">
+<Name description="Tipo di dissodamento">Tipo di dissodamento</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5196" domainID="dtiTillageTypeDisk">
+<Name description="Disco">Disco</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5197" domainID="dtiTillageTypeRipper">
+<Name description="Scarificatore">Scarificatore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5198" domainID="dtiTillageTypeClosingDisk">
+<Name description="Disco di chiusura">Disco di chiusura</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5199" domainID="dtiTillageTypeShank">
+<Name description="Gambo">Gambo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5200" domainID="dtiTillageTypeOpener">
+<Name description="Aprisolco">Aprisolco</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5201" domainID="dtiTillageTypeBasket">
+<Name description="Cesto">Cesto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5202" domainID="dtiTillageTypeCoulter">
+<Name description="Avanvomere">Avanvomere</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5203" domainID="dtiTillageTypeHarrow">
+<Name description="Erpice">Erpice</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="5204" domainID="dtiTillageTypeRoller">
+<Name description="Rullo">Rullo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtUnloadingAugerState" domainTag="1500">
+<Name description="Stato coclea di scarico">Stato coclea di scarico</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6000" domainID="dtiUnloadingAugerStateDisabled">
+<Name description="Disabilitato">Disabilitato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6001" domainID="dtiUnloadingAugerStateEnabled">
+<Name description="Abilitato">Abilitato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6002" domainID="dtiUnloadingAugerStateError">
+<Name description="Errore">Errore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6003" domainID="dtiUnloadingAugerStateNotAvailable">
+<Name description="Non disponibile">Non disponibile</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtJDArmedDWS" domainTag="1501">
+<Name description="Stato di lavoro a bracci ridotti John Deere">Stato di lavoro a bracci ridotti John Deere</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6004" domainID="dtiReady">
+<Name description="Pronto">Pronto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6005" domainID="dtiIBSDisabled">
+<Name description="IBS disabilitato">IBS disabilitato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6006" domainID="dtiManualDisabled">
+<Name description="Manuale disabilitato">Manuale disabilitato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6007" domainID="dtiMasterDisabled">
+<Name description="Principale disabilitato">Principale disabilitato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSectionControlMasterState" domainTag="1502">
+<Name description="Stato principale comando sezione ISO">Stato principale comando sezione ISO</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6008" domainID="dtiSCMasterManualOff">
+<Name description="Disattiv.">Disattiv.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6009" domainID="dtiSCMasterAutoOn">
+<Name description="Attivato">Attivato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6010" domainID="dtiSCMasterError">
+<Name description="Errore">Errore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6011" domainID="dtiSCMasterUndefined">
+<Name description="Non specificato">Non specificato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSprayerSystemOperatingMode" domainTag="1503">
+<Name description="Modalità operativa sistema irroratrice">Modalità operativa irroratrice attuale quale risciacquo, caricamento remoto, adescamento iniezione e irrorazione.</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6012" domainID="dtiSysemIdle">
+<Name description="Inattivo">Sistema inattivo</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6013" domainID="dtiSpraySystemRinse">
+<Name description="Risciacquo">Risciacquo impianto di irrorazione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6014" domainID="dtiSolutionPumpCal">
+<Name description="Taratura pompa">Taratura pompa per soluzione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6015" domainID="dtiFlowMeterCal">
+<Name description="Taratura dei flussometri">Taratura dei flussometri</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6016" domainID="dtiPressureSensorCal">
+<Name description="Taratura sensore pressione">Tar sensore pressione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6017" domainID="dtiRemoteLoading">
+<Name description="Caricamento remoto">Caricamento remoto</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6018" domainID="dtiNozzleFlowCheck">
+<Name description="Verifica flusso ugelli">Test di verifica flusso ugelli</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6019" domainID="dtiEductorInUse">
+<Name description="Miscelatore in uso">Miscelatore in uso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6020" domainID="dtiBoomPressureRelief">
+<Name description="Limitatore di pressione braccio">Limitatore di pressione braccio</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6021" domainID="dtiLoadCommandInUse">
+<Name description="Load Command in uso">Load Command in uso</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6022" domainID="dtiDirectInjectionDisable">
+<Name description="Iniezione diretta disabilitata">Iniezione diretta disabilitata</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6023" domainID="dtiInjectionPrime">
+<Name description="Adescamento iniezione">Adescamento iniezione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6024" domainID="dtiBoomPrime">
+<Name description="Adescamento irrorazione">Adescamento irrorazione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6025" domainID="dtiMinSprayPressure">
+<Name description="Modalità pressione di irrorazione minima">Pressione di irrorazione minima</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6026" domainID="dtiTargetPressure">
+<Name description="Modalità pressione di irrorazione prevista">Pressione di irrorazione prevista</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6027" domainID="dtiTargetApplRate">
+<Name description="Modalità dose di applicazione prevista">Dose di applicazione prevista</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6028" domainID="dtiPrescription">
+<Name description="Modalità prescrizione">Modalità prescrizione</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6029" domainID="dtiError">
+<Name description="Errore">Errore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6030" domainID="dtiNotAvailable">
+<Name description="Non disponibile">Non disponibile</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6079" domainID="dtiSprayOpModeUnknown">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPrescriptionControlMasterState" domainTag="1504">
+<Name description="Stato principale comando prescrizione ISO">Stato principale comando prescrizione ISO</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6031" domainID="dtiPrscMasterManualOff">
+<Name description="Disattiv.">Disattiv.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6032" domainID="dtiPrscMasterAutoOn">
+<Name description="Attivato">Attivato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6033" domainID="dtiPrscMasterError">
+<Name description="Errore">Errore</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6034" domainID="dtiPrscMasterUndefined">
+<Name description="Non specificato">Non specificato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtProductSelectionMode" domainTag="1505">
+<Name description="-- translate --" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6036" domainID="dtiProductSelectionModeDefault">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6037" domainID="dtiProductSelectionModeProductMixOnly">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtTaskControllerStatus" domainTag="1506">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6038" domainID="dtiTaskStatusOff">
+<Name description="Disattiv.">Disattiv.</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6039" domainID="dtiTaskStatusOn">
+<Name description="Attivato">Attivato</Name>
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtHeaderType" domainTag="1507">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6040" domainID="dtiNoHeaderConnected">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6041" domainID="dtiChoppingCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6042" domainID="dtiRowCropHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6043" domainID="dtiFoldingCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6044" domainID="dtiCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6045" domainID="dtiBeltPickup2HeightSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6046" domainID="dtiBeltPickup1HeightSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6047" domainID="dtiRigidPlatform">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6048" domainID="dtiFlexibleDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6049" domainID="dtiDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6050" domainID="dtiAdvancedDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6051" domainID="dtiFlex">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6052" domainID="dtiEuroDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6053" domainID="dtiHydraflex">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6054" domainID="dtiVario">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6055" domainID="dtiRotaryHarvestingUnit">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6056" domainID="dtiRotaryHarvestingUnitBigDrum">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6057" domainID="dtiGrassPickup">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6058" domainID="dtiGrassPickupSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6059" domainID="dtiGrassPickupAuxDrive">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6060" domainID="dtiGrassPickupAuxDriveAndSensor">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6061" domainID="dtiDirectCut">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6062" domainID="dtiWoodChopper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6063" domainID="dtiRotaryHarvestingUnitBigDrumElecBrake">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6064" domainID="dti850FDFlexWingDraper">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6065" domainID="dti800CCornHead">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6066" domainID="dti815BPBeltPickup">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6067" domainID="dtiHeaderTypeError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6068" domainID="dtiHeaderNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWorkStateTarget" domainTag="1508">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6069" domainID="dtiTWSDisableOff">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6070" domainID="dtiTWSEnableOn">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6071" domainID="dtiTWSError">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6072" domainID="dtiTWSNoChange">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtWorkStateActual" domainTag="1509">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6073" domainID="dtiAWSDisabledOff">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6074" domainID="dtiAWSEnabledOn">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6075" domainID="dtiAWSError">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6076" domainID="dtiAWSUndefinedNotInstalled">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtLogMethod" domainTag="1510">
+<Name description="--translate--" />
+<DefinedTypeInstanceRepresentationTranslation domainTag="6077" domainID="dtiLogPerValue">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6078" domainID="dtiLogPerChunk">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6117" domainID="dtiDoNotLog">
+<Name description="--translate--" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtSolenoidOperatingMode" domainTag="1511">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6080" domainID="dtiSolenoidA">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6081" domainID="dtiSolenoidB">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6082" domainID="dtiSolenoidAB">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6083" domainID="dtiSolenoidAuto">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6084" domainID="dtiSolenoidError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6085" domainID="dtiSolenoidNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtPulsingMode" domainTag="1512">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6086" domainID="dtiPulsingNo">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6087" domainID="dtiPulsingInPhase">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6088" domainID="dtiPulsingCounterPhase">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6089" domainID="dtiPulsingError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6090" domainID="dtiPulsingNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtAirInductionStatus" domainTag="1513">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6091" domainID="dtiAirInductionNo">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6092" domainID="dtiAirInductionYes">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6093" domainID="dtiAirInductionError">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6094" domainID="dtiAirInductionNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+<DefinedTypeRepresentationTranslation domainID="dtNozzleTipOrificeType" domainTag="1514">
+<Name description="-- translate --">-- translate --</Name>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6095" domainID="dtiTipOrificeTypeNotAvailable">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6096" domainID="dtiTipOrificeTypeNone">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6097" domainID="dtiTipOrificeType005">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6098" domainID="dtiTipOrificeType0067">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6099" domainID="dtiTipOrificeType007">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6100" domainID="dtiTipOrificeType01">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6101" domainID="dtiTipOrificeType015">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6102" domainID="dtiTipOrificeType02">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6103" domainID="dtiTipOrificeType025">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6104" domainID="dtiTipOrificeType03">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6105" domainID="dtiTipOrificeType035">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6106" domainID="dtiTipOrificeType04">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6107" domainID="dtiTipOrificeType05">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6108" domainID="dtiTipOrificeType06">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6109" domainID="dtiTipOrificeType08">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6110" domainID="dtiTipOrificeType10">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6111" domainID="dtiTipOrificeType15">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6112" domainID="dtiTipOrificeType20">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6113" domainID="dtiTipOrificeType30">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6114" domainID="dtiTipOrificeType40">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6115" domainID="dtiTipOrificeType50">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+<DefinedTypeInstanceRepresentationTranslation domainTag="6116" domainID="dtiTipOrificeType60">
+<Name description="-- translate --" />
+</DefinedTypeInstanceRepresentationTranslation>
+</DefinedTypeRepresentationTranslation>
+</RepresentationSystemTranslation>

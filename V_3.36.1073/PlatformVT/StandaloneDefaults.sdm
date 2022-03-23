@@ -1,0 +1,28 @@
+[UniversalPerfMon]
+UPMEnabled=2               // 0=Disabled, 1=Enabled, 2=Auto
+[GSD4Emulator]
+Enabled=2                  // 0=Disabled, 1=Enabled, 2=Auto
+[Sound]
+Enabled=1                  // 0=Disable sound in the GSD4 Emulator, 1=Enable
+[ControllerReprog]
+Enabled=1
+[AMSApps]
+Enabled=1
+FunctionInstance=1
+[ISOTaskController]
+Enabled=1                  // 1 = Enabled, 0 = Disabled
+FunctionInstance=0
+[DualDisplayCustomSettings]
+Enabled=0                  // 0 = Dual Display/Standalone, 1 = Custom
+[Common]
+FunctionInstanceNode0=0    // CAN Node 0: 0,1,2,3 for Aux displays
+FunctionInstanceNode1=0    // CAN Node 1: 0,1,2,3 for Aux displays
+FunctionInstanceNodeAll=0  // CAN Node 1: All nodes except for VT
+ImpBusEnabled=1            // default Enabled = 1
+ImpBusVehSys=1             // default = 1 (tractor)
+[ISOFileServer]
+Enabled=1
+FunctionInstance=0
+[MaxBootTime]
+TimeValue=90               // default Time Value = 90
+

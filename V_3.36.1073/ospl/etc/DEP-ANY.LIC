@@ -1,0 +1,42 @@
+# PrismTech Software License,created on 21-Feb-2013 by Irina
+# subject to the terms and conditions of PrismTech's Software License Agreement.
+# Serial number: 20130221131968615
+# Customer: John Deere IVS
+# Contact email: jdsssoftwareadmin@ohndeere.com
+# Contract Ref: 3485
+# License status: Original
+# 
+PACKAGE prismtech DDSI2EDep_PKG 6.99 
+FEATURE prismtech opensplice_ddsi2 6.99 permanent uncounted hostid=ANY
+  _ck=d61efcb691 sig="60P0452MX1296BXEBK1FM7SR6V3P5WFCBQMR08G22HBDU978
+  SG30M54P2AWHXQS2NEMBFXE04R"
+FEATURE prismtech opensplice_ddsi2e 6.99 permanent uncounted
+  hostid=ANY _ck=3b1efc805c sig="60PG453K6B2T0SUMUXGEH5T0YJB6W48FK28R5
+  1G22M0B11HYG1S53C5MNVF06R8S41D92EY34CYG"
+FEATURE prismtech opensplice_tuner 6.99 permanent uncounted hostid=ANY
+  _ck=2e1efc045a sig="60PG4580M3M1UHNSFD4U9NNTX4NVTTFRU0VAS1S908A37M83
+  SXQQHWRBHNTHKG4QFKB50MWR13UG"
+FEATURE prismtech opensplice_tuner_remote 6.99 permanent uncounted
+  hostid=ANY _ck=191efc2530 sig="60P045297JQEK6QWGWSVWFS6A38E50RW3J7GR
+  5822GCS75C4VCV8WY7ABKEMFTGF9JY8W6AQE4"
+FEATURE prismtech opensplice_dbms 6.99 permanent uncounted hostid=ANY
+  _ck=a61efc425c sig="60PG450Q3JVP6UVJYX965XHPNJUD8W05CNGMPV822M086ESM
+  EYPMATKHFNJR0QRCSR5JT88GA5WG"
+FEATURE prismtech opensplice_secure 6.99 permanent uncounted
+  hostid=ANY _ck=871efc7439 sig="60Q04580T4X1Q37EKU65XUE8GN52AV5C6SGTE
+  R6C08AG1K4BQPR0R49988FGDYSDRJ1UAK79UW1GG"
+FEATURE prismtech opensplice_spliced 6.99 permanent uncounted
+  hostid=ANY _ck=e41efc065e sig="60PG4580H4V13DRG2J9JQNPE7HMYTP6077BP4
+  GH808A2GHNSRRWBKHUSX8WV1W3RB4PJ9TRPD620"
+FEATURE prismtech opensplice_networking 6.99 permanent uncounted
+  hostid=ANY _ck=481efcc05e sig="60PG4512UGS16UXU0S5QVV6K5PMXC0EA5NTMG
+  GR22M0B9WVFXH2QVWUJSF8PKBCKG3G4UAYR5580"
+FEATURE prismtech opensplice_ddsi2 6.99 permanent uncounted hostid=ANY
+  _ck=d61efc1660 sig="60P0450WH92PNWM8E1K3TH56GQ9USEP17X57S3022HHBDGYT
+  3065H2HXJC07DNE6U7JCKKJ24R"
+FEATURE prismtech opensplice_durability 6.99 permanent uncounted
+  hostid=ANY _ck=391efc2b5f sig="60Q04580RT5HCA6PFAYR30R6JVVSVQB769UC1
+  WRV08AG10AY7DHKU4ES05DSA2X0P2XQP90KAH5SX"
+FEATURE prismtech opensplice_rmi 6.99 permanent uncounted hostid=ANY
+  _ck=481efc3230 sig="60Q04580S0M9W4YWJ1KJ9HV1FRTD26RT3E5SGQ1H08AG1CK0
+  B479PTBVT38KNSG12AUCPR814M5M2"

@@ -1,0 +1,6 @@
+cc GS Rate Controller 
+e1 GS Rate Controller 0xe1 
+a0 GS Rate Controller 0xa0 
+a1 GS Rate Controller 0xa1 
+a2 GS Rate Controller 0xa2 
+a3 GS Rate Controller 0xa3

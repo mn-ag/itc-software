@@ -1,0 +1,59 @@
+<!--  Configuration file for StartApp.exe. This should be under same folder
+      where StartApp.exe is located(For 2630 it is \NAND Flash\Sys\VERSION).
+      This file has a list of app info data which includes app path, app args etc.
+      which are needed for runinng the app. This file has the following data format.
+      
+      <AppInfoList> -> Root tag to include list of app info
+         <AppInfo> -> App Info. There can be any number of these tags.
+            <AppPath>ospl\bin\OSPLCtrl.exe</AppPath> -> Executable file name. This can have an absolute path
+                                                         or relative path. Absolute path is indicated
+                                                         by \ or disk drive(Windows only, e.g. C:\) at the
+                                                         beginning. Otherwise path relative to the directory
+                                                         where StartApp.exe is located will be used.
+            <AppArg>stop</AppArg> -> Optional App/Commandline args.
+            <WaitToExit>true</WaitToExit> -> Whether to wait till the app exits. Default is false.
+            <WaitToExitTimeout>60000</WaitToExitTimeout> -> Timeout for wait in millisec. Default=60000.
+            <PostExecSleep>1000</PostExecSleep> -> Time to sleep in millisec after running the app. Default is 0(no sleep).
+         </AppInfo>
+      </AppInfoList>
+
+      08/12/2011 - Changing osplctrl arg to 'stop'. We no longer want to start DDS services before Win32Dialog. Now the
+                   DDS services will be started from the JDDDSWatchdog task when network first comes up.
+                   Changing the parameter to false ensures that the DDS dlls are copied in the proper directories first
+                   before Win32Dialog starts. Otherwise Win32Dialog will not load - Oosman
+-->
+
+<AppInfoList>
+   <AppInfo>
+      <AppPath>ObjStoreSize.exe</AppPath>
+      <AppArg>7</AppArg>
+      <WaitToExit>true</WaitToExit>
+      <WaitToExitTimeout>60000</WaitToExitTimeout>
+      <PostExecSleep>1000</PostExecSleep>
+   </AppInfo>
+   <AppInfo>
+      <AppPath>netconfig.exe</AppPath>
+      <AppArg>ipsetting.ini</AppArg>
+      <WaitToExit>true</WaitToExit>
+      <WaitToExitTimeout>60000</WaitToExitTimeout>
+      <PostExecSleep>1000</PostExecSleep>
+   </AppInfo>
+   <AppInfo>
+      <AppPath>ospl\bin\OSPLCtrl.exe</AppPath>
+      <AppArg>-setreg -copylib</AppArg>
+      <WaitToExit>true</WaitToExit>
+      <WaitToExitTimeout>60000</WaitToExitTimeout>
+   </AppInfo>
+   <AppInfo>
+      <AppPath>VNCConfig.exe</AppPath>
+      <WaitToExit>true</WaitToExit>
+      <WaitToExitTimeout>60000</WaitToExitTimeout>
+      <PostExecSleep>1000</PostExecSleep>
+   </AppInfo>
+   <AppInfo>
+      <AppPath>Win32Dialog.exe</AppPath>
+      <WaitToExit>false</WaitToExit>
+   </AppInfo>
+</AppInfoList>
+
+   

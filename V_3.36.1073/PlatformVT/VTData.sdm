@@ -1,0 +1,40 @@
+[StuckCounts]
+Bezel=200
+Touchscreen=900
+
+//
+// VT configuration settings 
+// NOTE: All screen layout settings (e.g. ScreenWidth) are initialized from 
+// definitions in ScreenDefs.h rather than loading them from this file.
+//
+[VTMetrics]
+MinVolume=60
+FontStyleMask=0x0000007F
+FontTypeMask=0x00000000
+SmallFontSizeMask=0x0000007F
+LargeFontSizeMask=0x0000007F
+BezelWidth=4
+SupportedMaxLineWidth=255
+SupportedLineArt=1
+SupportedFillPattern=1
+SupportedShapePattern=1
+SupportedFillPolygon=1
+DetectVITimeout=1
+StoreVersionOnCF=0
+PoolTimeOut=3000
+DumpFastUIMMessages=1
+VTMsgsMode=0
+LegalMask=1
+SleepTimeout=360
+
+[LayoutManager]
+Enabled=1                        // 1=Enabled, 0=Disabled
+
+[VTAuxControls]
+Enabled=1                        // 1=Enabled, 0=Disabled
+
+[CanBypass]
+Enabled=1                        // 1=Enabled, 0=Disabled
+
+[VTUserSettings]
+ISOCertificationLogoEnabled=1    // 1=Enabled, 0=Disabled 	

@@ -1,0 +1,10 @@
+<ConnectionConfig>
+   <Listener>
+      <SchedulingType>2</SchedulingType>
+      <PriorityValue>250</PriorityValue>
+   </Listener>
+   <Watchdog>
+      <SchedulingType>1</SchedulingType>
+      <PriorityValue>20</PriorityValue>
+   </Watchdog>
+</ConnectionConfig>

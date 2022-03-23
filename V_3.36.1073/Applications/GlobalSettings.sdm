@@ -1,0 +1,21 @@
+[AMSApps]
+Enabled=1                     // 0=Disabled, 1=Enabled
+LicenseAccepted=0             // 0=Not accepted, 1=Accepted
+
+[BasicPerfMon]
+BPMEnabled=2	               // 0=Disabled, 1=Enabled, 2=Auto
+
+[WindView]
+Enabled=0                     // 0=Disabled, 1=Enabled
+WindViewBufSize=16000000      // 16000000=default buffer size (approximately 15.5 MB)
+WindViewStopOnHealthWarn=1    // Stops WindView log upon system health warning
+WindViewTaskEvents=0          // Additional monitoring for task events
+WindViewSemaphoreEvents=0     // Additional monitoring for semaphore events
+WindViewMessageQueueEvents=0  // Additional monitoring for messageQueue events
+WindViewWatchdogEvents=0      // Additional monitoring for watchdog events
+WindViewMemoryEvents=0        // Additional monitoring for memory events
+
+[FileSystemService]
+FileSystemServiceError=0
+FileSystemDataLoadError=0
+FileSystemDataErrorCounter=0
