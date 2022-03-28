@@ -1,6 +1,0 @@
-b1 CMFS 
-b2 CMFS 2 
-b3 CMFS 3 
-b4 CMFS 4 
-b5 CMFS 5 
-b6 CMFS 6
